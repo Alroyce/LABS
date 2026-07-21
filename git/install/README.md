@@ -1,3 +1,7 @@
+New command instead if the below is not being working.
+
+sudo dnf install git -y
+
 # Install Using Script
 
 ```
