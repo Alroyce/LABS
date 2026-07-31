@@ -18,9 +18,9 @@ source /etc/profile
 ### New Maven version ----- 
 cd /tmp ; sudo wget https://dlcdn.apache.org/maven//maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
 
-cd /tmp ; sudo tar -xzf apache-maven-3.9.11-bin.tar.gz -C /opt
+cd /tmp ; sudo tar -xzf apache-maven-3.9.16-bin.tar.gz -C /opt
 
-sudo mv /opt/apache-maven-3.9.11 /opt/maven
+sudo mv /opt/apache-maven-3.9.16 /opt/maven
 
 sudo echo "MAVEN_HOME=\"/opt/maven\"" >> /etc/profile
 
