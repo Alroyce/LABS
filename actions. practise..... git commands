@@ -1,4 +1,16 @@
+git log --help
+
 git -version
+ls 
+ls -l
+ls -al 
+pwd - persent working dir
+history
+clear
+which git 
+git init
+git status
+
 hostnamectl - To check the OS details
 systemctl 
 ls - list all
@@ -19,5 +31,12 @@ git log -n -2 - last 2 commits
 git log --oneline  -- oneline shows the 
 
 so what ever the commits we make are stored in the .git directory. ( ls -al )
+
+git show - shows the changes made inside the commit.
+
+git show d41799cf7c47f2bc391386d793c0f17d93715fb0 - shows the details of the commit.
+
+git log --oneline -n 2 --author alroyce
+
 
 
