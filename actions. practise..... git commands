@@ -12,6 +12,8 @@ git status - check the status.
 
 git add newfile.java -  make the file to get eady to move from working directoy to staging area
 git log
+git add .
 git commit -m "new file added to the git repository"
+git log - to check all the commit history
 
 
