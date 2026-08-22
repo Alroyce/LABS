@@ -4,3 +4,9 @@ systemctl
 ls - list all
 ls -l list all in row/column format
 which git - to check which executable the file is saved in.
+vi newfile.java - create and edit a file
+git status - check the status.
+git add newfile.java
+git commit 
+git congif --global --edit
+
