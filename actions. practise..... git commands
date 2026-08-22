@@ -5,11 +5,13 @@ ls - list all
 ls -l list all in row/column format
 which git - to check which executable the file is saved in.
 vi newfile.java - create and edit a file
-git status - check the status.
-git add newfile.java -  make the file to get eady to move from working directoy to staging area
-git log
-git commit -m "new file added to the git repository"
 git config --global --edit
 git config --global user.name Alroyce
 git confit --global user.email alroyce.roy@gmail.com
+git status - check the status.
+
+git add newfile.java -  make the file to get eady to move from working directoy to staging area
+git log
+git commit -m "new file added to the git repository"
+
 
