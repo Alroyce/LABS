@@ -1,0 +1,6 @@
+git -version
+hostnamectl - To check the OS details
+systemctl 
+ls - list all
+ls -l list all in row/column format
+which git - to check which executable the file is saved in.
