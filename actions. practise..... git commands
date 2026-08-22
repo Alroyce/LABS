@@ -9,5 +9,7 @@ git status - check the status.
 git add newfile.java
 git log
 git commit 
-git congif --global --edit
+git config --global --edit
+git config --global user.name Alroyce
+git confit --global user.email alroyce.roy@gmail.com
 
