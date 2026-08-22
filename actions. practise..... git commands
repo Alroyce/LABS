@@ -15,5 +15,9 @@ git log
 git add .
 git commit -m "new file added to the git repository"
 git log - to check all the commit history
+git log -n -2 - last 2 commits
+git log --oneline  -- oneline shows the 
+
+so what ever the commits we make are stored in the .git directory. ( ls -al )
 
 
