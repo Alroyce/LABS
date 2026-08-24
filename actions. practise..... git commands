@@ -30,13 +30,13 @@ git log - to check all the commit history
 git log -n -2 - last 2 commits
 git log --oneline  -- show all the commits
 
-so what ever the commits we make are stored in the .git directory. ( ls -al )
-
+IMP ====== so what ever the commits we make are stored in the .git directory. ( ls -al ) ==================================
 git show - shows the detailed changes.
-
 git show d41799cf7c47f2bc391386d793c0f17d93715fb0 - shows the details of the commit. 
-
 git log --oneline -n 2 --author alroyce
+---------------------------------------------------------------------------------------------
+git revert commit obs3466nkndhh45677 - its undos the changes done on the commit. and save a new commit as its makes some changes
+git reset - 
 
 
 
