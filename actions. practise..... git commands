@@ -40,16 +40,27 @@ git revert obs3466nkndhh45677     - its undos the changes done on the commit. an
                                    Changes will be done, but the changes log histoy will be present
 git reset - obs3466nkndhh45677    - its going to poisnt out the header to the specific commit 
                                    like - obs3466nkndhh45677 - (Head -> Main) 
+git remote -v                     - to check connection between remote and local.
+fetch /push 
+git branch                        - to check for current branch
+git branch -M main                - the branch renaming
+git remote rm origin              - to remove the current origin 
+git remote -v
+git remote add origin main        - to set the origin main.
+git add oigin main                - upload to the remote repository.
+
+
+
+
+
+
+
+
+
 
 ===============================================GIT TIME RESET====================================
 export GIT_COMMITTER_DATE="2026-08-24T12:00:00"
 git commit --amend --no-edit --date="2026-08-24T12:00:00"
-git remote -v       - to check connection between remote and local.
-fetch /push 
-git branch         - to check for current branch
-git branch -M main - the branch renaming
-
-
 
 
 
