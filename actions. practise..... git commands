@@ -7,12 +7,12 @@ ls -al
 pwd - persent working dir
 history
 clear
-which git 
-git init
-git status
+which git - path
+git init - initialize
+git status 
 
 hostnamectl - To check the OS details
-systemctl 
+systemctl
 ls - list all
 ls -l list all in row/column format
 which git - to check which executable the file is saved in.
@@ -28,13 +28,13 @@ git add .
 git commit -m "new file added to the git repository"
 git log - to check all the commit history
 git log -n -2 - last 2 commits
-git log --oneline  -- oneline shows the 
+git log --oneline  -- show all the commits
 
 so what ever the commits we make are stored in the .git directory. ( ls -al )
 
-git show - shows the changes made inside the commit.
+git show - shows the detailed changes.
 
-git show d41799cf7c47f2bc391386d793c0f17d93715fb0 - shows the details of the commit.
+git show d41799cf7c47f2bc391386d793c0f17d93715fb0 - shows the details of the commit. 
 
 git log --oneline -n 2 --author alroyce
 
