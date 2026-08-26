@@ -44,7 +44,7 @@ IMP ====== so what ever the commits we make are stored in the .git directory. ( 
 git show                                                - shows the detailed changes.
 git show d41799cf7c47f2bc391386d793c0f17d93715fb0       - shows the details of the commit. 
 git log --oneline -n 2 --author alroyce                 - to check the commits made by the paticular author
-git rev-list --count HEAD                               - to COUNT the no of commits -
+git rev-list --count HEAD                               - to COUNT the no of commits
 
 ---------------------------------------------------------------------------------------------------------------------------
 git revert obs3466nkndhh45677                - its undos the changes done on the commit. and save a new commit as its makes some changes
