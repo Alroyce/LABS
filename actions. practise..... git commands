@@ -9,7 +9,13 @@ history                     - keeps a track of all the command on the particular
 clear
 
 vi newfile.java             - create and edit a file
-touch newfile.html
+touch newfile.html          - Just create a new file
+
+mkdir project1              - Created a new folder
+
+git rm -r newfile.html     - delete a file
+git rm -fr newfile.html    - delete a file by force - includes (rm -rf).
+
 
 git rm newfile.html         - to remove the file
 git rm -rf newfile.html     - to remove the file by force
