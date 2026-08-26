@@ -4,11 +4,11 @@ git -version
 ls 
 ls -l
 ls -al 
-pwd                              - persent working dir
+pwd                         - persent working dir
 history                     - keeps a track of all the command on the particular vm
 clear
-which git                 - path
-git init                   - initialize
+which git                   - path
+git init                    - initialize
 git status 
 
 hostnamectl                   - To check the OS details
