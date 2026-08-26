@@ -57,6 +57,11 @@ git add oigin main                - upload to the remote repository.
             PAT = Git Account settings - Developer settings - Personal Access Token - Tokens (Classic) - Generate New tokens -  Genrate new token classic - 
             Once the token is uploaded, compare the commits and all the other commits - in the local and the emote github - ( to of the files ).
 
+git branch                            - show the list of branches.
+git branch -b checkout newbranch      - create new branch and redirects to it.
+git branch -M prerelease              - fForce to rename the branch the with the given name
+
+
 
 
             
