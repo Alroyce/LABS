@@ -5,7 +5,7 @@ ls
 ls -l
 ls -al 
 pwd - persent working dir
-history
+history - keeps a track of all the command on the particular vm
 clear
 which git - path
 git init - initialize
@@ -48,6 +48,18 @@ git remote rm origin              - to remove the current origin
 git remote -v
 git remote add origin main        - to set the origin main.
 git add oigin main                - upload to the remote repository.
+ user name : Alroyce
+ password  : PAT token (hfyguholihouv) -
+            PAT = Git Account settings - Developer settings - Personal Access Token - Tokens (Classic) - Generate New tokens -  Genrate new token classic - 
+            Once the token is uploaded, compare the commits and all the other commits - in the local and the emote github - ( to of the files ).
+
+            
+
+
+
+
+
+
 
 
 
