@@ -53,7 +53,7 @@ git remote -v
 git remote add origin main        - to set the origin main.
 git add oigin main                - upload to the remote repository.
  user name : Alroyce
- password  : PAT token (hfyguholihouv) -
+ password  : PAT token ( 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 ) -
             PAT = Git Account settings - Developer settings - Personal Access Token - Tokens (Classic) - Generate New tokens -  Genrate new token classic - 
             Once the token is uploaded, compare the commits and all the other commits - in the local and the emote github - ( to of the files ).
 
