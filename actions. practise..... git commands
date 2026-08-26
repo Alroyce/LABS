@@ -7,6 +7,15 @@ ls -al
 pwd                         - persent working dir
 history                     - keeps a track of all the command on the particular vm
 clear
+
+vi newfile.java             - create and edit a file
+touch newfile.html
+
+git rm newfile.html         - to remove the file
+git rm -rf newfile.html     - to remove the file by force
+rm -rf Alfa-Cargo           - to remove the folder by force
+
+
 which git                   - path
 git init                    - initialize
 git status 
@@ -16,7 +25,7 @@ systemctl
 ls                          - list all
 ls                           -l list all in row/column format
 which git                   - to check which executable the file is saved in.
-vi newfile.java             - create and edit a file
+
 git config --global --edit
 git config --global user.name Alroyce
 git confit --global user.email alroyce.roy@gmail.com
