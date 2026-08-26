@@ -4,44 +4,44 @@ git -version
 ls 
 ls -l
 ls -al 
-pwd - persent working dir
-history - keeps a track of all the command on the particular vm
+pwd                              - persent working dir
+history                     - keeps a track of all the command on the particular vm
 clear
-which git - path
-git init - initialize
+which git                 - path
+git init                   - initialize
 git status 
 
-hostnamectl - To check the OS details
+hostnamectl                   - To check the OS details
 systemctl
-ls - list all
-ls -l list all in row/column format
-which git - to check which executable the file is saved in.
-vi newfile.java - create and edit a file
+ls                          - list all
+ls                           -l list all in row/column format
+which git                   - to check which executable the file is saved in.
+vi newfile.java             - create and edit a file
 git config --global --edit
 git config --global user.name Alroyce
 git confit --global user.email alroyce.roy@gmail.com
 git status - check the status.
 
-git add newfile.java -  make the file to get eady to move from working directoy to staging area
+git add newfile.java        -  make the file to get eady to move from working directoy to staging area
 git log
 git add .
-git commit -m "new file added to the git repository"         - commit-
-git log                           - to check all the commit history
-git log -n -2                     - last 2 commits
-git log --oneline                 - show all the commits
+git commit -m "new file added to the git repository"                - commit-
+git log                                  - to check all the commit history
+git log -n -2                            - last 2 commits
+git log --oneline                        - show all the commits
 
 IMP ====== so what ever the commits we make are stored in the .git directory. ( ls -al ) ==================================
 
-git show                                          - shows the detailed changes.
-git show d41799cf7c47f2bc391386d793c0f17d93715fb0 - shows the details of the commit. 
-git log --oneline -n 2 --author alroyce           - to check the commits made by the paticular author
+git show                                                - shows the detailed changes.
+git show d41799cf7c47f2bc391386d793c0f17d93715fb0       - shows the details of the commit. 
+git log --oneline -n 2 --author alroyce                 - to check the commits made by the paticular author
 ---------------------------------------------------------------------------------------------
-git revert obs3466nkndhh45677     - its undos the changes done on the commit. and save a new commit as its makes some changes
-                                   Changes will be done, but the changes log histoy will be present
-git reset - obs3466nkndhh45677    - its going to poisnt out the header to the specific commit 
-                                   like - obs3466nkndhh45677 - (Head -> Main)
+git revert obs3466nkndhh45677                - its undos the changes done on the commit. and save a new commit as its makes some changes
+                                              Changes will be done, but the changes log histoy will be present
+git reset - obs3466nkndhh45677               - its going to poisnt out the header to the specific commit 
+                                              like - obs3466nkndhh45677 - (Head -> Main)
 
-to UNDO the changes After GIT RESET - use git REFLOG 
+git REFLOG                                   - to UNDO the changes After GIT RESET - use 
 ---------------------------------------------------------------------------------------------
 git remote -v                     - to check connection between remote and local.
 fetch /push 
