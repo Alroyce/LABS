@@ -48,6 +48,8 @@ git log --oneline -n 2 --author alroyce                 - to check the commits m
 git rev-list --count HEAD                               - to COUNT the no of commits
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+
 git revert obs3466nkndhh45677                -   its undos the changes done on the commit. and save a new commit as its makes some changes
                                                  Changes will be done, but the changes log histoy will be present
 git reset - obs3466nkndhh45677               -   its going to poisnt out the header to the specific commit 
@@ -56,6 +58,7 @@ git reset - obs3466nkndhh45677               -   its going to poisnt out the hea
 git REFLOG                                   -   to UNDO the changes After GIT RESET - use 
 
 ---------------------------------------------------------------------------------------------------------------------------
+
 git remote -v                     - to check connection between remote and local.
 fetch /push 
 git branch                        - to check for current branch
@@ -72,6 +75,7 @@ git add oigin main                - upload to the remote repository.
 git branch                            - show the list of branches.
 git branch -b checkout newbranch      - create new branch and redirects to it.
 git branch -M prerelease              - fForce to rename the branch the with the given name
+--------------------------------------------------------------------------------------------------------------------------
 
 
 
