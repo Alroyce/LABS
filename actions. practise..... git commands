@@ -35,6 +35,7 @@ IMP ====== so what ever the commits we make are stored in the .git directory. ( 
 git show                                                - shows the detailed changes.
 git show d41799cf7c47f2bc391386d793c0f17d93715fb0       - shows the details of the commit. 
 git log --oneline -n 2 --author alroyce                 - to check the commits made by the paticular author
+git rev-list --count HEAD                               - to COUNT the no of commits -
 ---------------------------------------------------------------------------------------------
 git revert obs3466nkndhh45677                - its undos the changes done on the commit. and save a new commit as its makes some changes
                                               Changes will be done, but the changes log histoy will be present
@@ -55,6 +56,7 @@ git add oigin main                - upload to the remote repository.
  password  : PAT token (hfyguholihouv) -
             PAT = Git Account settings - Developer settings - Personal Access Token - Tokens (Classic) - Generate New tokens -  Genrate new token classic - 
             Once the token is uploaded, compare the commits and all the other commits - in the local and the emote github - ( to of the files ).
+
 
             
 
