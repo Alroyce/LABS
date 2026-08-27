@@ -43,8 +43,6 @@ git log                                  - to check all the commit history
 git log -n -2                            - last 2 commits
 git log --oneline                        - show all the commits
 
-IMP ====== so what ever the commits we make are stored in the .git directory. ( ls -al ) ==================================
-
 git show                                                - shows the detailed changes.
 git show d41799cf7c47f2bc391386d793c0f17d93715fb0       - shows the details of the commit. 
 git log --oneline -n 2 --author alroyce                 - to check the commits made by the paticular author
@@ -66,9 +64,10 @@ git add oigin main                        - upload to the remote repository.
 
 git branch                                - show the list of branches.
 git branch -b checkout newbranch          - create new branch and redirects to it.
-git branch -M prerelease                  - fForce to rename the branch the with the given name
----------------------------------------------------------------------------------------------------------------------------
+git branch -M prerelease                  - fForce to rename the branch the with the given name.
 
+
+---------------------------------------------------------------------------------------------------------------------------
 
 git revert obs3466nkndhh45677             -   its undos the changes done on the commit. and save a new commit as its makes some changes
                                                  Changes will be done, but the changes log histoy will be present
@@ -77,33 +76,13 @@ git reset - obs3466nkndhh45677            -   its going to poisnt out the header
 
 git REFLOG                                -   to UNDO the changes After GIT RESET - use 
 
+.git directory. ( ls -al )                -  so what ever the commits we make are stored in the 
 ---------------------------------------------------------------------------------------------------------------------------
 
 
 
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ===============================================GIT TIME RESET====================================
+
 export GIT_COMMITTER_DATE="2026-08-24T12:00:00"
 git commit --amend --no-edit --date="2026-08-24T12:00:00"
 
