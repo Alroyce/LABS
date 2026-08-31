@@ -23,7 +23,8 @@ git init                                    - initialize
 git status 
 
 hostnamectl                                - To check the OS details
-systemctl
+systemctl                                  - primary command-line utility used to examine 
+                                             and control the systemd system and service manager in modern Linux distributions.
 ls                                         - list all
 ls -l                                        -l list all in row/column format
 ls -al                                     - all configuration files.
