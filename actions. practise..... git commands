@@ -81,7 +81,9 @@ git REFLOG                                -   to UNDO the changes After GIT RESE
 Fork                                      - used to copy then code to different account ( only on remote.
                                           - if you delete the data from 1st account, it will not be deleted from 2nd account.
 
-Collabarator                              - Adding no of people to the project.
+Collabarator                              - Adding no of people to the project
+                                          - they can commit and make the changes.
+
 
 
 
