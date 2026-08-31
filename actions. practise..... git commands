@@ -55,10 +55,10 @@ git branch                                - to check for current branch
 git branch -M main                        - the branch renaming
 git remote rm origin                      - to remove the current origin 
 git remote -v 
-git remote add origin main                - to set the origin main.
-git add oigin main                        - upload to the remote repository.
+git remote add origin ( URL )               - to set the origin main.
+git add origin main                        - upload to the remote repository.
  user name : Alroyce
- password  : PAT token ( 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 ) -
+ password  : PAT token ( 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 ) -
             PAT = Git Account settings - Developer settings - Personal Access Token - Tokens (Classic) - Generate New tokens -  Genrate new token classic - 
             Once the token is uploaded, compare the commits and all the other commits - in the local and the emote github - ( to of the files ).
 
