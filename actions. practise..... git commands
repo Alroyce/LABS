@@ -73,6 +73,8 @@ git switch main                           - Switch the branch.
 
 git merge (target branch)                 - cuurent branch - all other branch details will be merged.  
 
+git status                                - show the current branch
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 git revert obs3466nkndhh45677               -   its undos the changes done on the commit. and save a new commit as its makes some changes
