@@ -70,22 +70,24 @@ git branch -M prerelease                  - fForce to rename the branch the with
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-git revert obs3466nkndhh45677              -   its undos the changes done on the commit. and save a new commit as its makes some changes
+git revert obs3466nkndhh45677               -   its undos the changes done on the commit. and save a new commit as its makes some changes
                                                  Changes will be done, but the changes log histoy will be present
-git reset - obs3466nkndhh45677             -   its going to poisnt out the header to the specific commit 
+git reset - obs3466nkndhh45677               -   its going to poisnt out the header to the specific commit 
                                                  like - obs3466nkndhh45677 - (Head -> Main)
+  
+git REFLOG                                   -   to UNDO the changes After GIT RESET - use 
 
-git REFLOG                                 -   to UNDO the changes After GIT RESET - use 
+.git directory. ( ls -al )                    -  so what ever the commits we make are stored in the 
 
-.git directory. ( ls -al )                 -  so what ever the commits we make are stored in the 
+Fork                                          - used to copy then code to different account ( only on remote.)
+                                               - if you delete the data from 1st account, it will not be deleted from 2nd account.
 
-Fork                                       - used to copy then code to different account ( only on remote.)
-                                           - if you delete the data from 1st account, it will not be deleted from 2nd account.
+Collabarator                                    - Adding no of people to the project.
+                                                - they can commit and make the changes.
 
-Collabarator                               - Adding no of people to the project.
-                                           - they can commit and make the changes.
+Tags                                           - Tags are used for release.
 
-Tags                                       - Tags are used for release.
+git tag -a v1.0.0 -m "Release version 1.0.0"    - Tag command
 
 ---------------------------------------------------------------------------------------------------------------------------
 
