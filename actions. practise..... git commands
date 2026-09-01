@@ -66,6 +66,7 @@ git add origin main                       - upload to the remote repository.
 git branch                                - show the list of branches.
 git branch -b checkout newbranch          - create new branch and redirects to it.
 git branch -M prerelease                  - fForce to rename the branch the with the given name.
+git branch -d main/preprod                - to delete a branch.
 
 ( Create a banch is recomended in the remote not the remote )
 
