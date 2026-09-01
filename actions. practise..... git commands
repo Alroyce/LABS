@@ -72,13 +72,15 @@ git switch main                           - Switch the branch.
 ( Create a banch is recomended in the remote not the remote )
 
 git merge (target branch)                 - cuurent branch - all other branch details will be merged.  
-
 git status                                - show the current branch
+git diff (commit id1) ( commit id 2)      - shows the difference between 2 commits.
 
 git stash list                            - Saves all tracked, uncommitted changes.
 git stash push -m "your message"          - Saves your changes with a descriptive label.
 git stash list                            - Displays a list of all your saved stashes sorted
-git stash apply                           - Re-applies the most recent stash
+git stash apply                           - Re-applies the most recent stash.
+
+git 
 ---------------------------------------------------------------------------------------------------------------------------
 
 git revert obs3466nkndhh45677               -   its undos the changes done on the commit. and save a new commit as its makes some changes
