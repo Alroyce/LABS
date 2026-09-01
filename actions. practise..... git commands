@@ -44,7 +44,7 @@ git log                                   - to check all the commit history
 git log -n -2                             - last 2 commits
 git log --oneline                         - show all the commits
 
-git show                                                - shows the detailed changes.
+git show                                                - shows the details of the particular commit.
 git show d41799cf7c47f2bc391386d793c0f17d93715fb0       - shows the details of the commit. 
 git log --oneline -n 2 --author alroyce                 - to check the commits made by the paticular author
 git rev-list --count HEAD                               - to COUNT the no of commits
