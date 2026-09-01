@@ -67,7 +67,7 @@ git branch                                - show the list of branches.
 git branch -b checkout newbranch          - create new branch and redirects to it.
 git branch -M prerelease                  - fForce to rename the branch the with the given name.
 git branch -d main/preprod                - to delete a branch.
-git switch main
+git switch main                           - Switch the branch.
 
 ( Create a banch is recomended in the remote not the remote )
 
