@@ -79,7 +79,7 @@ git REFLOG                                 -   to UNDO the changes After GIT RES
 
 .git directory. ( ls -al )                 -  so what ever the commits we make are stored in the 
 
-Fork                                       - used to copy then code to different account ( only on remote.
+Fork                                       - used to copy then code to different account ( only on remote.)
                                            - if you delete the data from 1st account, it will not be deleted from 2nd account.
 
 Collabarator                               - Adding no of people to the project.
