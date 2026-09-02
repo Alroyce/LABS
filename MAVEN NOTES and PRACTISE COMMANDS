@@ -19,6 +19,8 @@ mvn deploy   - publishes the build into the remote repository for the other proj
 
 
 
+
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@------ Questions and Answers ------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 what is maven - Maven is a build tool which operates on POM ( Page Object model ) which can manage project build, eporting and documentation from central piece of information.
