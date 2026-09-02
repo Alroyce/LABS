@@ -12,7 +12,9 @@ mvn validate - check the build prerequisites.
 mvn compile  - compiles the source code identified for the build.
 mvn test     - runs unit test for the compiled code.
 mvn package  - assembles the compiled code into the binary build result.
-mvn install  - shared the build result on the 
+mvn install  - shared the build result on the same machine.
+mvn deploy   - publishes the build into the remote repository for the other projects to use.
+
 
 
 
