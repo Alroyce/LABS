@@ -2,6 +2,14 @@
 
 Install jdk
 install maven
+
+Build code process :-
+compile
+code review
+unit test
+code coverage
+package
+
 ---------------------------------------------------------------------------------------------------------------
 java --version
 mvn --version
@@ -17,6 +25,7 @@ mvn deploy               - publishes the build into the remote repository for th
 
 ls -ltrh                 - ists the contents of a directory in a long-listing format, sorted by modification time in reverse order 
                          (oldest first, newest last), with human-readable file sizes.
+
 
 
 
