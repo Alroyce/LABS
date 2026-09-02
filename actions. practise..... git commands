@@ -80,7 +80,9 @@ git stash push -m "your message"          - Saves your changes with a descriptiv
 git stash list                            - Displays a list of all your saved stashes sorted
 git stash apply                           - Re-applies the most recent stash.
 
-git 
+mv /root/defect/1.html /root/project/     - Used to move from 1 folder to another.
+
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 git revert obs3466nkndhh45677               -   its undos the changes done on the commit. and save a new commit as its makes some changes
