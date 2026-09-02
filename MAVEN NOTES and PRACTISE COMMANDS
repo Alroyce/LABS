@@ -33,6 +33,8 @@ ls -ltrh                 - ists the contents of a directory in a long-listing fo
 
 
 
+
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@------ Questions and Answers ------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 what is maven - Maven is a build tool which operates on POM ( Page Object model ) which can manage project build, eporting and documentation from central piece of information.
