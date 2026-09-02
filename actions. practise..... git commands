@@ -1,3 +1,8 @@
+workflow 
+
+=====  remote master -> remote release branch - > remote defect branch -> dev works on defect branch -> push back to defect -> 
+====== merge to release branch -> elease the release branch into prod -> merge release branch into master branch.
+
 git log --help
 
 git -version
