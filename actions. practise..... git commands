@@ -108,14 +108,1007 @@ Tags                                           - Tags are used for release.
 
 git tag -a v1.0.0 -m "Release version 1.0.0"    - Tag command
 
----------------------------------------------------------------------------------------------------------------------------
-
-
-
 ===============================================GIT TIME RESET====================================
-
 export GIT_COMMITTER_DATE="2026-08-24T12:00:00"
 git commit --amend --no-edit --date="2026-08-24T12:00:00"
-
-
+================================================WORKED HISTORY===================================================
+  260  history
+  261  clear
+  262  ls
+  263  clear
+  264  git init
+  265  ls
+  266  ls -al
+  267  ls -l
+  268  ls
+  269  ls -l
+  270  git -v
+  271  pwd
+  272  ls -l
+  273  history
+  274  git -v
+  275  which git
+  276  git init
+  277  git status
+  278  hostnamectl
+  279  ls -l
+  280  git congif --global --list
+  281  git congif --global list
+  282  git config --global list
+  283  git config --global l--list
+  284  git config --global -list
+  285  git config --global --list
+  286  git status
+  287  git log --oneline
+  288  ls
+  289  git clone https://github.com/Alroyce/Alfa-Cargo.git
+  290  ls
+  291  cd Alfa-cargo
+  292  cd Alfa-Cargo
+  293  ls
+  294  ls -l
+  295  vi paid.html
+  296  touch paid.html
+  297  ls -l
+  298  touch paid.html
+  299  ls -l
+  300  vi paid1.html
+  301  ls
+  302  cd project
+  303  ls
+  304  cd Alfa-Cargo
+  305  ls
+  306  ls l
+  307  ls -l
+  308  git remote -v
+  309  git remote show origin
+  310  git add.
+  311  git add .
+  312  git commit -m "new file paid1.html added"
+  313  git push -u origin main
+  314  git log
+  315  l
+  316  cd Project
+  317  cd project
+  318  ls
+  319  cd Alfa-Cargo
+  320  ls
+  321  ls -al
+  322  git show
+  323  ls
+  324  ls -al
+  325  git show
+  326  ls -al
+  327  ls
+  328  ls a-l
+  329  ls -al
+  330  ls
+  331  ls -al
+  332  git log
+  333  git log --oneline
+  334  cd ..
+  335  ls
+  336  git log
+  337  ls -al
+  338  pwd
+  339  cd Alfa-Cargo
+  340  ls
+  341  ls a-l
+  342  ls -al
+  343  ls
+  344  ls -al
+  345  ls
+  346  ls -al
+  347  ls
+  348  ls -al
+  349  ls
+  350  cd ..
+  351  ls
+  352  cat topay.html
+  353  clear
+  354  ls
+  355  ls -l
+  356  git log --oneline
+  357  git log --oneline -n
+  358  git log --oneline -n 4
+  359  git log --oneline -n 3
+  360  git show
+  361  clear
+  362  git log --help
+  363  ls -l
+  364  ls
+  365  git log
+  366  ls
+  367  git project
+  368  cd project
+  369  ls
+  370  cd Alfa-cargo
+  371  cd Alfa-Cargo
+  372  ls
+  373  ls a-l
+  374  ls -al
+  375  git log
+  376  export GIT_COMMITTER_DATE="2026-08-24T12:45:20"
+  377  git commit --amend --no-edit --date="2026-08-24T12:00:00"
+  378  git add .
+  379  git commit "todays time updated"
+  380  git commit -m "todays time updated"
+  381  ls -al
+  382  ls
+  383  ls -al
+  384  clear
+  385  git log
+  386  git log --oneline
+  387  git revert commit e341011e1f382ca77f5079384c4b32001615b188
+  388  ls
+  389  ls a-l
+  390  ls -al
+  391  git log --oneline
+  392  git evert 37da394
+  393  git revert 37da394
+  394  git log --oneline
+  395  ls -al
+  396  touch 3.html
+  397  git add .
+  398  git commit -m "New 3.html file added"
+  399  ls
+  400  ls -al
+  401  git log --oneline
+  402  ls -al
+  403  touch 4.html
+  404  ls
+  405  git add 4.html
+  406  git add commit -m "new 4.html created"
+  407  git commit -m "new 4.html created"
+  408  git log --oneline
+  409  git revert commit 34c624d
+  410  git show  commit 34c624d
+  411  git log
+  412  git revert commit 34c624d39be9639f54b1941a54be8b7fe328fd0f
+  413  git revert 34c624d39be9639f54b1941a54be8b7fe328fd0f
+  414  git log --oneline
+  415  ls
+  416  ls -al
+  417  git log
+  418  git reset 4989876053618cc45dbbf2601fa9127ea9728fd6
+  419  git log
+  420  ls
+  421  git log --oneline
+  422  git log --oneline -n 2 --author Alroyce
+  423  git log --oneline -n 2 --author
+  424  git log --oneline -n 2 --author Alroyce
+  425  git log --oneline
+  426  git remote -v
+  427  ls
+  428  cd poject
+  429  cd project
+  430  ls
+  431  cd Alfa-Caro
+  432  cd Alfa-Cargo
+  433  ls
+  434  ls -l
+  435  cd paid1.html
+  436  ls
+  437  ls -l
+  438  clear
+  439  git remote -v
+  440  git remote add origin
+  441  git remote add origin https://github.com/Alroyce/Alfa-Cargo.git
+  442  git remote add origin -list
+  443  git remote add origin --list
+  444  git remote origin --list
+  445  git remote origin
+  446  git remote -v
+  447  git branch
+  448  git push oriign main
+  449  git push origin main
+  450  ls -l
+  451  clear
+  452  git push origin main
+  453  git emote rm
+  454  git remote rm
+  455  git remote -v
+  456  git remote rm origin
+  457  git remote -v
+  458  git remote add origin main
+  459  git remote -v
+  460  git branch
+  461  git remote add origin https://github.com/Alroyce/Alfa-Cargo.git
+  462  git remote rm origin
+  463  git remote -v
+  464  git remote add origin https://github.com/Alroyce/Alfa-Cargo.git
+  465  git remote -v
+  466  git branch
+  467  git remote -v
+  468  git push origin main
+  469  clear
+  470  ls
+  471  cd project
+  472  ls
+  473  cd Alfa-Cargo
+  474  ls
+  475  ls -l
+  476  ls
+  477  cd project
+  478  ls
+  479  cd Alfa-Cargo
+  480  ls
+  481  ls -l
+  482  git remote -v
+  483  git push origin main
+  484  clear
+  485  ls
+  486  ls -l
+  487  git emote -v
+  488  git remote -v
+  489  git remote rm
+  490  git remote -v
+  491  git remote origin rm
+  492  git origin rm
+  493  git --help
+  494  git push origin main
+  495  git remote -v
+  496  git push origin main
+  497  git remote -v
+  498  git remote -V
+  499  ls
+  500  cd Project
+  501  cd project
+  502  ls
+  503  ls -l
+  504  cd Alfa-Cargo
+  505  ls
+  506  ls -al
+  507  clear
+  508  git emote -v
+  509  git remote -v
+  510  git remote rm origin
+  511  git remote -v
+  512  git remote rm Alroyce
+  513  git remote -v
+514  ls -l
+  515  clear
+  516  git remote add origin https://github.com/Alroyce/Alfa-Cargo.git
+  517  ls -l
+  518  ls
+  519  cd project
+  520  ls
+  521  cd Alfa-Cargo
+  522  ls
+  523  l -l
+  524  git remote -v
+  525  git log --oneline
+  526  git rev-list --count HEAD
+  527  git log rebase 824fdfb
+  528  git log revert 824fdfb
+  529  git log
+  530  git revert 0e407d60569bd2a32105a54cff70bc1fe6396f73
+  531  git reset 0e407d60569bd2a32105a54cff70bc1fe6396f73
+  532  git reflog 0e407d60569bd2a32105a54cff70bc1fe6396f73
+  533  git log --oneline
+  534  git show 0e407d6
+  535  git rev--list count Head
+  536  git rev--list count HEAD
+  537  git rev-list count HEAD
+  538  git rev-list --count HEAD
+  539  git log --oneline
+  540  ls
+  541  cd project
+  542  ls
+  543  cd Alfa-Cargo
+  544  ls
+  545  ls -l
+  546  ls
+  547  cd poject
+  548  cd project
+  549  ls
+  550  cd Alfa-Cargo
+  551  ls
+  552  ls -l
+  553  git log --oneline
+  554  git rev-list --count HEAD
+  555  cd ..
+  556  ls
+  557  git clone https://github.com/Alroyce/Alfa-Cargo.git
+  558  ls
+  559  cd Alfa-Cargo
+  560  ls
+  561  ls -l
+  562  git branch
+  563  git branch prerelease
+  564  git branch
+  565  git branch -M prerelease
+  566  git branch
+  567  git branch --list
+  568  git branch
+  569  git push oigin prerelease
+  570  git push origin prerelease
+  571  git branch
+  572  git branch -M
+  573  git branch -M main
+  574  git branch
+  575  git branch prerelease
+  576  git branch
+  577  git branch -M prerelease
+  578  git branch
+  579  git branch -M main
+  580  git branch
+  581  git branch -b prelease
+  582  git branch -b checkout prelease
+  583  git checkout -b prerelease
+  584  git branch
+  585  ls
+  586  cd project
+  587  ls
+  588  cd Alfa-Cargo
+  589  ls
+  590  ls -l
+  591  git remote -v
+  592  git push origin main
+  593  git pull origin main
+  594  git logs --oneline
+  595  git log --oneline
+  596  git rev-list --count HEAD
+  597  git branch
+  598  git checkout main
+  599  git branch
+  600  git pull origin main
+  601  ls
+  602  ls -l
+  603  touch topay.html
+  604  git add .
+  605  git commit -m "to.html file is being added"
+  606  git log --oneline
+  607  git branch
+  608  git rev-list --count HEAD
+  609  git push origin main
+  610  git pull --rebase origin main
+  611  ls -l
+  612  cat style.css
+  613  git add style.css
+  614  git rebase --continue
+  615  git add style.css
+  616  git commit -m "changes made to style.csss"
+  617  git pull origin main
+  618  git push origin main
+  619  git push oigin main
+  620  git push origin main
+  621  cd
+  622  ls
+  623  cd poject
+  624  cd project
+  625  ls
+  626  git rm Alfa-Cargo
+  627  git rm-r Alfa-Cargo
+  628  clear
+  629  ls -l
+  630  git rm-r Alfa-Cargo
+  631  git rm -r Alfa-Cargo
+  632  ls -l
+  633  git rm Alfa-Cargo
+  634  git rm -r Alfa-Cargo
+  635  ls
+  636  ls -l
+  637  git rm -r Alfa-Cargo
+  638  clear
+  639  ls -l
+  640  git rm -r paid.html
+  641  ls
+  642  git rm -r Alfa-Cargo
+  643  git rm -rf Alfa-Cargo
+  644  cd Alfa-Cargo
+  645  ls
+  646  cd ..
+  647  rm -rf Alfa-Cargo
+  648  ls
+  649  ls
+  650  cd project
+  651  ls
+  652  rm -rf newfile.java
+  653  rm -rf newfile.java topay.html
+  654  ls
+  655  ls -l
+  656  touch 1.java touch 2.java
+  657  ls
+  658  ls -l
+  659  git rm -rf 1.java 2.java touch
+  660  git rm -rf 1.java
+  661  git rm 1.java
+  662  ls
+  663  git rm 1.java
+  664  rm 1.java
+  665  rm 2.java touch
+  666  git clone https://github.com/Alroyce/Alfa-Cargo.git
+  667  git remote -v
+  668  git add origin https://github.com/Alroyce/Alfa-Cargo.git
+  669  git remote add origin https://github.com/Alroyce/Alfa-Cargo.git
+  670  git remote -v
+  671  git push origin main
+  672  git branch
+  673  git branch -b checkout main
+  674  git checkout -b main
+  675  git branch
+  676  gite emote -v
+  677  gite remote -v
+  678  ls
+  679  cd project
+  680  ls
+  681  cd Alfa-Cargo
+  682  ls
+  683  ls -l
+  684  ls
+  685  clear
+  686  git push origin main
+  687  git log
+  688  a
+  689  ls
+  690  cd poject
+  691  cd project
+  692  ls
+  693  cd Alfa-Cargo
+  694  ls
+  695  ls -l
+  696  ls
+  697  ls -l
+  698  clear
+  699  ls
+  700  ls -l
+  701  clear
+  702  clea
+  703  clear
+  704  ls
+  705  git log
+  706  git log --oneline
+  707  git rev--list count HEAD
+  708  git rev-list --count HEAD
+  709  git branch
+  710  git push origin main
+  711  ls
+  712  ls -l
+  713  touch 3.java
+  714  git add .
+  715  git commit -m " 3.java file added"
+  716  ls
+  717  ls -l
+  718  rm 3.java
+  719  ls
+  720  ls -l
+  721  touch 1.java
+  722  ls
+  723  ls -l
+  724  git add .
+  725  git commit -m " 3.java deleted and 1.java file added"
+  726  ls
+  727  git log -oneline
+  728  git log --oneline
+  729  git rev-list --count HEAD
+  730  ls
+  731  ls -l
+  732  git log
+  733  a
+  734  ls
+  735  ls -l
+  736  ls
+  737  ls -l
+  738  ls
+  739  ls -l
+  740  clear
+  741  git log
+  742  git reset b139939c0e59a438f701428df94415f6fb43fa61
+  743  git log --oneline
+  744  git rev-list --count HEAD
+  745  git revert b139939c0e59a438f701428df94415f6fb43fa61
+  746  git add .
+  747  git commit -m " 3.java deleted and 1.java file added"
+  748  git rev-list --count HEAD
+  749  ls
+  750  ls -l
+  751  git
+  752  git remote -v
+  753  git push origin main
+  754  git remote -v
+  755  git remote rm origin
+  756  git remote -v
+  757  git add remote https://github.com/Alroyce/Alfa-Cargo.git
+  758  git remote -v
+  759  git remote add https://github.com/Alroyce/Alfa-Cargo.git
+  760  git remote add origin https://github.com/Alroyce/Alfa-Cargo.git
+  761  git remote -v
+  762  git push origin main
+  763  git ppull origin main
+  764  git pull origin main
+  765  git config --global
+  766  git config --global --list
+  767  git push origin main
+  768  exit
+  769  ls
+  770  cd project
+  771  ls
+  772  cd Alfa-Cargo
+  773  ls
+  774  ls -l
+  775  clear
+  776  ls -l
+  777  git remote -v
+  778  git push origin main
+  779  git pull origin main
+  780  git config pull.rebase false
+  781  git config pull.rebase true
+  782  git config pull.ff only
+  783  git pull origin main
+  784  git rebase
+  785  git merge --on
+  786  git merge --on--off
+  787  git pull origin main
+  788  git config set advise.diverging false
+  789  git pull origin main
+  790  git config set advise.diverging false
+  791  git push origin main
+  792  clear
+  793  git push origin main
+  794  clear
+  795  git push origin main
+  796  git push --help
+  797  git push origin main
+  798  git pull origin main
+  799  ls
+  800  ls -l
+  801  git merge --no
+  802  git pull origin main
+  803  root@ip-172-31-9-183:~/project/Alfa-Cargo#
+  804  git pull origin main
+  805  git log
+  806  git rev-list --count HEAD
+  807  git log --oneline
+  808  cd ..
+  809  ls
+  810  m Alfa-Cargo
+  811  rm Alfa-Cargo
+  812  rm -rf Alfa-Cargo
+  813  ls
+  814  git clone https://github.com/Alroyce/Alfa-Cargo.git
+  815  ls
+  816  cd Alfa-Cargo
+  817  ls
+  818  ls -l
+  819  git remote -v
+  820  git branch
+  821  git pull origin main
+  822  git push origin main
+  823  git pull origin main
+  824  git push origin main
+  825  git checkout -b branch
+  826  git branch
+  827  git rm branch
+  828  git branch -M master
+  829  gitbranch
+  830  git branch
+  831  git push origin main
+  832  pwd
+  833  git remote add origin git@github.com:Alroyce/newpr.git
+  834  git remote -v
+  835  git remote rm origin
+  836  git remote add origin git@github.com:Alroyce/newpr.git
+  837  git remote -v
+  838  ls
+  839  git push origin main
+  840  ls
+  841  cd project
+  842  ls
+  843  git log
+  844  git show
+  845  ls
+  846  git remote -v
+  847  git remote rm
+  848  git remote rm origin
+  849  git remote -v
+  850  ls
+  851  git remote add origin git@github.com:Alroyce/newpr.git
+  852  ls
+  853  git remote -v
+  854  git push -u origin main
+  855  ssh-keygen
+  856  cat
+  857  cat ssh-keygen
+  858  cat .ssh/id_ed25519
+  859  cat id_ed25519.pub
+  860  cat /root/.ssh/id_ed25519.pub
+  861  ls
+  862  git push -u origin main
+  863  git clone
+  864  git clone https://github.com/Alroyce/Alfa-Cargo.git
+  865  ls
+  866  cd Alfa-Cargo
+  867  ls
+  868  ls -l
+  869  touch 3.pdf
+  870  ls
+  871  git add .
+  872  git submit -m "new image"
+  873  git commit -m "new image
+  874  ls
+  875  git push -u origin main
+  876  ls
+  877  ls -l
+  878  git push origin main
+  879  git pull origin main
+  880  git branch
+  881  git push origin main
+  882  cd ..
+  883  ls
+  884  cd Alfa-Cargo
+  885  ls
+  886  git init
+  887  git add .
+  888  git commit -m "new commit"
+  889  git remote -v
+  890  cd ..
+  891  git remote -v
+  892  cd Alfa-Cargo
+  893  ls
+  894  cd ..
+  895  ls
+  896  clea
+  897  ls
+  898  git remote -v
+  899  git remote rm origin
+  900  git remote -v
+  901  git remote add origin https://github.com/Alroyce/newpr.git
+  902  git remote -v
+  903  git push origin main
+  904  ls
+  905  clear
+  906  touch 11.java
+  907  touch 12.java
+  908  ls
+  909  git add .
+  910  rm -rf Alfa-Cargo
+  911  ls
+  912  git add .
+  913  git commit -m " 11 and 12 java added"
+  914  l
+  915  ls -l
+  916  git init
+  917  git remote -v
+  918  git push origin main
+  919  cd ..
+  920  ls
+  921  cd project
+  922  ls
+  923  exit
+  924  ls
+  925  cd poject
+  926  cd project
+  927  ls
+  928  ks
+  929  ls
+  930  rm -rf 11.java 12.java newfile.java paid.html topay.html
+  931  ls
+  932  git add .
+  933  git commit -m " all deleted"
+  934  git init
+  935  ls
+  936  l
+  937  ls
+  938  git branch
+  939  git push origin preprod
+  940  ls
+  941  clear
+  942  ls
+  943  exit
+  944  ls
+  945  cd project
+  946  ls
+  947  touch 1.java
+  948  touch 1.java 2.java 3.java
+  949  ls
+  950  rm -rf Alfa-Cargo
+  951  ls
+  952  git init
+  953  git add README.md
+  954  git add .
+  955  git commit -m "new files added"
+  956  git branch
+  957  git checkout master
+  958  git branch -M prepod
+  959  ls
+  960  git branch
+  961  git branch -M preprod
+  962  ls
+  963  git branch
+  964  git add .
+  965  git commit -m "new files added"
+  966  git log
+  967  ls
+  968  cd project
+  969  ls
+  970  ls
+  971  cd project
+  972  ls
+  973  git log --oneline
+  974  git add .
+  975  git tag v1.0.0
+  976  git commit -m "new files added"
+  977  git tag -a v1.0.0 -m "Release version 1.0.0"
+  978  git log --oneline
+  979  touch newfile2.java
+  980  ls
+  981  git add .
+  982  git commit -m " newfile2.java added"
+  983  git branch
+  984  git checkout main
+  985  git pull origin main
+  986  git push origin main
+  987  ls
+  988  cd project
+  989  ls
+  990  clear
+  991  git branch
+  992  git checkout main
+  993  git branch
+  994  ls
+  995  ls -l
+  996  ls
+  997  ls
+  998  cd project
+  999  ls
+ 1000  cd project
+ 1001  ls
+ 1002  git branch
+ 1003  git checkout preprod
+ 1004  ls
+ 1005  git branch
+ 1006  ls -l
+ 1007  ls
+ 1008  git checkout main
+ 1009  ls
+ 1010  git pull origin main
+ 1011  ls
+ 1012  git pulsh origin main
+ 1013  git push origin main
+ 1014  ls
+ 1015  ls -l
+ 1016  vi 4.java
+ 1017  cat 4.java
+ 1018  git log --oneline
+ 1019  git rev -list --count HEAD
+ 1020  git rev -count --list HEAD
+ 1021  git rev -count --list HEAD[A
+ 1022  git rev-list --count HEAD
+ 1023  git add .
+ 1024  git commit -m "4.java added"
+ 1025  git log
+ 1026  git log --oneline
+ 1027  git branch
+ 1028  git pull origin main
+ 1029  git push origin main
+ 1030  git pull origin main
+ 1031  git push origin main
+ 1032  ls
+ 1033  vi 4.java
+ 1034  git add .
+ 1035  git commit -m "4.java code updated at the 2nd line"
+ 1036  git pull origin main
+ 1037  git push origin main
+ 1038  ls
+ 1039  ls -l
+ 1040  git log --oneline
+ 1041  ls
+ 1042  cd poject
+ 1043  cd project
+ 1044  ls
+ 1045  git branch
+ 1046  git merge prepod
+ 1047  git merge preprod
+ 1048  git branch
+ 1049  ls
+ 1050  git checkout preprod
+ 1051  ls
+ 1052  git branch
+ 1053  ls
+ 1054  git checkout main
+ 1055  git branch rm preprod
+ 1056  git branch
+ 1057  git branch -d preprod rm
+ 1058  git pull origin main
+ 1059  git push origin main
+ 1060  git tag -a v1.0.0 -m "Release version 1.0.0"
+ 1061  ls
+ 1062  cd poject
+ 1063  cd project
+ 1064  ls
+ 1065  git tag -a v1.0.0 -m "Release version 1.0.0"
+ 1066  git tag -a v1.0.2 -m "Release version 1.0.2"
+ 1067  ls
+ 1068  git log --oneline
+ 1069  git pull origin main
+ 1070  git push origin main
+ 1071  git rev-list --count HEAD
+ 1072  ls -l
+ 1073  ls
+ 1074  cd project
+ 1075  ls
+ 1076  ls -l
+ 1077  git status
+ 1078  ls
+ 1079  clear
+ 1080  l
+ 1081  touch 1.html
+ 1082  ls
+ 1083  git stash -m "created 1.html file"
+ 1084  git stash list
+ 1085  git stash --list
+ 1086  git stash list
+ 1087  cd ..
+ 1088  ls
+ 1089  mkdir defect
+ 1090  ls
+ 1091  cd defect
+ 1092  ls
+ 1093  touch 1.html
+ 1094  ls
+ 1095  git add .
+ 1096  git init
+ 1097  git branch main
+ 1098  git branch master
+ 1099  git branch -m main
+ 1100  ls
+ 1101  git add .
+ 1102  git commit -m " new file"
+ 1103  git log --oneline
+ 1104  cd  ..
+ 1105  ls
+ 1106  cd project
+ 1107  ls
+ 1108  git stash list
+ 1109  git stash
+ 1110  git add .
+ 1111  git commit -m " stashing the changes"
+ 1112  git log --oneline
+ 1113  git push origin main
+ 1114  git branch
+ 1115  l
+ 1116  ls
+ 1117  ls -l
+ 1118  ls
+ 1119  cd project
+ 1120  ls
+ 1121  git branch
+ 1122  git checkout main
+ 1123  git switch main
+ 1124  git add .
+ 1125  git stash
+ 1126  git stash list
+ 1127  git switch main
+ 1128  ls
+ 1129  git pull origin main
+ 1130  git push origin main
+ 1131  ls
+ 1132  git checkout preprod
+ 1133  git branch
+ 1134  git push origin preprod
+ 1135  ls
+ 1136  git branch
+ 1137  ls
+ 1138  ls -l
+ 1139  git branch
+ 1140  ls
+ 1141  git branch
+ 1142  git switch main
+ 1143  ls
+ 1144  exit
+ 1145  ls
+ 1146  cd defect
+ 1147  ls
+ 1148  git branch
+ 1149  cd ..
+ 1150  git project
+ 1151  ls
+ 1152  cd project
+ 1153  ls
+ 1154  git branch
+ 1155  git switch branch
+ 1156  git switch peprod
+ 1157  git switch preprod
+ 1158  git branch
+ 1159  ls
+ 1160  git switch main
+ 1161  ls
+ 1162  git stash list
+ 1163  git stash apply
+ 1164  git log --oneline
+ 1165  history
+ 1166  ls
+ 1167  git add .
+ 1168  git commit -m "new 1.html filed commited"
+ 1169  cat 1.html
+ 1170  ls
+ 1171  cat 2.html
+ 1172  pwd
+ 1173  ls
+ 1174  git branch
+ 1175  git checkout preprod --/root/preprod/2.html
+ 1176  git checkout preprod --/root/main/2.html
+ 1177  git checkout preprod
+ 1178  git branch
+ 1179  git restore --source main --2.html
+ 1180  git restore main --2.html
+ 1181  ls
+ 1182  git branch
+ 1183  pwd
+ 1184  git switch preprod
+ 1185  git restore --source main -- 2.html
+ 1186  git add 2.html
+ 1187  git commit -m "Copy 2.html from main to preprod"
+ 1188  git push origin preprod
+ 1189  ls
+ 1190  git branch
+ 1191  ls
+ 1192  git restore --source main --2.html
+ 1193  git restore --source main -- 2.html
+ 1194  git branch
+ 1195  ls
+ 1196  git switch main
+ 1197  ls
+ 1198  git branch
+ 1199  ls
+ 1200  cat 1.html
+ 1201  ls -l
+ 1202  ls
+ 1203  git switch peprod
+ 1204  git switch preprod
+ 1205  ls
+ 1206  git switch main
+ 1207  ls
+ 1208  cat 1.html
+ 1209  ls
+ 1210  cat 1.html
+ 1211  git branch
+ 1212  git switch preprod
+ 1213  ls
+ 1214  git restore --source main -- 1.html
+ 1215  ls
+ 1216  git add .
+ 1217  git commit -m "1.html copied from main branch"
+ 1218  git pull origin preprod
+ 1219  git push origin preprod
+ 1220  histoy
+ 1221  history
+ 1222  ls
+ 1223  git branch
+ 1224  git switch main
+ 1225  git branch
+ 1226  git merge preprod
+ 1227  ls
+ 1228  git branch
+ 1229  git add .
+ 1230  git log --oneline
+ 1231  ls
+ 1232  git branch
+ 1233  git switch preprod
+ 1234  git banch
+ 1235  git branch
+ 1236  touch11.html
+ 1237  touch 11.html
+ 1238  ls
+ 1239  git ad .
+ 1240  git add .
+ 1241  git commit -m "new 11.html file added"
+ 1242  git log --oneline
+ 1243  git switch main
+ 1244  git merge preprod
+ 1245  git log --oneline
+ 1246  ls
+ 1247  git branch rm preprod
+ 1248  git branch
+ 1249  git branch -d preprod rm
+ 1250  git branch -D preprod rm
+ 1251  git branch -D preprod
+ 1252  ls
+ 1253  git banch
+ 1254  git branch
+ 1255  git pull origin main
+ 1256  git push origin main
+ 1257  git pull origin main
+ 1258  git log --oneline
 
