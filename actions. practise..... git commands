@@ -69,6 +69,10 @@ git branch -M prerelease                  - fForce to rename the branch the with
 git branch -d main/preprod                - to delete a branch.
 git switch main                           - Switch the branch.
 
+git restore --source main -- 1.html       - command copy a file from 1 branch to another.
+
+
+
 ( Create a banch is recomended in the remote not the remote )
 
 git merge (target branch)                 - cuurent branch - all other branch details will be merged.  
