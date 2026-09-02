@@ -8,9 +8,18 @@ mvn --version
 
 git clone https://github.com/Alroyce/Java1.git  - cloning the project(https/ssh)
 
+mvn validate - check the build prerequisites.
+mvn compile  - compiles the source code identified for the build.
+mvn test     - runs unit test for the compiled code.
+mvn package  - assembles the compiled code into the binary build result.
+mvn install  - shared the build result on the 
+
+
+
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@------ Questions and Answers ------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 what is maven - Maven is a build tool which operates on POM ( Page Object model ) which can manage project build, eporting and documentation from central piece of information.
 What is POM - POM Stands for Page object Model.
+
 
