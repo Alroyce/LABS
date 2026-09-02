@@ -12,4 +12,4 @@ git clone https://github.com/Alroyce/Java1.git  - cloning the project(https/ssh)
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@------ Questions and Answers ------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 what is maven - Maven is a build tool which operates on POM ( Page Object model ) which can manage project build, eporting and documentation from central piece of information.
-
+What is POM - POM stands for Page object Model.
