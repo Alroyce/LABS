@@ -16,24 +16,24 @@ mvn --version
 
 git clone https://github.com/Alroyce/Java1.git  - cloning the project(https/ssh)
 
-mvn validate             - check the build prerequisites.
-mvn compile              - compiles the source code identified for the build.
-mvn test                 - runs unit test for the compiled code.
-mvn package              - assembles the compiled code into the binary build result.
-mvn install              - shared the build result on the same machine.
-mvn deploy               - publishes the build into the remote repository for the other projects to use.
+mvn validate              - check the build prerequisites.
+mvn compile               - compiles the source code identified for the build.
+mvn test                  - runs unit test for the compiled code.
+mvn package               - assembles the compiled code into the binary build result.
+mvn install               - shared the build result on the same machine.
+mvn deploy                - publishes the build into the remote repository for the other projects to use.
 
 ls -l target/
 
-ls -ltrh                   - ists the contents of a directory in a long-listing format, sorted by modification time in reverse order 
+ls -ltrh                  - ists the contents of a directory in a long-listing format, sorted by modification time in reverse order 
                            ( oldest first, newest last), with human-readable file sizes.
 
 
 if any steps fails, then we can contact the developer.
 
 mvn compile               - compiling.
-mvn test    - testing the code.
-mvn package - complete code.
+mvn test                  - testing the code.
+mvn package               - complete code.
 
 continously compiling - 
 
