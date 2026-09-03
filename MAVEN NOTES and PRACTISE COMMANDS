@@ -35,6 +35,8 @@ mvn package - complete code.
 
 continously compiling - 
 
+-------------------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -48,5 +50,7 @@ continously compiling -
 
 what is maven - Maven is a build tool which operates on POM ( Page Object model ) which can manage project build, eporting and documentation from central piece of information.
 What is POM - POM Stands for Page object Model.
+Jenkins - Similar tools ==== Jenkins, AWS CODE BUILD, Gitlab CI, Github Actions
+
 
 
