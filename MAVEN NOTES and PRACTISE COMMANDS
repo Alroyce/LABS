@@ -33,6 +33,8 @@ mvn compile               - compiling.
 mvn test    - testing the code.
 mvn package - complete code.
 
+continously compiling - 
+
 
 
 
