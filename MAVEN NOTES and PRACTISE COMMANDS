@@ -23,6 +23,7 @@ mvn package              - assembles the compiled code into the binary build res
 mvn install              - shared the build result on the same machine.
 mvn deploy               - publishes the build into the remote repository for the other projects to use.
 
+ls -l target/
 ls -ltrh                   - ists the contents of a directory in a long-listing format, sorted by modification time in reverse order 
                            ( oldest first, newest last), with human-readable file sizes.
 
