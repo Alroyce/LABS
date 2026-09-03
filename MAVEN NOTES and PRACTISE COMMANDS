@@ -55,6 +55,8 @@ What is POM - POM Stands for Page object Model.
 Jenkins - Similar tools ==== Jenkins, AWS CODE BUILD, Gitlab CI, Github Actions.
 
 What is Jenkins - Jenkins is a tool that helps us to automate the build code process and also as build automation server.
+Jenkins PORT - 8080
+
 
 
 
