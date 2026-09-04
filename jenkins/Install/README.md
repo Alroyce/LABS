@@ -16,13 +16,13 @@ source /etc/profile
 ````
 ----------------------------------------------------
 ### Install JAVA
--------------------------------------------------
+----------------------------------------------------
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
 sudo apt-get install -y fontconfig openjdk-17-jre openjdk-17-jdk
--------------------------------------------------------------------------------------
 
------------------------------------ New Maven version ----- 
+----------------------------------------------------
+
 cd /tmp ; sudo wget https://dlcdn.apache.org/maven//maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
 
 cd /tmp ; sudo tar -xzf apache-maven-3.9.16-bin.tar.gz -C /opt
