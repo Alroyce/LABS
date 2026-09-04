@@ -10,6 +10,7 @@ unit test
 code coverage.
 package
 
+Dashboard - Manage Jenkins - System configuration - Tools - 
 ---------------------------------------------------------------------------------------------------------------
 df h  - check the size of the vm occupied.
 java --version
