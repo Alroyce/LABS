@@ -47,11 +47,15 @@ sudo apt-get install jenkins
 New Jenkins link 
 
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+
 echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
-  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+https://pkg.jenkins.io/debian-stable binary/ | sudo tee \/etc/apt/sources.list.d/jenkins.list > /dev/null
+
 sudo apt update
+
 sudo apt install jenkins
+
 ## `Below are Just FYI Only` 
 
 ##### how to restart Jenkins 
