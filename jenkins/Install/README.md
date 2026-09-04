@@ -1,9 +1,9 @@
 # Manual Installation Steps 
 ### Install JAVA
 ```
-sudo add-apt-repository ppa:openjdk-r/ppa
-sudo apt-get update
-sudo apt-get install -y fontconfig openjdk-17-jre openjdk-17-jdk
+sudo apt update
+sudo apt install -y fontconfig openjdk-21-jdk
+java -version
 ```
 ### Install Maven  ( on Jenkins machine )
 ```
