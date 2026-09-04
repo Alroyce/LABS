@@ -11,6 +11,7 @@ code coverage.
 package
 
 ---------------------------------------------------------------------------------------------------------------
+df h  - check the size of the vm occupied.
 java --version
 mvn --version
 
