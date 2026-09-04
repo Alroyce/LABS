@@ -4,6 +4,8 @@
 sudo apt update
 sudo apt install -y fontconfig openjdk-21-jdk
 java -version
+
+USE EC2 Instance from different location - like india not any US (America)
 ```
 ### Install Maven  ( on Jenkins machine )
 ```
