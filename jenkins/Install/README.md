@@ -142,3 +142,7 @@ sudo echo "PATH=\$JAVA_HOME/bin:\$MAVEN_HOME/bin:\$PATH" >> /etc/profile
 
 source /etc/profile
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Java home 
+# cd /usr/lib/jvm/java-21-openjdk-amd64
