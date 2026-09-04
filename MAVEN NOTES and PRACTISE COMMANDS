@@ -18,8 +18,8 @@ Name - java
 JAVA_HOME : 
 
 Maven Installation -
-
 Name : Maven 
+
 
 ---------------------------------------------------------------------------------------------------------------
 df h  - check the size of the vm occupied.
