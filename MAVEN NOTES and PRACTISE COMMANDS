@@ -17,10 +17,15 @@ Dashboard - Manage Jenkins - System configuration - Tools -> :
 
 JDK Installation - 
 Name - java
-JAVA_HOME : 
+JAVA_HOME : /usr/lib/jvm/java-21-openjdk-amd64
+
+Git Installation
+Name : git
+path : git
 
 Maven Installation -
 Name : Maven 
+path : 
 
 
 ---------------------------------------------------------------------------------------------------------------
