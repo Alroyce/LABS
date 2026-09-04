@@ -15,15 +15,6 @@ sudo echo "PATH=\$MAVEN_HOME/bin:\$PATH" >> /etc/profile
 source /etc/profile
 ````
 ----------------------------------------------------
-### Install JAVA
-----------------------------------------------------
-sudo add-apt-repository ppa:openjdk-r/ppa
-
-sudo apt-get update
-
-sudo apt-get install -y fontconfig openjdk-17-jre openjdk-17-jdk
-
-----------------------------------------------------
 
 cd /tmp ; sudo wget https://dlcdn.apache.org/maven//maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
 
