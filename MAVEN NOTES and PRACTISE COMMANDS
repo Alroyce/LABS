@@ -86,6 +86,8 @@ cd target
 ls
 cat pmd.xml - non readable format so use plugin to convert the code to readable format.
 
+== Plugins - Warning plugins
+Jenkins- Manage jenkins - plugins - WARNINGS - install.
 
 ------------------------------------------------------------------------------------
 Stage 3 - test
