@@ -73,7 +73,7 @@ Post-build Actions --> None
 Stage 2 - code review
 
 desc: Performs code quality and static analysis checks to identify coding issues, 
-      vulnerabilities, and maintainability concerns before proceeding to the next stage. 
+      vulnerabilities, and maintainability concerns 
 Build Steps --> Execute shell : /opt/maven/bin/mvn -P metrics pmd:pmd
 Post-build Actions --> None
 
@@ -96,12 +96,12 @@ INFO : if there is no internet then download and upload in the file format
 download the direct file -> manage jenkins -> plugins - Advanced settings -> choose file (choose the selected file )
 
 ------------------------------------------------------------------------------------
-Stage 3 - test
+Stage 3 - unittest
 
-desc: Performs code quality and static analysis checks to identify coding issues, 
-      vulnerabilities, and maintainability concerns before proceeding to the next stage.
-Build Steps --> Execute shell : /opt/maven/bin/mvn 
-Post-build Actions --> None
+desc: Executes automated unit tests to verify individual components and ensure the application functions correctly without test failures.
+Build Steps --> Execute shell : /opt/maven/bin/mvn test
+Post-build Actions --> Publish Junit test results
+
 ========================================================================================
 
 
