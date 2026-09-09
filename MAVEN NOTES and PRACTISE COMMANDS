@@ -108,6 +108,117 @@ Jenkins - Similar tools ==== Jenkins, AWS CODE BUILD, Gitlab CI, Github Actions.
 What is Jenkins - Jenkins is a tool that helps us to automate the build code process and also as build automation server.
 Jenkins PORT - 8080
 
+Jenkins
+What is Jenkins and why is it used? 
+What is the difference between a Freestyle project and a Pipeline?
+What is a Jenkins controller and agent?
+What is the Jenkins built-in node?
+Why should builds generally run on agents instead of the controller?
+How do you configure a Freestyle project?
+What are Source Code Management (SCM) options in Jenkins?
+How do you integrate Jenkins with Git?
+What are build triggers in Jenkins?
+What is the difference between Build Now, Poll SCM, and Webhook?
+What are Jenkins environment variables?
+How do you pass parameters to a Jenkins job?
+What is a Jenkins workspace?
+How do you clean the Jenkins workspace?
+How do you archive artifacts in Jenkins?
+What is the difference between an artifact and a build?
+How do you configure Maven in Jenkins?
+What is the purpose of pom.xml?
+What is the difference between mvn compile, mvn test, mvn package, and mvn install?
+How do you troubleshoot a failed Jenkins build?
+What happens when Jenkins reports "Disk space is below threshold"?
+How do you bring an offline Jenkins node back online?
+How do you manage Jenkins credentials?
+How do you restrict who can execute a Jenkins job?
+How do you configure email/Slack notifications for failed builds?
+Maven
+What is Maven?
+What is the purpose of pom.xml?
+Explain the Maven lifecycle.
+What is the difference between:
+compile
+test
+package
+install
+deploy
+What are Maven dependencies?
+What is a Maven repository?
+Difference between local, central, and remote repository?
+What is dependency management?
+What is the difference between dependency and dependencyManagement?
+What are Maven plugins?
+What is the Maven Surefire plugin?
+How do you skip tests in Maven?
+How do you run a specific test?
+How do you troubleshoot Maven dependency errors?
+Git
+What is Git?
+Difference between Git and GitHub?
+Explain git clone, git pull, git fetch.
+Difference between git merge and git rebase.
+What is a Git branch?
+How do you create and delete a branch?
+What is a merge conflict and how do you resolve it?
+What is git stash?
+Difference between git reset and git revert.
+What is .gitignore?
+How do you check commit history?
+How do you undo the last commit?
+Linux
+For 2 years of DevOps experience, expect practical Linux questions:
+
+How do you check disk usage?
+Difference between df and du.
+How do you find a large file?
+How do you check running processes?
+Difference between kill and kill -9.
+How do you check CPU and memory usage?
+How do you search for a string inside files?
+Difference between > and >>.
+What are Linux file permissions?
+Explain chmod 755.
+How do you check the status of a service?
+How do you view logs?
+What is a shell script?
+How do you schedule a job using cron?
+Docker
+What is Docker?
+Difference between a Docker image and container.
+What is a Dockerfile?
+Explain common Dockerfile instructions.
+Difference between CMD and ENTRYPOINT.
+What is a Docker volume?
+What is a Docker network?
+How do you check running containers?
+How do you view container logs?
+How do you enter a running container?
+How do you build and run an image?
+How do you reduce Docker image size?
+Scenario-based questions
+These are especially important at the 2-year level:
+
+Jenkins build suddenly fails. How will you troubleshoot it?
+Jenkins says disk space is below threshold. What will you check?
+Maven build works locally but fails in Jenkins. What could be the reason?
+Jenkins cannot clone the Git repository. How will you troubleshoot?
+A Maven test is failing. How do you identify the failed test?
+Build is successful but deployment fails. What will you check?
+Jenkins job is taking much longer than usual. How do you investigate?
+A Docker container keeps restarting. How will you troubleshoot it?
+The application works on one server but not another. What will you check?
+How would you design a Jenkins flow: Git → Compile → Test → Package → Deploy?
+A very common practical question
+They may give you a situation like:
+
+"Create a Jenkins Freestyle project that gets code from Git, compiles it using Maven, runs tests, and archives the generated artifact."
+
+You should be comfortable explaining:
+
+Git → Jenkins Workspace → Maven Compile → Maven Test → Maven Package → Archive Artifact
+
 
 
 
