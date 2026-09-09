@@ -89,6 +89,8 @@ cat pmd.xml - non readable format so use plugin to convert the code to readable 
 == Plugins - Warning plugins
 Jenkins- Manage jenkins - plugins - WARNINGS - install.
 
+Re Configure the Job - 
+
 ------------------------------------------------------------------------------------
 Stage 3 - test
 
