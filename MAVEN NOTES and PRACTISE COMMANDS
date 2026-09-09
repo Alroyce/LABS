@@ -103,7 +103,11 @@ Build Steps --> Execute shell : /opt/maven/bin/mvn test
 Post-build Actions --> Publish JUnit test results – Display unit-test results in Jenkins.
 
 --------------------------------------------------------------------------------------
+Stage 4 - Code Coverage
 
+desc: Executes the Maven verify phase to validate the build, run configured tests, and generate code coverage reports to measure test coverage.
+Build Steps --> Execute shell : /opt/maven/bin/mvn verify
+Post-build Actions --> Publish JUnit test results – Display unit-test results in Jenkins.
 
 
 ========================================================================================
