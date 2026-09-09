@@ -100,7 +100,7 @@ Stage 3 - unittest
 
 desc: Executes automated unit tests to verify individual components and ensure the application functions correctly without test failures.
 Build Steps --> Execute shell : /opt/maven/bin/mvn test
-Post-build Actions --> Publish Junit test results
+Post-build Actions --> Publish JUnit test results – Display unit-test results in Jenkins.
 
 --------------------------------------------------------------------------------------
 
