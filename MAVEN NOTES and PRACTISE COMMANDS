@@ -66,7 +66,18 @@ to specify the creditails (for private repo: use username and password)
 Branch Specifier : Main/master/defect/preprod/test1
 Build Steps --> Execute shell : /opt/maven/bin/mvn compile/test/verify/package.
 Post-build Actions --> None
-
+------------------------------------------------------------------------------------
+Stage 2 - code review
+desc: Performs code quality and static analysis checks to identify coding issues, 
+      vulnerabilities, and maintainability concerns before proceeding to the next stage.
+Build Steps --> Execute shell : /opt/maven/bin/mvn -P metrics pmd:pmd
+Post-build Actions --> None
+------------------------------------------------------------------------------------
+Stage 1 - compile 
+desc: Performs code quality and static analysis checks to identify coding issues, 
+      vulnerabilities, and maintainability concerns before proceeding to the next stage.
+Build Steps --> Execute shell : /opt/maven/bin/mvn 
+Post-build Actions --> None
 ========================================================================================
 
 
