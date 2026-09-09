@@ -109,6 +109,11 @@ desc: Executes the Maven verify phase to validate the build, run configured test
 Build Steps --> Execute shell : /opt/maven/bin/mvn verify
 Post-build Actions --> Publish JUnit test results – Display unit-test results in Jenkins.
 
+Re Configure the Job - and add 
+POST BUILD ACTIONS : Record JaCoCo coverage report.
+
+Check the Coverage code - (more should be green)
+
 
 ========================================================================================
 
