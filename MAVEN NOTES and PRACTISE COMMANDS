@@ -77,12 +77,13 @@ Post-build Actions --> None
 
 ====||==== Result : The generated result will be in WORKSPACE :  /var/lib/jenkins/workspace/spinbuild1-verify ( use in mobaxterm)
 
- Building in workspace /var/lib/jenkins/workspace/spinbuild1-verify
- cd /var/lib/jenkins/workspace/spinbuild1-verify
- ls
- cd target
- ls
- cat pmd.xml
+Building in workspace /var/lib/jenkins/workspace/spinbuild1-verify
+cd /var/lib/jenkins/workspace/spinbuild1-verify
+ls
+cd target
+ls
+cat pmd.xml - non readable format so use plugin to convert the code to readable format.
+
 
 ------------------------------------------------------------------------------------
 Stage 1 - compile 
