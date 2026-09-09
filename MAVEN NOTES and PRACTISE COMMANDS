@@ -113,6 +113,13 @@ Re Configure the Job - and add
 POST BUILD ACTIONS : Record JaCoCo coverage report.
 
 Check the Coverage code - (more should be green)
+------------------------------------------------------------------------------------------------------
+Stage 5 - Code Package
+
+desc: Executes the Maven package phase to compile the source code, run tests, 
+      and package the application into a deployable artifact such as a JAR or WAR file.
+Build Steps -->Execute shell : /opt/maven/bin/mvn package
+POST BUILD ACTIONS : None.
 
 
 ========================================================================================
