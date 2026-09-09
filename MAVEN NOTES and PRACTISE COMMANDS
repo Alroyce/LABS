@@ -27,7 +27,7 @@ path : git
 
 Maven Installation -
 Name : Maven 
-path : /opt/maven
+path : /opt/maven/bin/mvn 
 
 
 ---------------------------------------------------------------------------------------------------------------
