@@ -73,7 +73,7 @@ desc: Performs code quality and static analysis checks to identify coding issues
 Build Steps --> Execute shell : /opt/maven/bin/mvn -P metrics pmd:pmd
 Post-build Actions --> None
 
-|| Result : The generated result will be in WORKSPACE :  /var/lib/jenkins/workspace/spinbuild1-verify ( use in mobaxterm)
+====||==== Result : The generated result will be in WORKSPACE :  /var/lib/jenkins/workspace/spinbuild1-verify ( use in mobaxterm)
 
  Building in workspace /var/lib/jenkins/workspace/spinbuild1-verify
  cd /var/lib/jenkins/workspace/spinbuild1-verify
