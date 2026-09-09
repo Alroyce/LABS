@@ -61,6 +61,7 @@ continously compiling     -
 -------------------------------------------------------------------------------------------------------------------------
 
 Stage 1 - compile 
+
 select project : Freestyle
 description : Compiles the Maven project source code and validates successful compilation.
 souce code management : https://github.com/Alroyce/Java1.git
@@ -70,6 +71,7 @@ Build Steps --> Execute shell : /opt/maven/bin/mvn compile/test/verify/package.
 Post-build Actions --> None
 ------------------------------------------------------------------------------------
 Stage 2 - code review
+
 desc: Performs code quality and static analysis checks to identify coding issues, 
       vulnerabilities, and maintainability concerns before proceeding to the next stage. 
 Build Steps --> Execute shell : /opt/maven/bin/mvn -P metrics pmd:pmd
@@ -86,7 +88,8 @@ cat pmd.xml - non readable format so use plugin to convert the code to readable 
 
 
 ------------------------------------------------------------------------------------
-Stage 1 - compile 
+Stage 3 - test
+
 desc: Performs code quality and static analysis checks to identify coding issues, 
       vulnerabilities, and maintainability concerns before proceeding to the next stage.
 Build Steps --> Execute shell : /opt/maven/bin/mvn 
