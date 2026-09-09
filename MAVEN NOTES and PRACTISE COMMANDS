@@ -62,6 +62,7 @@ Stage 1 - compile
 select project : Freestyle
 description : Compiles the Maven project source code and validates successful compilation.|Executes Maven unit tests and validates that all tests pass successfully.|
 souce code management : https://github.com/Alroyce/Java1.git
+to specify the creditails (for private repo: use username and password)
 Branch Specifier : Main/master/defect/preprod/test1
 Build Steps --> Execute shell : /opt/maven/bin/mvn compile/test/verify/package.
 Post-build Actions --> None
