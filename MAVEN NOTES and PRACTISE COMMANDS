@@ -7,7 +7,7 @@ install maven
 
 Build code process :-
 compile
-code review
+code review :-
 unit test
 code coverage.
 package
