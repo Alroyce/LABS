@@ -92,6 +92,9 @@ Jenkins- Manage jenkins - plugins - WARNINGS - install.
 Re Configure the Job - and add 
 POST BUILD ACTIONS : Record compiler -> tool -> PMD --> Report File Pattern --> **/pmd.xml.
 
+INFO : if there is no internet then download and upload in the file format 
+download the direct file -> manage jenkins -> plugins - Advanced settings -> choose file (choose the selected file )
+
 ------------------------------------------------------------------------------------
 Stage 3 - test
 
