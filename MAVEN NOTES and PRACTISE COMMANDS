@@ -60,7 +60,7 @@ continously compiling     -
 
 Stage 1 - compile 
 select project : Freestyle
-description : Compiles the Maven project source code and validates successful compilation.|Executes Maven unit tests and validates that all tests pass successfully.|
+description : Compiles the Maven project source code and validates successful compilation.
 souce code management : https://github.com/Alroyce/Java1.git
 to specify the creditails (for private repo: use username and password)
 Branch Specifier : Main/master/defect/preprod/test1
