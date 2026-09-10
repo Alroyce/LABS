@@ -1,6 +1,25 @@
 =================================================================    Git  =============================================================================
 What is Git?
+= Git is a distributed version control system that helps track and manage changes in code over time. 
+  It allows multiple developers to work on the same project, view previous versions, and restore changes when needed.
+
+Features of Git
+1. Version Control System: Git keeps track of every change you make to your project files. You can go back to previous versions is any requirement arises.
+
+2. Repositories: A Git repository (or repo) is like a project's central hub where everything related to your work is stored and managed. There are two main types:
+Local Repository: This is a copy of the repository which is stored in your computer. You can work on your project and make changes here.
+Remote Repository: This is stored on a server, like GitHub, where you and others can share and work on a project.
+
+3. Commits: Every time you make changes and save them in Git, these are called commits. The repository keeps track of all the commits you have made.
+
+4. Branches: A repository allows you to create Branches and work on new features and fixes. For example, you can have a "main" branch for stable code and a "feature" branch for new features you're developing.
+
+5. Merging: Once you are done with the branches you have made, you can merge those branches into main branch. This adds the changes you have made in the rest of the project.
+
+6. Cloning: Cloning is a process of making a complete copy of Git repository. It's like copying the entire project from central location ( like website) to your own computer.
+
 Difference between Git and GitHub?
+= 
 Explain git clone, git pull, git fetch.
 Difference between git merge and git rebase.
 What is a Git branch?
