@@ -153,13 +153,13 @@ What is Jenkins and why is it used?
 = Fast Feedback: It alerts developers immediately if a code change breaks a build or fails a test. 
 
 What is the difference between a Freestyle project and a Pipeline ?
-= Feature	              ||  Freestyle Project                 ||	Pipeline Project 📜
-  How you set it up	    || Clicking options in a visual menu	||  Writing a text script called a Jenkinsfile
-  Complexity	          || Best for simple, single-step tasks	||  Best for complex, multi-stage workflows
-  History & Backup	Hard to track changes or save in Git	Easy to save in Git alongside your app code
-  If Jenkins crashes	The running job is lost and stops	The job automatically resumes where it left off
-  Advanced features	Limited; hard to do things at the same time	Can run tasks in parallel, pause for human approval, and loop
-
+=   Feature	            ||  Freestyle Project                     ||	Pipeline Project 📜
+   How you set it up	  || Clicking options in a visual menu    	 ||  Writing a text script called a Jenkinsfile
+   Complexity	          || Best for simple, single-step tasks   	||  Best for complex, multi-stage workflows
+   History & Backup	    || Hard to track changes or save in Git	  ||  Easy to save in Git alongside your app code
+   If Jenkins crashes	  || The running job is lost and stops      ||	The job automatically resumes where it left off
+   Advanced features    || Limited; hard to do things at the      ||Can run tasks in parallel, pause for human approval, and loop
+                            same time	
 
 
 What is a Jenkins controller and agent ?
