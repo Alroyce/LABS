@@ -20,7 +20,9 @@ Remote Repository: This is stored on a server, like GitHub, where you and others
 
 Difference between Git and GitHub?
 = 
-Explain git clone, git pull, git fetch.
+Explain git clone, git pull, git fetch ?
+= 
+
 Difference between git merge and git rebase.
 What is a Git branch?
 How do you create and delete a branch?
