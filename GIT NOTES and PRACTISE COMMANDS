@@ -73,13 +73,13 @@ Difference between git reset and git revert ?
                                     like - obs3466nkndhh45677 - (Head -> Main)
 
 What is .gitignore ?
-= 
+= A .gitignore file is a special text file that tells Git which files and folders to ignore so it does not track them.
 
 How do you check commit history ?
-=
+= git log --oneline = show all the commits.
 
 How do you undo the last commit?
-= 
+= git reset --soft HEAD~1.
 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--------GIT NOTES and PRACTISE COMMANDS---------&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
