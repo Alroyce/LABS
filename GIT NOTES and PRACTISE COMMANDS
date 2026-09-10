@@ -34,15 +34,35 @@ Difference between git merge and git rebase ?
  A --- B --- C  (main)
                \
                 D --- E  (feature)
-git checkout feature
-git rebase main
+== git checkout feature
+== git rebase main
 
 What is a Git branch ?
-= 
+= A Git branch is a separate, safe workspace used to make changes to a project without affecting the main code.
 
-How do you create and delete a branch?
-What is a merge conflict and how do you resolve it?
-What is git stash?
+How do you create and delete a branch ?
+= git branch -b checkout newbranch  = create new branch and redirects to it.
+= git branch -d main/preprod = to delete a branch.
+
+What is a merge conflict and how do you resolve it ?
+= A merge conflict is an event that happens when Git cannot automatically combine 
+            different changes made to the same file in separate branches
+
+= Find the problem using  (git status) to see affected files.
+= Look for special lines called conflict markers:
+   <<<<<<< HEAD shows your current branch code.
+   ======= is the dividing line.
+   >>>>>>> branch_name shows the incoming code from the other branch.
+   (<<<<<<<, =======, >>>>>>>). 
+   Edit the text to keep the code you want. 
+  Save the file.
+  Run git add <filename> to stage the file. 
+  Run git commit to finish the mergeLook for special lines called conflict markers
+ 
+
+What is git stash ?
+
+
 Difference between git reset and git revert.
 What is .gitignore?
 How do you check commit history?
