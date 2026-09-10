@@ -1,4 +1,16 @@
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--------GIT NOTES and PRACTISE COMMANDS---------&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+=================================================================    Git  =============================================================================
+What is Git?
+Difference between Git and GitHub?
+Explain git clone, git pull, git fetch.
+Difference between git merge and git rebase.
+What is a Git branch?
+How do you create and delete a branch?
+What is a merge conflict and how do you resolve it?
+What is git stash?
+Difference between git reset and git revert.
+What is .gitignore?
+How do you check commit history?
+How do you undo the last commit?&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--------GIT NOTES and PRACTISE COMMANDS---------&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 workflow 
 
