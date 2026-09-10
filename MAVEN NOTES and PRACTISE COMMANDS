@@ -155,11 +155,14 @@ What is Jenkins and why is it used?
 What is the difference between a Freestyle project and a Pipeline ?
 = 
 
+What is a Jenkins controller and agent ?
+= 
 
+What is the Jenkins built-in node ?
+=
 
-What is a Jenkins controller and agent?
-What is the Jenkins built-in node?
 Why should builds generally run on agents instead of the controller?
+= 
 How do you configure a Freestyle project?
 What are Source Code Management (SCM) options in Jenkins?
 How do you integrate Jenkins with Git?
