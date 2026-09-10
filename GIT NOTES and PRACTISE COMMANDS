@@ -1,6 +1,6 @@
 =================================================================    Git  =============================================================================
 What is Git?
-= Git is a distributed version control system that helps track and manage changes in code over time. 
+= Git is a distributed version control seystem that helps track and manage changes in code over time. 
   It allows multiple developers to work on the same project, view previous versions, and restore changes when needed.
 
 Features of Git
