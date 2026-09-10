@@ -152,7 +152,7 @@ What is Jenkins and why is it used?
 = Error Reduction: It replaces repetitive manual tasks with automated sequences, lowering the chance of human mistakes. 
 = Fast Feedback: It alerts developers immediately if a code change breaks a build or fails a test. 
 
-What is the difference between a Freestyle project and a Pipeline?
+What is the difference between a Freestyle project and a Pipeline ?
 = 
 
 
