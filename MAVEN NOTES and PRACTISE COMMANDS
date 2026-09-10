@@ -168,20 +168,22 @@ What is a Jenkins controller and agent ?
 What is the Jenkins built-in node ?
 =
 
-Why should builds generally run on agents instead of the controller?
+Why should builds generally run on agents instead of the controller ?
 = 
 
-How do you configure a Freestyle project?
+How do you configure a Freestyle project ?
 = 
 
-What are Source Code Management (SCM) options in Jenkins?
+What are Source Code Management (SCM) options in Jenkins ?
 =
 
-How do you integrate Jenkins with Git?
-What are build triggers in Jenkins?
-What is the difference between Build Now, Poll SCM, and Webhook?
-What are Jenkins environment variables?
-How do you pass parameters to a Jenkins job?
+How do you integrate Jenkins with Git ?
+
+What are build triggers in Jenkins ?
+What is the difference between Build Now, Poll SCM, and Webhook ?
+
+What are Jenkins environment variables ?
+How do you pass parameters to a Jenkins job ?
 What is a Jenkins workspace?
 How do you clean the Jenkins workspace?
 How do you archive artifacts in Jenkins?
@@ -195,7 +197,8 @@ How do you bring an offline Jenkins node back online?
 How do you manage Jenkins credentials?
 How do you restrict who can execute a Jenkins job?
 How do you configure email/Slack notifications for failed builds?
-Maven
+
+====================================================================Maven============================================================================
 What is Maven?
 What is the purpose of pom.xml?
 Explain the Maven lifecycle.
@@ -215,20 +218,8 @@ What is the Maven Surefire plugin?
 How do you skip tests in Maven?
 How do you run a specific test?
 How do you troubleshoot Maven dependency errors?
-Git
-What is Git?
-Difference between Git and GitHub?
-Explain git clone, git pull, git fetch.
-Difference between git merge and git rebase.
-What is a Git branch?
-How do you create and delete a branch?
-What is a merge conflict and how do you resolve it?
-What is git stash?
-Difference between git reset and git revert.
-What is .gitignore?
-How do you check commit history?
-How do you undo the last commit?
-Linux
+
+==================================================================Linux==========================================================================
 For 2 years of DevOps experience, expect practical Linux questions:
 
 How do you check disk usage?
@@ -245,7 +236,7 @@ How do you check the status of a service?
 How do you view logs?
 What is a shell script?
 How do you schedule a job using cron?
-Docker
+=============================================================Docker========================================================================
 What is Docker?
 Difference between a Docker image and container.
 What is a Dockerfile?
