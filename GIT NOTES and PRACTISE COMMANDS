@@ -72,9 +72,15 @@ Difference between git reset and git revert ?
    git reset - obs3466nkndhh45677  = its going to point out the header to the specific commit 
                                     like - obs3466nkndhh45677 - (Head -> Main)
 
-What is .gitignore?
-How do you check commit history?
+What is .gitignore ?
+= 
+
+How do you check commit history ?
+=
+
 How do you undo the last commit?
+= 
+
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--------GIT NOTES and PRACTISE COMMANDS---------&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
