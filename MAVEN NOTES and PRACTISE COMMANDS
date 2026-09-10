@@ -142,8 +142,15 @@ Jenkins - Similar tools ==== Jenkins, AWS CODE BUILD, Gitlab CI, Github Actions.
 What is Jenkins - Jenkins is a tool that helps us to automate the build code process and also as build automation server.
 Jenkins PORT - 8080
 
-Jenkins
+==============================================================================Jenkins========================================================================================================================
 What is Jenkins and why is it used? 
+= Jenkins is a free, open-source automation server used to automate the building, testing, and deployment of software.
+= Why is Jenkins Used? 
+= Continuous Integration (CI): It automatically builds and tests code every single time a developer commits changes to a shared repository. 
+= Continuous Delivery/Deployment (CD): It streamlines the path from development to production, pushing verified code to testing or live servers without manual work.
+= Error Reduction: It replaces repetitive manual tasks with automated sequences, lowering the chance of human mistakes. 
+= Fast Feedback: It alerts developers immediately if a code change breaks a build or fails a test. 
+
 What is the difference between a Freestyle project and a Pipeline?
 What is a Jenkins controller and agent?
 What is the Jenkins built-in node?
