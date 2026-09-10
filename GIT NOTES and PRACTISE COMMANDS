@@ -25,7 +25,7 @@ Difference between Git and GitHub?
 Explain git clone, git pull, git fetch ?
 = git clone = used to clone the project into local repo.
 = git fetch = used to check the cloud for new updates but doesnot change you personal files.
-= git pull = used to pull all the updated to the local epository.
+= git pull = used to pull all the updated to the local repository.
 
 Difference between git merge and git rebase ?
 = git merge = combines branches by creating a new "merge commit" while keeping your history exactly as it happened.
@@ -41,7 +41,7 @@ What is a Git branch ?
 = A Git branch is a separate, safe workspace used to make changes to a project without affecting the main code.
 
 How do you create and delete a branch ?
-= git branch -b checkout newbranch  = create new branch and redirects to it.
+= git checkout -b newbranch  = create new branch and redirects to it.
 = git branch -d main/preprod = to delete a branch.
 
 What is a merge conflict and how do you resolve it ?
@@ -58,15 +58,25 @@ What is a merge conflict and how do you resolve it ?
   Save the file.
   Run git add <filename> to stage the file. 
   Run git commit to finish the mergeLook for special lines called conflict markers
- 
 
 What is git stash ?
+= Git stash is a tool that lets you temporarily save your unfinished work so you can clean up your workspace without losing anything.
 
+Difference between git reset and git revert ?
 
-Difference between git reset and git revert.
+= git revert preserves history by creating a new "undo" commit.
+
+ git revert obs3466nkndhh45677  = its undos the changes done on the commit. and save a new commit as its makes some changes
+                                   Changes will be done, but the changes log histoy will be present
+=  git reset rewrites history by erasing commits
+   git reset - obs3466nkndhh45677  = its going to point out the header to the specific commit 
+                                    like - obs3466nkndhh45677 - (Head -> Main)
+
 What is .gitignore?
 How do you check commit history?
-How do you undo the last commit?&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--------GIT NOTES and PRACTISE COMMANDS---------&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+How do you undo the last commit?
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--------GIT NOTES and PRACTISE COMMANDS---------&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 workflow 
 
@@ -166,7 +176,8 @@ mv /root/defect/1.html /root/project/     - Used to move from 1 folder to anothe
 
 git revert obs3466nkndhh45677               -   its undos the changes done on the commit. and save a new commit as its makes some changes
                                                  Changes will be done, but the changes log histoy will be present
-git reset - obs3466nkndhh45677               -   its going to poisnt out the header to the specific commit 
+
+git reset - obs3466nkndhh45677               -   its going to point out the header to the specific commit 
                                                  like - obs3466nkndhh45677 - (Head -> Main)
   
 git REFLOG                                   -   to UNDO the changes After GIT RESET - use 
