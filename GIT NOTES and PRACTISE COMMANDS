@@ -31,6 +31,12 @@ Difference between git merge and git rebase ?
 = git merge = combines branches by creating a new "merge commit" while keeping your history exactly as it happened.
 = git rebase = rewrites your history by moving your branch's changes smoothly on top of another branch to form a straight, clean line.
 
+ A --- B --- C  (main)
+               \
+                D --- E  (feature)
+git checkout feature
+git rebase main
+
 What is a Git branch ?
 = 
 
