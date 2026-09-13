@@ -18,7 +18,7 @@ Features of Git
 
 6. Cloning: Cloning is a process of making a complete copy of Git repository. It's like copying the entire project from central location ( like website) to your own computer.
 
-Difference between Git and GitHub?
+Difference between Git and GitHub ?
                     GIT                                                                          GITHUB
 = A distributed version control system used to track and                    || A web-based platform that hosts Git repositories and enables collaboration
   manage code changes locally with features like branching and merging         through pull requests, issues and team management.
