@@ -121,13 +121,17 @@ desc: Executes the Maven package phase to compile the source code, run tests,
       and package the application into a deployable artifact such as a JAR or WAR file.
 Build Steps -->Execute shell : /opt/maven/bin/mvn package
 POST BUILD ACTIONS : None.
-----------------------------------------------------------------------------------------------------------
+
+=================================================================================================================================
 Building pipelines:
 
 Download the Build pipelines plugin and install in jenkins and run it
 
 click on the + button to add a pipeline -> Name the job -> Select the initial step -> select the frequency for refreshing -> 
 -> check for the number of builds -> done/create
+
+-> In the created jobs (like compile, test, verify, package) In triggers -> select the Trigger (poll SCM / webhooks) 
+-> Build after other projects -> ( Enter the jobs build to be next ).
 
 -> 
 
