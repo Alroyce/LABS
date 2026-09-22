@@ -32,6 +32,7 @@ path : /opt/maven/bin/mvn
 
 ---------------------------------------------------------------------------------------------------------------
 df h  - check the size of the vm occupied.
+ps -ef              = process status - all pocess - full format
 java --version
 mvn --version
 
