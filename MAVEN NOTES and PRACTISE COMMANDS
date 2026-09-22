@@ -133,7 +133,9 @@ click on the + button to add a pipeline -> Name the job -> Select the initial st
 -> In the created jobs (like compile, test, verify, package) In triggers -> select the Trigger (poll SCM / webhooks) 
 -> Build after other projects -> ( Enter the jobs build to be next ).
 
--> 
+====================================================================================================================================
+
+
 
 
 
