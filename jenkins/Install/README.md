@@ -46,7 +46,7 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 -------------------------------------------------------------------------------------
-New Jenkins link 
+New Jenkins link -------- 
 
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
 
