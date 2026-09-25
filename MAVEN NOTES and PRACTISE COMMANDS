@@ -141,6 +141,15 @@ Pipeline as code :-
 ====================================================================================================================================
 Once the code is downloaded - copy the code to desktop and webapps.
 
+Using the SCP command
+
+
+
+Copy a Local File to a Remote Server
+scp file.txt user@remotehost:/remote/directory/
+= scp -i key.pem sampleapp.war ubuntu@98.130.121.139/root/apache/webapps
+
+
 
 
 
