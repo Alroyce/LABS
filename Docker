@@ -1,0 +1,68 @@
+java -v
+  102  java -version
+  103  git -version
+  104  git -v
+  105  docker -v
+  106  sudo wget https://raw.githubusercontent.com/lerndevops/labs/master/scripts/installDocker.sh -P /tmp
+  107  sudo chmod 755 /tmp/installDocker.sh
+  108  sudo bash /tmp/installDocker.sh
+  109  ls
+  110  docker -v
+  111  docker ps
+  112  docker image ls
+  113  $ docker run -p 8080:8080 -d dhi.io/tomcat:<tag>
+  114  $ docker run -p 8080:8080 -d dhi.io/tomcat:1
+  115  docker pull nginx:stable-alpine3.24
+  116  docker ps
+  117  exit
+  118  docker ps
+  119  docker pull nginx:stable-alpine3.24
+  120  docker ps
+  121  docker image ls
+  122  docker run -d -p nginx:stable-alpine3.24
+  123  docker run -d -P nginx:stable-alpine3.24
+  124  docker ps
+  125  docker image ls
+  126  ls
+  127  clear
+  128  docker image ls
+  129  docker ps
+  130  docker pull nginx:stable-alpine3.24
+  131  docke image ls
+  132  docker image ls
+  133  docker pull alpine:latest
+  134  docker ps
+  135  docker image ls
+  136  docker run -d --apline:latest -p 8080:80
+  137  docker run -d --apline:latest
+  138  docker run -d
+  139  docke ps
+  140  docker ps
+  141  docker image ls
+  142  docker -v
+  143  ls
+  144  dcoker -v
+  145  docker -v
+  146  ls
+  147  docker pull lerndevops/myapp01:sampleapp-v1
+  148  docker ps
+  149  docker image ls
+  150  nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
+  151  docker pull lerndevops/myapp01:sampleapp-v1
+  152  docker ps
+  153  docker image ls
+
+
+===============================================================================================================================
+
+docker -v        = to check the docker installed version.
+docker pull      = pull the docker command from the docker hub.
+ ex : docker pull lerndevops/myapp01:sampleapp-v1
+
+docker ps        = used to list all active, currently running Docker containers on your system.
+docker image ls  = to list all the downloaded image.
+ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
+
+sudo usermod -aG docker ubuntu(username of vm)   =  The command sudo usermod -aG docker ubuntu adds the user ubuntu to the docker supplementary group.
+                                                    This permits that user to run Docker commands without needing to prefix them with sudo.
+
