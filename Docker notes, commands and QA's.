@@ -91,7 +91,7 @@ docker logs my-conatainer                   = to check the container logs.
 
 docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
 
-Troubleshooting of the container ------
+----Troubleshooting of the container ------
 docker inspect my-container                 = used to inspect the container.
 docker logs container-id                    = Logs/output produced by the docker container.
 docker stats cont-id                        = to check the resource utilization.
@@ -110,8 +110,10 @@ ipaddr → text you're searching for
 
 # curl - command is used to make a request to the URL.
  ex : curl container-ip (from stats conmand) : cont-port no
+ ex: curl 17.52.3.5:80 
+** the generated ip is a container ip and cannot be access by browser.
 
-
+# 
 
 
 
