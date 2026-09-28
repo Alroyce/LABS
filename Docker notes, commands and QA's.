@@ -75,12 +75,12 @@ ex: docker image rm nginx:stable-alpine3.24
 ex: docker image inspect tomcat:8.5.1
 
 docker container ls                  =   to check if any container is running.
-docker ps -a                         =   check container in hidden mode.
-docker stop my-container                =   to stop container.
-docker stop my-container my-container   = stop multiple container - on a running container
-docker start my-container               = to start a container. 
-docker start my-container my-container  = start multiple container. -  on a created container.
-docker run nginx:stable-alpine3.24      = run interactive container.
+docker ps -a                                =   check container in hidden mode.
+docker stop my-container                    =   to stop container.
+docker stop my-container my-container       = stop multiple container - on a running container
+docker start my-container                   = to start a container. 
+docker start my-container my-container      = start multiple container. -  on a created container.
+docker run nginx:stable-alpine3.24          = run interactive container.
 
 
 
