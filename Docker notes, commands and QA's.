@@ -96,7 +96,7 @@ docker inspect my-container                 = used to inspect the container.
 docker logs container-id                    = Logs/output produced by the docker container.
 docker stats cont-id                        = to check the resource utilization.
 
-# docker run -d --memory 64M image-id:version            = setting a maximum limit for a conatiner.
+# docker run -d --memory 64M image-id:version = setting a maximum limit for a conatiner.
   ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
   ex : docker stats container-id   - show the exact 64memory out of memory used.
 
@@ -116,10 +116,10 @@ ipaddr → text you're searching for
 # docker run -d -P tomcat:8.5.1  = run command with port forwarding - can be accessible by the browser.
  docker ps - shows the output.
 
-# docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080 
+# docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080
  -p (small p is used for allocation of port no)
 
-#
+# 
 
 
 
