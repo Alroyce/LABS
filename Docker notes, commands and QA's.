@@ -111,7 +111,7 @@ ipaddr → text you're searching for
 # curl - command is used to make a request to the URL.
  ex : curl container-ip (from stats conmand) : cont-port no
  ex: curl 17.52.3.5:80 
-** the generated ip is a container ip and cannot be access by browser.
+** the generated ip is a container ip and cannot be access by browser so we require port forwarding.
 
 # 
 
