@@ -75,8 +75,8 @@ docker image rm image:version                        = to delete the image.
   ex: docker image inspect tomcat:8.5.1
 
 docker rm (cont-ID)                         = to remove the cont id.
-docker rm (cont-ID) (cont-ID) (cont-ID)     = t remove the container by force.
-
+docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container multiple.
+docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container by force.
 
 docker container ls                         =   to check if any container is running.
 docker ps -a                                =   check container in hidden mode.
