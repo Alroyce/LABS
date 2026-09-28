@@ -96,6 +96,10 @@ docker inspect my-container                 = used to inspect the container.
 docker logs container-id                    = Logs/output produced by the docker container.
 docker stats cont-id                        = to check the resource utilization.
 
+docker run -d --memory 64M image-id:version            = setting a maximum limit for a conatiner.
+ ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
+ ex : docker stats container-id
+
 
 
 ==============================================================================================================================================
