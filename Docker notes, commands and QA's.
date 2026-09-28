@@ -94,6 +94,11 @@ what is docker image ?
 = its the package of an application along with its dependies as single deployable package.
 = whicb is ready to use as a software application bundle that is sitting on your hard disk bundle.
 
+what is docker container ?
+= is the runtime instance of an image/application.
+= runtime instance is always the running process that consume the cpu/ram.
+
+
 
 
 
