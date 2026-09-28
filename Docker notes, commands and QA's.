@@ -114,6 +114,8 @@ ipaddr → text you're searching for
 ** the generated ip is a container ip and cannot be access by browser so we require port forwarding.
 
 # docker run -d -P tomcat:8.5.1  = run command with port forwarding - can be accessible by the browser.
+ docker ps - shows the output.
+
 
 
 
