@@ -87,6 +87,7 @@ docker start my-container my-container      = start multiple container. -  on a 
 docker run nginx:stable-alpine3.24          = run interactive container.
 docker restart my-container                 =  to restart a container.
 
+docker logs my-conatainer                   = to check the container logs.
 
 
 ==============================================================================================================================================
