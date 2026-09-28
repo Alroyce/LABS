@@ -100,6 +100,18 @@ docker run -d --memory 64M image-id:version            = setting a maximum limit
   ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
   ex : docker stats container-id   - show the exact 64memory out of memory used.
 
+# Grep - command is used to output.
+  ex : docker inspect edf1eeade377 | grep -i ipaddr
+docker inspect ... → produces lots of information
+| → sends that output to the next command
+grep → searches the output
+-i → ignore uppercase/lowercase differences
+ipaddr → text you're searching for
+
+# curl - command is used to make a request to the URL.
+ ex : curl container-ip (from stats conmand) : cont-port no
+
+
 
 
 
@@ -125,6 +137,8 @@ what is docker container ?
 = runtime instance is always the running process that consume the cpu/ram.
 = single container = single instance of an application.
 = from single image we can run multiple containers.
+
+
 
 
 
