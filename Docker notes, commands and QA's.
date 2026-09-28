@@ -78,6 +78,12 @@ docker container ls             =   to check if any container is running.
 docker ps -a                    =   check container in hidden mode.
 docker stop my-container        = to stop container.
 
+==============================================================================================================================================
+
+What is docker ?
+= its a way of deploying application onto many servers.
+= its packaging an application along with its dependies as a single deployable package.
+
 
 
 
