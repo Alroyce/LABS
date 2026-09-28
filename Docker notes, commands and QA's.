@@ -80,11 +80,19 @@ docker stop my-container        = to stop container.
 
 ==============================================================================================================================================
 
-What is docker ?
+What is containerization ?
 = its a way of deploying application onto many servers.
 = its packaging an application along with its dependies as a single deployable package.
 
+What is docker ?
+= Docker is an open platform for developing, shipping, and running applications.
 
+how do you build and run container packages ?
+= we need containerization/container untime tool.
+
+what is docker image ?
+= its the package of an application along with its dependies as single deployable package.
+= whicb is ready to use as a software application bundle that is sitting on your hard disk bundle.
 
 
 
