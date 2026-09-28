@@ -81,6 +81,7 @@ docker stop my-container my-container       = stop multiple container - on a run
 docker start my-container                   = to start a container. 
 docker start my-container my-container      = start multiple container. -  on a created container.
 docker run nginx:stable-alpine3.24          = run interactive container.
+docker restart my-container                 =  to restart a container.
 
 
 
