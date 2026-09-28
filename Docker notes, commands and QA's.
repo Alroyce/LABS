@@ -55,48 +55,48 @@
 
 ===========================================================================================================================================
 
-docker -v                  = to check the docker installed version.
-docker pull                = pull the docker command from the docker hub.
- ex : docker pull lerndevops/myapp01:sampleapp-v1
+# docker -v                  = to check the docker installed version.
+  docker pull                = pull the docker command from the docker hub.
+   ex : docker pull lerndevops/myapp01:sampleapp-v1
 
-docker ps                      = used to list all active, currently running Docker containers on your system.
-docker image ls                = to list all the downloaded image.
-  ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
+# docker ps                      = used to list all active, currently running Docker containers on your system.
+  docker image ls                = to list all the downloaded image.
+    ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
 
-sudo usermod -aG docker ubuntu(username of vm)      =  The command sudo usermod -aG docker ubuntu adds the user ubuntu to the docker supplementary group.
+# sudo usermod -aG docker ubuntu(username of vm)      =  The command sudo usermod -aG docker ubuntu adds the user ubuntu to the docker supplementary group.
                                                       This permits that user to run Docker commands without needing to prefix them with sudo.
 
-docker image inspect image:version                  = to inspect any image 
+# docker image inspect image:version                  = to inspect any image 
   ex : docker image inspect nginx:stable-alpine3.24
   ex : docker image inspect tomcat:8.5.1
 
-docker image rm image:version                        = to delete the image.
+# docker image rm image:version                        = to delete the image.
   ex: docker image rm nginx:stable-alpine3.24
   ex: docker image inspect tomcat:8.5.1
 
-docker rm (cont-ID)                         = to remove the cont id.
-docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container multiple.
-docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container by force.
+# docker rm (cont-ID)                         = to remove the cont id.
+  docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container multiple.
+  docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container by force.
 
-docker container ls                         =   to check if any container is running.
-docker ps -a                                =   check container in hidden mode.
-docker stop my-container                    =   to stop container.
-docker stop my-container my-container       = stop multiple container - on a running container
-docker start my-container                   = to start a container. 
-docker start my-container my-container      = start multiple container. -  on a created container.
-docker run nginx:stable-alpine3.24          = run interactive container.
-docker restart my-container                 =  to restart a container.
+# docker container ls                         =   to check if any container is running.
+  docker ps -a                                =   check container in hidden mode.
+  docker stop my-container                    =   to stop container.
+  docker stop my-container my-container       = stop multiple container - on a running container
+  docker start my-container                   = to start a container. 
+  docker start my-container my-container      = start multiple container. -  on a created container.
+  docker run nginx:stable-alpine3.24          = run interactive container.
+  docker restart my-container                 =  to restart a container.
 
-docker logs my-conatainer                   = to check the container logs.
+# docker logs my-conatainer                   = to check the container logs.
 
 docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
 
-----Troubleshooting of the container ------
+# ----Troubleshooting of the container ------
 docker inspect my-container                 = used to inspect the container.
 docker logs container-id                    = Logs/output produced by the docker container.
 docker stats cont-id                        = to check the resource utilization.
 
-docker run -d --memory 64M image-id:version            = setting a maximum limit for a conatiner.
+# docker run -d --memory 64M image-id:version            = setting a maximum limit for a conatiner.
   ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
   ex : docker stats container-id   - show the exact 64memory out of memory used.
 
@@ -113,7 +113,9 @@ ipaddr → text you're searching for
  ex: curl 17.52.3.5:80 
 ** the generated ip is a container ip and cannot be access by browser so we require port forwarding.
 
-# 
+# docker run -d -P tomcat:8.5.1  = run command with port forwarding - can be accessible by the browser.
+
+
 
 
 
