@@ -61,18 +61,18 @@ docker pull                = pull the docker command from the docker hub.
 
 docker ps                      = used to list all active, currently running Docker containers on your system.
 docker image ls                = to list all the downloaded image.
-ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
+  ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
 
 sudo usermod -aG docker ubuntu(username of vm)      =  The command sudo usermod -aG docker ubuntu adds the user ubuntu to the docker supplementary group.
                                                       This permits that user to run Docker commands without needing to prefix them with sudo.
 
 docker image inspect image:version                  = to inspect any image 
-ex : docker image inspect nginx:stable-alpine3.24
-ex : docker image inspect tomcat:8.5.1
+  ex : docker image inspect nginx:stable-alpine3.24
+  ex : docker image inspect tomcat:8.5.1
 
 docker image rm image:version                        = to delete the image.
-ex: docker image rm nginx:stable-alpine3.24
-ex: docker image inspect tomcat:8.5.1
+  ex: docker image rm nginx:stable-alpine3.24
+  ex: docker image inspect tomcat:8.5.1
 
 docker rm (cont-ID)                         = to remove the cont id.
 docker rm (cont-ID) (cont-ID) (cont-ID)     = t remove the container by force.
