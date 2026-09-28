@@ -90,7 +90,12 @@ docker restart my-container                 =  to restart a container.
 docker logs my-conatainer                   = to check the container logs.
 
 docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
- 
+
+Troubleshooting of the container ------
+docker inspect my-container                 = used to inspect the container.
+docker logs container-id                    = Logs/output produced by the docker container.
+docker stats cont-id                        = to check the resource utilization.
+
 
 
 ==============================================================================================================================================
