@@ -116,6 +116,11 @@ ipaddr → text you're searching for
 # docker run -d -P tomcat:8.5.1  = run command with port forwarding - can be accessible by the browser.
  docker ps - shows the output.
 
+# docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080 
+ -p (small p is used for allocation of port no)
+
+#
+
 
 
 
