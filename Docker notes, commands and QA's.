@@ -97,8 +97,10 @@ docker logs container-id                    = Logs/output produced by the docker
 docker stats cont-id                        = to check the resource utilization.
 
 docker run -d --memory 64M image-id:version            = setting a maximum limit for a conatiner.
- ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
- ex : docker stats container-id   - show the exact 64memory out of memory used.
+  ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
+  ex : docker stats container-id   - show the exact 64memory out of memory used.
+
+
 
 
 
