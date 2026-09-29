@@ -182,7 +182,9 @@ ipaddr → text you're searching for
   RUN apt-get install
   TOUCH abc.txt
   RUN wget https...............
-= 
+= or RUN cd/usr/tomcat/webapps wget https://git.....................
+
+# 
   
 
 
