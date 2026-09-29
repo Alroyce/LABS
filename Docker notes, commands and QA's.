@@ -95,6 +95,8 @@ docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
 docker inspect my-container                 = used to inspect the container.
 docker logs container-id                    = Logs/output produced by the docker container.
 docker stats cont-id                        = to check the resource utilization.
+      or 
+docker exec -it cont-id /bin/bash           = starts a bash shell inside a login container.
 
 # docker run -d --memory 64M image-id:version = setting a maximum limit for a conatiner.
   ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
@@ -119,7 +121,8 @@ ipaddr → text you're searching for
 # docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080
  -p (small p is used for allocation of port no)
 
-# 
+# hostnamectl               = is a command-line tool in Linux used to query and change the system hostname and related network settings.
+# docker exec -it cont-id /bin/bash      = start a bash shell inside a running container.
 
 
 
