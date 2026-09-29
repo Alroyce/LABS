@@ -157,7 +157,20 @@ ipaddr → text you're searching for
 = from single image we can run multiple containers.
 
 # how you build a docker image ?
-= 
+= Yes, we can -
+  take a base image - (image from docke hub)
+  docker pull tomcat:8.4.5
+  run it as container - docker run -d tomcat:8.4.5
+  get inside container (login) - docker exec -it cont-id /bin/bash
+  make the changes & paste into the webapps - cd tomcat/webapps
+  copy the code to the webapps - wget tomcat/myapp.com
+  exit and cont should be runnning.
+  commit the changes - docker commit -m "new app name" myapp:v1
+  check the saved image in the list -- docker image ls
+   run the container.
+
+
+  
 
 
 
