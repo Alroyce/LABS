@@ -189,7 +189,9 @@ ipaddr → text you're searching for
   download the files tomcat wget tomcat ................
   download the files app wget sampleapp.war...........
   
-  create a 
+  expand the tar file - tar -xzf jdk
+  expand the tar file - tar -xzf tomcat
+  
   
   
 
