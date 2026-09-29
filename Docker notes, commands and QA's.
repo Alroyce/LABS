@@ -175,7 +175,14 @@ ipaddr → text you're searching for
 = its has 15 pre-defined keywords.
 = FROM, RUN, WORKDIR, COPY, CMD
 
-# 
+#EXAMPLE DOCKER FILE.
+= Docker example
+  FROM TOMCAT:10.0.1
+  RUN apt-get update
+  RUN apt-get install
+  TOUCH abc.txt
+  RUN wget https...............
+= 
   
 
 
