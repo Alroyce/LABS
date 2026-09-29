@@ -169,10 +169,13 @@ ipaddr → text you're searching for
   check the saved image in the list -- docker image ls
   run the container.
   update the inbound rules with the conatiner number:
-  
-  
-#
 
+# what is Dockerfile ?
+= Dockerfile is a plain text file which contains all the commands & instuction to assemble a automated image.
+= its has 15 pre-defined keywords.
+= FROM, RUN, WORKDIR, COPY, CMD
+
+# 
   
 
 
