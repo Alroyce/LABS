@@ -167,7 +167,8 @@ ipaddr → text you're searching for
   exit and cont should be runnning.
   commit the changes - docker commit -m "new app name" cont-id myapp:v1
   check the saved image in the list -- docker image ls
-   run the container.
+  run the container.
+  update the inbound rules with the conatiner number
 
 #
 
