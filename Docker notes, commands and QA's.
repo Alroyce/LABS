@@ -215,6 +215,22 @@ ubuntu@ip-172-31-9-18:~$ docker inspect applogs
         "Scope": "local"
     }
 = Mountpoint": "/var/lib/docker/volumes/applogs/_data",  --------- the is the place where logs are stored and gets deleted when cont is deleted.
+= docker inspect cont-id
+= cd /var/lib/docker/containers/
+= cd eiushdddjhsnois62tt434hbut4r4
+= ls -l
+
+data logs -----------
+= :12 b73b56d5a981a5231d9d832cc5b07129cdffc8d4ca56e7d938e2c733696e226c-json.log
+drwx------ 2 root root  4096 Sep 30 15:12 checkpoints
+-rw------- 1 root root  4786 Sep 30 15:12 config.v2.json
+-rw------- 1 root root  1483 Sep 30 15:12 hostconfig.json
+-rw-r--r-- 1 root root    13 Sep 30 15:12 hostname
+-rw-r--r-- 1 root root   172 Sep 30 15:12 hosts
+drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
+-rw-r--r-- 1 root root   271 Sep 30 15:12 resolv.conf
+-rw-r--r-- 1 root root    71 Sep 30 15:12 resolv.conf.hash
+
 = so we cant change for a running container, create it while creating the conatiner.
 = docker image ls --------
 = run the image -------
