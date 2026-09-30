@@ -84,6 +84,11 @@ ipaddr → text you're searching for
 = docker.io/alroyce/sampleapp:v1 - if there is a aloyce account
 = docker.io/lerndevops/sampleapp:v1 - if there is lernsdevops account
 
+* Docker login - In order to push
+* URL + Code enter
+* docker image ls - alroyce/sampleapp:v1
+* docker push alroyce/sampleapp:v1 - will be upoaded in the docker hub.
+
 # 
 
 
