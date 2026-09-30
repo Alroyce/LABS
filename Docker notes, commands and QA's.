@@ -77,10 +77,14 @@ ipaddr → text you're searching for
 # Docker build --file docfile --tag myapp:v1 /home/ubuntu = creating the build using the dock file.
 # Dockerfile are mostly build by developers.
 # Dockerhub is used to publish docker images.
+
+# docker push to docker hub
+= if there is no specified repo it will go to the library.
+= docker.io/library/sampleapp:v1 - if no account.
+= docker.io/alroyce/sampleapp:v1 - if there is a aloyce account
+= docker.io/lerndevops/sampleapp:v1 - if there is lernsdevops account
+
 # 
-
-
-
 
 
 
