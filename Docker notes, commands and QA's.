@@ -87,9 +87,42 @@ ipaddr → text you're searching for
 * Docker login - In order to push
 * URL + Code enter
 * docker image ls - alroyce/sampleapp:v1
+* docker tag alroyce/sampleapp1111:v1 alroyce/sampleapp:v1    - taging a alias name.  
 * docker push alroyce/sampleapp:v1 - will be upoaded in the docker hub.
 
-# 
+some troubleshooting steps ----------------------
+when we have container and when we delete contasiner
+= history
+= cd /var/lib/docker/containers
+  473  docker inspect ac127099a92d
+** = "ResolvConfPath": "/var/lib/docker/containers/d17dd4b750145384eb47ba6417d5b92ddc268f1cf7d74beaa9aa6ba085381abb/resolv.conf",
+container full id = d17dd4b750145384eb47ba6417d5b92ddc268f1cf7d74beaa9aa6ba085381abb
+
+  474  cd /var/lib/docker/containers
+  475  sudo cd /var/lib/docker/containers
+  476  sudo su -
+  325  ls
+  326  cat ac127099a92d239c39460b05f32596470e0a2c19e8c4b1129858109903ad1635
+  327  cd ac127099a92d239c39460b05f32596470e0a2c19e8c4b1129858109903ad1635
+  328  ls
+  329  ls -l
+  330  cd ..
+  331  ls -l
+  332  ls
+  333  docker rm ac127099a92d239c39460b05f32596470e0a2c19e8c4b1129858109903ad1635
+  334  ls -l
+  335  docker ps 
+
+
+
+
+
+
+# Docker Volumes------------------------
+# troubleshooting - of containers ----------------------
+
+docker 
+
 
 
 
