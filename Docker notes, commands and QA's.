@@ -113,11 +113,6 @@ container full id = d17dd4b750145384eb47ba6417d5b92ddc268f1cf7d74beaa9aa6ba08538
   334  ls -l
   335  docker ps 
 
-
-
-
-
-
 # Docker Volumes------------------------
 # troubleshooting - of containers ----------------------
 
@@ -201,9 +196,16 @@ docker
 OR
   CMD ["bash","/opt/tomcat/bin/startup.sh"] - CMD executes the command.
 
+# what is docker volumes ?
+= Docker volumes is used to store the logs persistantely to store and share the data outside the conatiner life cycle.
+= docker volume ls   - check if is available.
+= docker volume create applogs  - applogs volume is created.
+= docker inspect applogs        - to check the 
 
 
-# 
+
+
+
 
 =========================================================================================================================================================
 
