@@ -1,3 +1,170 @@
+
+===========================================================================================================================================
+
+# docker -v                  = to check the docker installed version.
+  docker pull                = pull the docker command from the docker hub.
+   ex : docker pull lerndevops/myapp01:sampleapp-v1
+
+# docker ps                      = used to list all active, currently running Docker containers on your system.
+  docker image ls                = to list all the downloaded image.
+    ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
+
+# sudo usermod -aG docker ubuntu(username of vm)      =  The command sudo usermod -aG docker ubuntu adds the user ubuntu to the docker supplementary group.
+                                                      This permits that user to run Docker commands without needing to prefix them with sudo.
+
+# docker image inspect image:version                  = to inspect any image 
+  ex : docker image inspect nginx:stable-alpine3.24
+  ex : docker image inspect tomcat:8.5.1
+
+# docker image rm image:version                        = to delete the image.
+  ex: docker image rm nginx:stable-alpine3.24
+  ex: docker image inspect tomcat:8.5.1
+
+# docker rm (cont-ID)                         = to remove the cont id.
+  docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container multiple.
+  docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container by force.
+
+# docker container ls                         =   to check if any container is running.
+  docker ps -a                                =   check container in hidden mode.
+  docker stop my-container                    =   to stop container.
+  docker stop my-container my-container       = stop multiple container - on a running container.
+  docker start my-container                   = to start a container. 
+  docker start my-container my-container      = start multiple container. -  on a created container.
+  docker run nginx:stable-alpine3.24          = run interactive container.
+  docker restart my-container                 =  to restart a container.
+
+# docker logs my-conatainer                   = to check the container logs.
+
+docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
+
+# ----Troubleshooting of the container ------
+
+docker inspect my-container                 = used to inspect the container.
+docker logs container-id                    = Logs/output produced by the docker container.
+docker stats cont-id                        = to check the resource utilization.
+      or 
+docker exec -it cont-id /bin/bash           = starts a bash shell inside a login container.
+
+# docker run -d --memory 64M image-id:version = setting a maximum limit for a conatiner.
+  ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
+  ex : docker stats container-id   - show the exact 64memory out of memory used.
+
+# Grep - command is used to output.
+  ex : docker inspect edf1eeade377 | grep -i ipaddr
+docker inspect ... → produces lots of information
+| → sends that output to the next command
+grep → searches the output
+-i → ignore uppercase/lowercase differences
+ipaddr → text you're searching for
+
+# curl - command is used to make a request to the URL.
+ ex : curl container-ip (from stats conmand) : cont-port no
+ ex: curl 17.52.3.5:80 
+** the generated ip is a container ip and cannot be access by browser so we require port forwarding.
+
+# docker run -d -P tomcat:8.5.1  = run command with port forwarding - can be accessible by the browser.
+ docker ps - shows the output.
+
+# docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080
+ -p (small p is used for allocation of port no)
+
+# -P = dynamic port forwarding
+# -p = static port forwarding
+
+# hostnamectl                            = is a command-line tool in Linux used to query and change the system hostname and related network settings.
+# docker exec -it cont-id /bin/bash      = start a bash shell inside a running container.
+
+# Docker build --file docfile --tag myapp:v1 /home/ubuntu = creating the build using the dock file.
+# Dockerfile are mostly build by developers.
+# Dockerhub is used to publish docker images.
+# 
+
+
+
+
+
+
+
+
+
+============================================================================================================================================================
+
+# What is containerization ?
+= its a way of deploying application onto many servers.
+= its packaging an application along with its dependies as a single deployable package.
+
+# What is docker ?
+= Docker is an open platform for developing, shipping, and running applications.
+
+# how do you build and run container packages ?
+= we need containerization/container untime tool.
+
+# what is docker image ?
+= its the package of an application along with its dependies as single deployable package.
+= whicb is ready to use as a software application bundle that is sitting on your hard disk bundle.
+
+# what is docker container ?
+= is the runtime instance of an image/application.
+= runtime instance is always the running process that consume the cpu/ram.
+= single container = single instance of an application.
+= from single image we can run multiple containers.
+
+# how you build a docker image ?
+= Yes, we can -
+  take a base image - (image from docke hub)
+  docker pull tomcat:8.4.5
+  run it as container - docker run -d tomcat:8.4.5
+  get inside container (login) - docker exec -it cont-id /bin/bash
+  make the changes & paste into the webapps - cd tomcat/webapps
+  copy the code to the webapps - wget tomcat/myapp.com
+  exit and cont should be runnning.
+  commit the changes - docker commit -m "new app name" cont-id myapp:v1
+  check the saved image in the list -- docker image ls
+  run the container.
+  update the inbound rules with the conatiner number:
+
+# what is Dockerfile ?
+= Dockerfile is a plain text file which contains all the commands & instuction to assemble a automated image.
+= its has 15 pre-defined keywords.
+= FROM, RUN, WORKDIR, COPY, CMD
+
+#EXAMPLE DOCKER FILE.
+= Docker example
+  FROM TOMCAT:10.0.1
+  RUN apt-get update
+  RUN apt-get install
+  TOUCH abc.txt
+  RUN wget https...............
+= or RUN cd/usr/tomcat/webapps wget https://git.....................
+
+# how to create a own image using the following, like tomcat, jdk, and sampleapp.war files fom git.?
+= download the files java wget jdk.1.......
+  download the files tomcat wget tomcat ................
+  download the files app wget sampleapp.war...........
+  
+  expand the tar file - tar -xzf jdk
+  expand the tar file - tar -xzf tomcat
+
+  create the file -- name -- vi dfile.
+  FROM ubuntu:10.04
+  ADD jdk.....   /opt - add the file to the directory
+  ADD jdk.....   /opt
+  RUN mv /opt/jdk....... /opt/java
+  RUN mv /opt/tomcat..... /opt/tomcat
+  COPY sampleapp.war /opt/tomcat/webapps                       ADD - copys the whole folder.
+  ENV JAVA_HOME /opt/java             - Java home              COPY - copys only the contents.
+  ENV JAVA_VERSION 1.11             
+  EXPOSE 8090                          - set the port
+  CMD ["/opt/tomcat/bin/startup.sh", "run"]
+OR
+  CMD ["bash","/opt/tomcat/bin/startup.sh"] - CMD executes the command.
+
+
+
+# 
+
+=========================================================================================================================================================
+
   101  java -v
   102  java -version
   103  git -version
@@ -399,169 +566,6 @@
   227  docker ps -a
   228  history
 
-
-===========================================================================================================================================
-
-# docker -v                  = to check the docker installed version.
-  docker pull                = pull the docker command from the docker hub.
-   ex : docker pull lerndevops/myapp01:sampleapp-v1
-
-# docker ps                      = used to list all active, currently running Docker containers on your system.
-  docker image ls                = to list all the downloaded image.
-    ex : nginx:stable-alpine3.24           0985e772fb9f       93.6MB           27MB    U
-
-# sudo usermod -aG docker ubuntu(username of vm)      =  The command sudo usermod -aG docker ubuntu adds the user ubuntu to the docker supplementary group.
-                                                      This permits that user to run Docker commands without needing to prefix them with sudo.
-
-# docker image inspect image:version                  = to inspect any image 
-  ex : docker image inspect nginx:stable-alpine3.24
-  ex : docker image inspect tomcat:8.5.1
-
-# docker image rm image:version                        = to delete the image.
-  ex: docker image rm nginx:stable-alpine3.24
-  ex: docker image inspect tomcat:8.5.1
-
-# docker rm (cont-ID)                         = to remove the cont id.
-  docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container multiple.
-  docker rm (cont-ID) (cont-ID) (cont-ID)     = to remove the container by force.
-
-# docker container ls                         =   to check if any container is running.
-  docker ps -a                                =   check container in hidden mode.
-  docker stop my-container                    =   to stop container.
-  docker stop my-container my-container       = stop multiple container - on a running container.
-  docker start my-container                   = to start a container. 
-  docker start my-container my-container      = start multiple container. -  on a created container.
-  docker run nginx:stable-alpine3.24          = run interactive container.
-  docker restart my-container                 =  to restart a container.
-
-# docker logs my-conatainer                   = to check the container logs.
-
-docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
-
-# ----Troubleshooting of the container ------
-
-docker inspect my-container                 = used to inspect the container.
-docker logs container-id                    = Logs/output produced by the docker container.
-docker stats cont-id                        = to check the resource utilization.
-      or 
-docker exec -it cont-id /bin/bash           = starts a bash shell inside a login container.
-
-# docker run -d --memory 64M image-id:version = setting a maximum limit for a conatiner.
-  ex : docker run -d --memory 64M tomcat:8.5.1 - 64 mb assigned.
-  ex : docker stats container-id   - show the exact 64memory out of memory used.
-
-# Grep - command is used to output.
-  ex : docker inspect edf1eeade377 | grep -i ipaddr
-docker inspect ... → produces lots of information
-| → sends that output to the next command
-grep → searches the output
--i → ignore uppercase/lowercase differences
-ipaddr → text you're searching for
-
-# curl - command is used to make a request to the URL.
- ex : curl container-ip (from stats conmand) : cont-port no
- ex: curl 17.52.3.5:80 
-** the generated ip is a container ip and cannot be access by browser so we require port forwarding.
-
-# docker run -d -P tomcat:8.5.1  = run command with port forwarding - can be accessible by the browser.
- docker ps - shows the output.
-
-# docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080
- -p (small p is used for allocation of port no)
-
-# hostnamectl                            = is a command-line tool in Linux used to query and change the system hostname and related network settings.
-# docker exec -it cont-id /bin/bash      = start a bash shell inside a running container.
-
-# Docker build --file docfile --tag myapp:v1 /home/ubuntu = creating the build using the dock file.
-# Dockerfile are mostly build by developers.
-# Dockerhub is used to publish docker images.
-# 
-
-
-
-
-
-
-
-
-
-============================================================================================================================================================
-
-# What is containerization ?
-= its a way of deploying application onto many servers.
-= its packaging an application along with its dependies as a single deployable package.
-
-# What is docker ?
-= Docker is an open platform for developing, shipping, and running applications.
-
-# how do you build and run container packages ?
-= we need containerization/container untime tool.
-
-# what is docker image ?
-= its the package of an application along with its dependies as single deployable package.
-= whicb is ready to use as a software application bundle that is sitting on your hard disk bundle.
-
-# what is docker container ?
-= is the runtime instance of an image/application.
-= runtime instance is always the running process that consume the cpu/ram.
-= single container = single instance of an application.
-= from single image we can run multiple containers.
-
-# how you build a docker image ?
-= Yes, we can -
-  take a base image - (image from docke hub)
-  docker pull tomcat:8.4.5
-  run it as container - docker run -d tomcat:8.4.5
-  get inside container (login) - docker exec -it cont-id /bin/bash
-  make the changes & paste into the webapps - cd tomcat/webapps
-  copy the code to the webapps - wget tomcat/myapp.com
-  exit and cont should be runnning.
-  commit the changes - docker commit -m "new app name" cont-id myapp:v1
-  check the saved image in the list -- docker image ls
-  run the container.
-  update the inbound rules with the conatiner number:
-
-# what is Dockerfile ?
-= Dockerfile is a plain text file which contains all the commands & instuction to assemble a automated image.
-= its has 15 pre-defined keywords.
-= FROM, RUN, WORKDIR, COPY, CMD
-
-#EXAMPLE DOCKER FILE.
-= Docker example
-  FROM TOMCAT:10.0.1
-  RUN apt-get update
-  RUN apt-get install
-  TOUCH abc.txt
-  RUN wget https...............
-= or RUN cd/usr/tomcat/webapps wget https://git.....................
-
-# how to create a own image using the following, like tomcat, jdk, and sampleapp.war files fom git.?
-= download the files java wget jdk.1.......
-  download the files tomcat wget tomcat ................
-  download the files app wget sampleapp.war...........
-  
-  expand the tar file - tar -xzf jdk
-  expand the tar file - tar -xzf tomcat
-
-  create the file -- name -- vi dfile.
-  FROM ubuntu:10.04
-  ADD jdk.....   /opt - add the file to the directory
-  ADD jdk.....   /opt
-  RUN mv /opt/jdk....... /opt/java
-  RUN mv /opt/tomcat..... /opt/tomcat
-  COPY sampleapp.war /opt/tomcat/webapps                       ADD - copys the whole folder.
-  ENV JAVA_HOME /opt/java             - Java home              COPY - copys only the contents.
-  ENV JAVA_VERSION 1.11             
-  EXPOSE 8090                          - set the port
-  CMD ["/opt/tomcat/bin/startup.sh", "run"]
-OR
-  CMD ["bash","/opt/tomcat/bin/startup.sh"] - CMD executes the command.
-
-
-
-# 
-  
-  
   
 
 
