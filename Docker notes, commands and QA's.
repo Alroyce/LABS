@@ -51,6 +51,353 @@
   151  docker pull lerndevops/myapp01:sampleapp-v1
   152  docker ps
   153  docker image ls
+   158  docker ps -a
+  159  docker run -d nginx:stable-alpine3.24
+  160  docker ps
+  161  docker inspect 4bb9067f798f
+  162  ls
+  163  docker ps
+  164  docker ps -a
+  165  docker image ls
+  166  docker run -d nginx:stable-alpine3.24
+  167  docker ps -a
+  168  docker ps
+  169  docker image ls
+  170  docker inspect edf1eeade377|grep -i ipaddr
+  171  docker image ls
+  172  docker ps
+  173  docker inspect edf1eeade377|grep -i ipaddr
+  174  ls
+  175  clear
+  176  sudo usermod -aG docker ubuntu
+  177  exit
+  178  clear
+  179  docker image ls
+  180  docker ps
+  181  docker ps -a
+  182  docker start edf1eeade377
+  183  docker start 4bb9067f798f
+  184  docker ps
+  185  docker ls
+  186  clear
+  187  docker ps
+  188  docker image ls
+  189  docker run -d -p 9080:80 nginx:stable-alpine3.24
+  190  docker ps
+  191  docker stop edf1eeade377
+  192  docker stop 4bb9067f798f
+  193  docker ps
+  194  docker stop a12d9ac77132
+  195  docker ps
+  196  docker ps -a
+  197  a12d9ac77132
+  198  a12d9ac77132 edf1eeade377~
+  199  docker start a12d9ac77132 edf1eeade377
+  200  docker ps
+  201  docker ps -a
+  202  clear
+  203  docker ps -a
+  204  docker inspect 4bb9067f798f
+  205  docker stats 4bb9067f798f
+  206  docker logs 4bb9067f798f
+  207  docker ps
+  208  docker ps -a
+  209  docker inspect 4bb9067f798f|grep -i ipadd
+  210  docker start 4bb9067f798f
+  211  docker inspect 4bb9067f798f|grep -i ipadd
+  212  docker ps
+  213  docker ps -a
+  214  clea
+  215  clear
+  216  docker inspect 4bb9067f798f|grep -i ipadd
+  217  curl 172.17.0.4:80
+  218  clea
+  219  clear
+  220  docker ps
+  221  docker image ls
+  222
+  223  docker run -d -p 9080:80 nginx:stable-alpine3.24
+  224  docker run -d -p 8080:80 nginx:stable-alpine3.24
+  225  ls
+  226  docker usermod
+  227  docker image ls
+  228  docker ps
+  229  docker ps -a
+  230  bad43468061f
+  231  9dacb938c826
+  232  docker stop bad43468061f 9dacb938c826
+  233  docker rm  bad43468061f 9dacb938c826
+  234  docker ps -a
+  235  a12d9ac77132
+  236  docker stop edf1eeade377 4bb9067f798f a12d9ac77132
+  237  docker rm edf1eeade377 4bb9067f798f a12d9ac77132
+  238  docker ps -a
+  239  docker image ls
+  240  docker image rmnginx:stable-alpine3.24
+  241  docker image rm nginx:stable-alpine3.24
+  242  docker image ls
+  243  docker ps -a
+  244  clear
+  245  [200~docker pull tomcat:10.0.0~
+  246  docker pull tomcat:10.0.0
+  247  docker image ls
+  248  exit
+  249  docker pull tomcat:10.0.0
+  250  df -h
+  251  cd /dev/root
+  252  cd /dev/root/
+  253  cd /dev
+  254  ls
+  255  cd root
+  256  cd /root
+  257  sudo cd /root
+  258  cd ..
+  259  cd
+  260  docker ps
+  261  docker ps -a
+  262  docker image ls -a
+  263  docker image rm 965c84e949c1
+  264  docker image ls -a
+  265  clea
+  266  clear
+  267  docker image ls -a
+  268  docker image ls
+  269  docker ps
+  270  docker ps -a
+  271  clear
+  272  lsblk
+  273  clear
+  274  ls
+  275  clear
+  276  history
+  1  ls
+    2  git --version
+    3  mvn -version
+    4  mvn --version
+    5  pwd
+    6  sudo apt update
+    7  sudo apt install -y fontconfig openjdk-21-jdk
+    8  java -version
+    9  cd /tmp ; sudo wget https://dlcdn.apache.org/maven//maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
+   10  cd /tmp ; sudo tar -xzf apache-maven-3.9.16-bin.tar.gz -C /opt
+   11  sudo mv /opt/apache-maven-3.9.16 /opt/maven
+   12  sudo echo "MAVEN_HOME="/opt/maven"" >> /etc/profile
+   13  ls
+   14  sudo su -
+   15  exit
+   16  sudo su -
+   17  ls
+   18  exit
+   19  sudos su -
+   20  sudo su -
+   21  exit
+   22  sudo su -
+   23  exit
+   24  sudo su -
+   25  exit
+   26  sudo su -
+   27  ls
+   28  ls -l
+   29  exit
+   30  sudo su -
+   31  exit
+   32  sudo su -
+   33  exit
+   34  sudo su -
+   35  exit
+   36  mkdir jagent
+   37  ls
+   38  cd jagent
+   39  ls
+   40  pwd
+   41  sudo su -
+   42  exit
+   43  sudo su -
+   44  exit
+   45  sudo su -
+   46  exit
+   47  ls
+   48  cd /tmp
+   49  ls
+   50  pwd
+   51  sudo su -
+   52  l
+   53  ls
+   54  ls -l
+   55  cp /tmp/sampleapp.war /root/apache/webapps
+   56  sudo cp /tmp/sampleapp.war /root/apache/webapps
+   57  ls
+   58  sudo su -
+   59  ls
+   60  sudo su -
+   61  clear
+   62  ls
+   63  sudo wget https://raw.githubusercontent.com/lerndevops/labs/master/scripts/installDocker.sh -P /tmp
+   64  sudo chmod 755 /tmp/installDocker.sh
+   65  sudo bash /tmp/installDocker.sh
+   66  df -h
+   67  clear
+   68  java -v
+   69  java -version
+   70  docker pull tomcat:10.0.0
+   71  sudo usermod -aG docker ubuntu
+   72  ls
+   73  exit
+   74  docker pull tomcat:10.0.0
+   75  docker image ls -a
+   76  docker ps -a
+   77  clear
+   78  docker image ls
+   79  docker ps
+   80  clear
+   81  docker image ls
+   82  docker run -d tomcat:10.0.0
+   83  docker ps
+   84  docker exec -it 7e131133ac82 /bin/bash
+   85  docker ps
+   86  docker exec -it 7e131133ac82 /bin/bash
+   87  docker ps
+   88  docker exec -it 7e131133ac82 /bin/bash
+   89  sudo usermod -aG docker ubuntu
+   90  exit
+   91  clear
+   92  docker ps
+   93  docker exec -it 7e131133ac82
+   94  docker exec -it 7e131133ac82 /bin/bash
+   95  docker commit -m "deployed war file" 7e131133ac82 myapp:v1
+   96  docker image ls
+   97  docker ps
+   98  docker rm 7e131133ac82
+   99  docker rm --force 7e131133ac82
+  100  docker image ls
+  101  myapp:v1
+  102  docker ps
+  103  jenkins -v
+  104  sudo systemctl stop jenkins
+  105  sudo systemctl status jenkins
+  106  docker ps
+  107  docker image ls
+  108  docker image ls -a
+  109  docker run -d -P myapp:v1
+  110  docker ps -a
+  111  docker rm 2161c412c661
+  112  docker rm --force 2161c412c661
+  113  docker ps -a
+  114  sudo apt-get remove --purge jenkins
+  115  sudo rm -rf /var/lib/jenkins
+  116  sudo rm -rf /etc/sysconfig/jenkins
+  117  sudo userdel jenkins
+  118  exit
+  119  jenkins -v
+  120  jenkins -version
+  121  sudo apt-get remove --purge maven
+  122  mvn -v
+  123  exit
+  124  mvn -v
+  125  sudo apt-get remove --purge maven
+  126  sudo apt autoremove
+  127  mvn -v
+  128  exit
+  129  ls
+  130  cd jagent
+  131  ls
+  132  ls -l
+  133  wget https://github.com/lerndevops/code.git
+  134  ls
+  135  git rm code.git
+  136  rm code.git
+  137  ls
+  138  git clone https://github.com/lerndevops/code.git
+  139  git remote -v
+  140  ls
+  141  git m code
+  142  git rm code
+  143  rm code
+  144  rm-f code
+  145  rm -f code
+  146  clear
+  147  ls
+  148  rm -rf code
+  149  ls
+  150  clear
+  151  lscd
+  152  cd
+  153  ls
+  154  clear
+  155  docker image ls
+  156  history
+  157  clear
+  158  vi dockerfile
+  159  cat dockerfile
+  160  vi dockerfile
+  161  clear
+  162  ls
+  163  vi dfile
+  164  wget https://github.com/Alroyce/code/raw/refs/heads/main/apache-tomcat-10.1.55.tar.gz
+  165  wget https://github.com/Alroyce/code/raw/refs/heads/main/sampleapp.war
+  166  ls
+  167  https://github.com/Alroyce/code/raw/refs/heads/main/jdk-21-0-10-linux-x64.tar.gz
+  168  wget https://github.com/Alroyce/code/raw/refs/heads/main/jdk-21-0-10-linux-x64.tar.gz
+  169  ls -l
+  170  tar -xzf apache-tomcat-10.1.55.tar.gz
+  171  ls -l
+  172  rm -rf apache-tomcat-10.1.55.tar.gz
+  173  tar -xzf jdk-21-0-10-linux-x64.tar.gz
+  174  rm -rf jdk-21-0-10-linux-x64.tar.gz
+  175  ls
+  176  ls -l
+  177  vi dfile
+  178  cat dfile
+  179  vi dfile
+  180  cat dfile
+  181  docker build --file dfile --tag sampleapp:v1
+  182  pwd
+  183  docker build --file dfile --tag sampleapp:v1 /home/ubuntu
+  184  vi dfile
+  185  cat dfile
+  186  docker build --file dfile --tag sampleapp:v1 /home/ubuntu
+  187  df -h
+  188  docker image ls
+  189  rm -r 608a310075ac
+  190  rm -rf 608a310075ac
+  191  docker image ls
+  192  docker image rm tomcat:10.0.0
+  193  docker image rm sampleapp:v1
+  194  docker image rm myapp:v1
+  195  docker image rm myapp:v1 --force
+  196  docker image ls
+  197  docke ps -a
+  198  docker ps -a
+  199  docker stop 6f1037ba0459
+  200  docker rm  6f1037ba0459
+  201  docker ps -a
+  202  docker image ls
+  203  clear
+  204  docker ps
+  205  sl
+  206  ls
+  207  docker build --file dfile --tag sampleapp:v1 /home/ubuntu
+  208  docker system prune -a
+  209  docker system prune -a --volumes
+  210  clea
+  211  clear
+  212  ls -l
+  213  vi dfile
+  214  docker build --file dfile --tag sampleapp:v2 /home/ubuntu
+  215  docker image ls
+  216  docker run -d sampleapp:v2
+  217  cat dfile
+  218  vi dfile
+  219  docker system prune -a
+  220  docker system prune -a --volumes
+  221  clear
+  222  cat dfile
+  223  docker build --file dfile --tag sampleapp:v1 /home/ubuntu
+  224  docker image ls
+  225  docker run -d sampleapp:v1
+  226  docker ps
+  227  docker ps -a
+  228  history
 
 
 ===========================================================================================================================================
@@ -121,9 +468,10 @@ ipaddr → text you're searching for
 # docker run -d -p 9080:80 tomcat:8.5.1  = run container + defined port 9080
  -p (small p is used for allocation of port no)
 
-# hostnamectl               = is a command-line tool in Linux used to query and change the system hostname and related network settings.
+# hostnamectl                            = is a command-line tool in Linux used to query and change the system hostname and related network settings.
 # docker exec -it cont-id /bin/bash      = start a bash shell inside a running container.
 
+# Docker build --file docfile --tag myapp:v1 - creating the build using the dock file.
 # 
 
 
@@ -205,6 +553,8 @@ ipaddr → text you're searching for
   CMD ["/opt/tomcat/bin/startup.sh", "run"]
 OR
   CMD ["bash","/opt/tomcat/bin/startup.sh"] - CMD executes the command.
+
+
 
 # 
   
