@@ -474,6 +474,7 @@ ipaddr → text you're searching for
 
 # Docker build --file docfile --tag myapp:v1 /home/ubuntu = creating the build using the dock file.
 # Dockerfile are mostly build by developers.
+# Dockerhub is used to publish docker images.
 # 
 
 
