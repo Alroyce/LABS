@@ -134,21 +134,21 @@ docker
 = Docker is an open platform for developing, shipping, and running applications.
 
 # how do you build and run container packages ?
-= we need containerization/container untime tool.
+= we need containerization/container runtime tool.
 
 # what is docker image ?
 = its the package of an application along with its dependies as single deployable package.
 = whicb is ready to use as a software application bundle that is sitting on your hard disk bundle.
 
-# what is docker container ?
+# what is docker container ?.
 = is the runtime instance of an image/application.
 = runtime instance is always the running process that consume the cpu/ram.
 = single container = single instance of an application.
 = from single image we can run multiple containers.
 
-# how you build a docker image ?
+# how you build a docker image ?.
 = Yes, we can -
-  take a base image - (image from docke hub)
+  take a base image - (image from docker hub)
   docker pull tomcat:8.4.5
   run it as container - docker run -d tomcat:8.4.5
   get inside container (login) - docker exec -it cont-id /bin/bash
@@ -199,7 +199,7 @@ OR
 # what is docker volumes ?
 = Docker volumes is used to store the logs persistantely to store and share the data outside the conatiner life cycle.
 
-= docker volume ls   - check if is available.
+= docker volume ls              - check if it is available.
 = docker volume create applogs  - applogs volume is created.
 = docker inspect applogs        - to check the 
 ex : 
@@ -248,8 +248,6 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 = so if you delete the container the logs will be present at the newloags/_data. this is y volumes are persitant..
 
 # 
-
-
 
 
 
