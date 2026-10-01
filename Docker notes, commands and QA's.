@@ -174,7 +174,7 @@ docker
   RUN wget https...............
 = or RUN cd/usr/tomcat/webapps wget https://git.....................
 
-# how to create a own image using the following, like tomcat, jdk, and sampleapp.war files fom git.?
+# how to create a own image using the following, like tomcat, jdk, and sampleapp.war files from git.?
 = download the files java wget jdk.1.......
   download the files tomcat wget tomcat ................
   download the files app wget sampleapp.war...........
@@ -247,8 +247,13 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 = docker rm -f cont-id
 = so if you delete the container the logs will be present at the newloags/_data. this is y volumes are persitant..
 
-# 
+# docker stats cont-id    =  used to check the resource usage.
+# docker inspect cont-id   =  used to
+# docker stats <id>      = Live resource usage
+# docker inspect <id>    = Detailed configuration and metadata
+# docker logs <id>       = Container logs.
 
+#
 
 
 
