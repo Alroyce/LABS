@@ -35,7 +35,8 @@
 
 # docker logs my-conatainer                   = to check the container logs.
 
-docke inspect (cont-id) | grep -i ipaddr    = to check the vm ip address.
+docke inspect (cont-id) | grep -i ipaddr    =  to check the vm ip address.
+hostname -i                                 =  to get the 
 
 # ----Troubleshooting of the container ------
 
@@ -281,9 +282,12 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 # docker inspect <id>    = Detailed configuration and metadata
 # docker logs <id>       = Container logs.
 
-#
-
-
+# what is docker networking ?
+=
+• List available networks: docker network ls.
+• Create a custom network: docker network create my-custom-net.
+• Connect a running container: docker network connect my-custom-net my-container.
+• Inspect network details & connected IPs: docker network inspect my-custom-net.
 
 =========================================================================================================================================================
 
