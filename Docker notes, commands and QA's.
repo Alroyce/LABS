@@ -116,7 +116,20 @@ container full id = d17dd4b750145384eb47ba6417d5b92ddc268f1cf7d74beaa9aa6ba08538
 # Docker Volumes------------------------
 # troubleshooting - of containers ----------------------
 
-docker 
+# docker build --file dockerfile --tag applogs:v1 /home/devops
+# docker image ls
+# docker run -d -P <image>:v1
+# docker ps -a
+# docker logs <con-id>
+# docker ps
+# docker exec -it <cont-id> /bin/bash
+= cd /opt/tomcat/logs 
+= catalina .sh
+= host-manager.sh
+= localhost.sh
+= manager 2024.log
+
+# 
 
 
 
