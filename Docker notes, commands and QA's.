@@ -146,8 +146,24 @@ so create a volume
 = docker run -d -P --mount type=bind,src=/home/devops/tomcatlogs,target=/opt/tomcat/logs sampleapp:v1
 = ls -l tomcatlogs/
 
-# Docker container path.
-= 
+# Docker network ls
+= NETWORK ID     NAME      DRIVER    SCOPE
+06838cbdbd51   bridge    bridge    local
+a00e55be8efe   host      host      local
+b7739a0af79a   none      null      local
+
+** docker ps 
+= docker run -d --name cont1 sampleapp:v1
+= docker run -d --name cont2 sampleapp:v1
+= docker ps -a
+= docker exec cont1 ipconfig 
+  172.17.0.2
+= docker exec cont2 ipconfig 
+  172.17.0.3
+= docker exec cont1 ping 172.17.0.3
+  = ping .............                       = so container can communicate insode the container.. 
+
+# 
 
 
 
