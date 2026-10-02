@@ -226,6 +226,17 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 
 # can we connect the connect the cont1 to default and custom network ?
  yes
+= cont1 is in default network, also add it to mynet.
+= docker network connect mynet cont1
+=  docker inspect cont3
+  docker network connect cont1 mynet
+  docker network connect mynet cont1
+  docker exec cont3 ip addr
+  docker exec cont3 hostname -i
+  docker exec cont ping 192.18.0.2
+  docker exec cont1 ping 192.18.0.
+
+# 
 
 
 
@@ -785,7 +796,162 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
   225  docker run -d sampleapp:v1
   226  docker ps
   227  docker ps -a
-  228  history
+  525  sudo cd /var/lib/docker/containers/
+  526  sudo su -
+  527  pwd
+  528  docker run -d -P --mount --type=volume, src=applogs, target=/home/ubuntu/logs
+  529  docker run -d -P --mount --type=volume, src=applogs, target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  530  docker run -d -P --mount type=volume,src=applogs,target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  531  docker ps
+  532  docker m -f b73b56d5a981
+  533  docker rm -f b73b56d5a981
+  534  docker ps
+  535  docker inspect dc9547df55c9
+  536  cd /var/lib/docker/containers/
+  537  sudo su -
+  538  exit
+  539  docker ps -a
+  540  docker volumes ls
+  541  docker volume ls
+  542  docker run -d -P --mount type=volume,src=applogs,target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  543  docker ps -a
+  544  docker volume inspect applogs
+  545  sudo ls -l /var/lib/docker/volumes/applogs/_data
+  546  docker volumes ls
+  547  docker volume ls
+  548  docker image ls
+  549  docker run -d -P --mount type=volume, src=applogs,target=/home/ubuntu/logs
+  550  docker run -d -P --mount type=volume, src=applogs,target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  551  docker run -d -P --mount type=volume,src=applogs,target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  552  docker run -d -P --mount type=volume, src=applogs,target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  553  docker run -d -P --mount type=volume,src=applogs,target=/home/ubuntu/logs lerndevops/samplejavaapp:4
+  554  docker ps -a
+  555  sudo ls -l /var/lib/docker/volumes/applogs/_data
+  556  ls
+  557  ls -l
+  558  clear
+  559  ls
+  560  ls -l
+  561  vi dock
+  562  cat dockefile
+  563  cat dockerfile
+  564  vi dock1
+  565  cat dock1
+  566  docker build --file dock1 --tag newapp:v1
+  567  pwd
+  568  docker build --file dock1 --tag newapp:v1 /home/ubuntu
+  569  docke image ls
+  570  docker image ls
+  571  docker run -d -P lerndevops/samplejavaapp:4
+  572  docker ps -a
+  573  docker rm e3c26c8ab188
+  574  docker rm 43a057261bff
+  575  docker rm 61973be920c4
+  576  docker rm dc9547df55c9
+  577  docker rm d17dd4b75014
+  578  docker rm a8c36382b30b
+  579  docker image ls
+  580  docker ps -a
+  581  docker exec e42ab9dc1785 -i ipaddr
+  582  docker exec -it e42ab9dc1785 ipaddr
+  583  docker inspect e42ab9dc1785 | grep -i ipaddr
+  584  docker run -d -P lerndevops/samplejavaapp:4
+  585  docker ps -a
+  586  docker inspect 19eba3a4c671 | grep -i ipaddr
+  587  docker exec -it 19eba3a4c671 /bin/bash
+  588  ls -l
+  589  hostname -i
+  590  docker ps -a
+  591  docker exec 19eba3a4c671 | grep -i ipaddr
+  592  docker inspect 19eba3a4c671 | grep -i ipaddr
+  593  docker exec e42ab9dc1785 -it /bin/bash
+  594  docker exec -it e42ab9dc1785 /bin/bash
+  595  ls
+  596  clear
+  597  ls
+  598  docker network ls
+  599  docker ps -a
+  600  docker image ls
+  601  docker rm e42ab9dc1785
+  602  docker rm 19eba3a4c671
+  603  docker ps -a
+  604  docker image ls
+  605  clear
+  606  exit
+  607  ls -l
+  608  docker rm apache-tomcat-10.1.55
+  609  df -h
+  610  docker ps -a
+  611  docker image ls
+  612  clear
+  613  docker network ls
+  614  docker ps
+  615  docker image ls
+  616  docker ps
+  617  clear
+  618  ls -l
+  619  clear
+  620  docker image ls
+  621  docker ps -a
+  622  docker network l
+  623  docker network ls
+  624  docker netwok inspect bidge
+  625  docker network inspect bidge
+  626  docker network inspect bridge
+  627  clear
+  628  docker ps -a
+  629  docker image ls
+  630  docker ps
+  631  docker ps -a
+  632  docker run -d --name cont1 lerndevops/samplejavaapp:4
+  633  docker ps
+  634  docker inspect cont1
+  635  docke network ls
+  636  docker network ls
+  637  docker ps
+  638  docker exec cont1 ipconfig
+  639  docker exec cont1 ifconfig
+  640  clear
+  641  docker eps
+  642  docker ps
+  643  docker exec cont1 ifconfig
+  644  docker exec cont1 hostname -i
+  645  docker run -d --name cont2 lerndevops/samplejavaapp:4
+  646  docker exec cont2 ifconfig
+  647  docker exec cont2 hostname -i
+  648  docker exec cont1 ping 172.17.0.3
+  649  docker exec cont2 ping 172.17.0.2
+  650  docker exec cont2 ifconfig
+  651  docker exec cont2 ip addr
+  652  docker exec cont1 ip a
+  653  docker inspect cont1
+  654  clear
+  655  docker image ;s
+  656  docker image ls
+  657  docker network ls
+  658  clea
+  659  clear
+  660  docker network create mynet
+  661  docker network rm mynet
+  662  docker network ls
+  663  docker network create mynet --subnet 192.18.0.0/16 --gateway 192.18.0.1
+  664  docker network ls
+  665  docker network inspect mynet
+  666  docker ps -a
+  667  clear
+  668  docker image ls
+  669  docker ps -a
+  670  docker network ls
+  671  docker run -d --name cont3 --network mynet
+  672  docker run -d --name cont3 --network mynet lerndevops/samplejavaapp:4
+  673  docker ps
+  674  docker inspect cont3
+  675  docker network connect cont1 mynet
+  676  docker network connect mynet cont1
+  677  docker exec cont3 ip addr
+  678  docker exec cont3 hostname -i
+  679  docker exec cont ping 192.18.0.2
+  680  docker exec cont1 ping 192.18.0.
 
   
 
