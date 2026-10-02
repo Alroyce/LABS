@@ -156,7 +156,7 @@ b7739a0af79a   none      null      local
   ** Docker gives you a default bridge where every container can communicate with each other.
   ** Any container joing the network can communicate with each other.
 
-*info * docker0 bridge - 127.0.0.1   
+*info*** docker0 bridge - 127.0.0.1   
       ** ethernet 172.17.0.2 - 
       ** by default - 172.17.0.0/16
               ----  172.17.0.1
@@ -170,46 +170,30 @@ b7739a0af79a   none      null      local
 = docker run -d --name cont2 sampleapp:v2         - create the cont1 with name.
 
 # check for ip and communication.
-= docker exec cont1 ifconfig  -- 172.17.0.2 -- command to get the ipaddress
+= docker exec cont1 ifconfig  -- 172.17.0.2 -- command to get the ipaddress --OR -------docker exec cont1 ip addr OR ----docker exec cont1 ip a
 = docker exec cont2 ifconfig  -- 172.17.0.3 -- command to get the ipaddress
            OR
 = docker exec cont1 hostname -i --172.17.0.2 -- command to get the ipaddress
 = docker exec cont2 hostname -2 -- 172.17.0.3 -- command to get the ipaddress
         
-==  both the commands give the same result
- so you can ping the containers
+= both the commands give the same result
+  so you can ping the containers
 = docker exec cont1 ping 172.17.0.3  
 = docker exec cont2 ping 172.17.0.3
 
 = the container IP are accessible within the host.
 
-# can we create a new bridge or 
-
-** docker ps 
-= docker run -d --name cont1 sampleapp:v1
-= docker run -d --name cont2 sampleapp:v1
-= docker ps -a
-= docker exec cont1 ipconfig 
-  172.17.0.2
-= docker exec cont2 ipconfig 
-  172.17.0.3
-= docker exec cont1 ping 172.17.0.3
-  = ping .............                       = so container can communicate insode the container.. 
-
-# we can create a custom bridge 
-# docker newtwok create --name mynet --subnet 192.18.0.0/16 --gateway 192.18.0.1
-= ksdljfdlglkagagat
+# can we create a new network.
+= IN AWS, you have default VPC when you setup the account right and also you can create a custom VPC right.
+= so here docker allows you to create custom bridge network if you want.
+= docker network create --name mynet --subnet 192.18.0.0/16 --gateway 192.18.0.1
+= ksdljfdlglkagagat.
 # docker network ls
 = mynet bidge
 = docker run -d --name cont1 --network mynet sampleapp:v1
 = docker network create ls
 = docker run -d --name cont4 --network learndevops/sampleapp:v1
 
-# docker exec cont1 ipconfig
-= 
-
-# 
-= 
 
 
 
