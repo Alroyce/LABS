@@ -147,14 +147,17 @@ so create a volume
 = ls -l tomcatlogs/
 
 
-----------Default Network---------------
-
+# ----------Default Network---------------
+ NETWORK ID     NAME      DRIVER    SCOPE
+  c842bc13deb3   bridge    bridge    local 
+  a00e55be8efe   host      host      local
+  d5bee49bb013   mynet     bridge    local
+------------------------------------------------------
+-----------------------------------------------------------
 # Docker network ls
 = NETWORK ID     NAME      DRIVER    SCOPE
-06838cbdbd51   bridge    bridge    local
-a00e55be8efe   host      host      local
-b7739a0af79a   none      null      local
-
+ 06838cbdbd51   bridge    bridge    local 
+--------------------------------------------------------
 # ** Every container is independent and isolated because it has gone its own value.
   ** Docker gives you a default bridge where every container can communicate with each other.
   ** Any container joing the network can communicate with each other.
@@ -186,7 +189,12 @@ b7739a0af79a   none      null      local
 
 = the container IP are accessible within the host.
 
----------------Custom network----------------------
+# ---------------Custom network----------------------
+  NETWORK ID     NAME      DRIVER    SCOPE
+  c842bc13deb3   bridge    bridge    local 
+  a00e55be8efe   host      host      local
+  d5bee49bb013   mynet     bridge    local
+------------------------------------------------------
 
 # can we create a new network.
 = IN AWS, you have default VPC when you setup the account right and also you can create a custom VPC right.
@@ -238,7 +246,7 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
   docker exec cont1 ping 192.18.0.
 
 # sudo iptables -L - docker related information.
-
+----------------------------------------------------------------------
 # NETWORK ID     NAME      DRIVER    SCOPE
   c842bc13deb3   bridge    bridge    local 
   a00e55be8efe   host      host      local
