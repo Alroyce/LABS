@@ -186,6 +186,8 @@ b7739a0af79a   none      null      local
 # can we create a new network.
 = IN AWS, you have default VPC when you setup the account right and also you can create a custom VPC right.
 = so here docker allows you to create custom bridge network if you want.
+
+= docker network create
 = docker network create --name mynet --subnet 192.18.0.0/16 --gateway 192.18.0.1
 = ksdljfdlglkagagat.
 # docker network ls
@@ -193,6 +195,8 @@ b7739a0af79a   none      null      local
 = docker run -d --name cont1 --network mynet sampleapp:v1
 = docker network create ls
 = docker run -d --name cont4 --network learndevops/sampleapp:v1
+
+
 
 
 
