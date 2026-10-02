@@ -160,7 +160,14 @@ b7739a0af79a   none      null      local
 ** ethernet 172.17.0.2 - 
 ** by default - 172.17.0.0/16
         ----  172.17.0.1
-** 
+** Loopback value or localhost - 127.0.0.1
+
+= NETWORK ID     NAME      DRIVER    SCOPE
+  06838cbdbd51   bridge    bridge    local
+  a00e55be8efe   host      host      local
+  b7739a0af79a   none      null      local
+= 
+
 
 ** docker ps 
 = docker run -d --name cont1 sampleapp:v1
