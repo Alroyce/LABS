@@ -291,8 +291,13 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 • Connect a running container: docker network connect my-custom-net my-container.
 • Inspect network details & connected IPs: docker network inspect my-custom-net.
 
-# 
+# what is docker networking ?
+= Docker networking allows Docker containers to communicate with:
+  Other containers
+  The host machine
+  The internet
 
+#  
 =========================================================================================================================================================
 
   101  java -v
