@@ -167,8 +167,12 @@ b7739a0af79a   none      null      local
 # docker newtwok create --name mynet --subnet 192.18.0.0/16 --gateway 192.18.0.1
 = ksdljfdlglkagagat
 # docker network ls
-= 
+= mynet bidge
+= docker run -d --name cont1 --network mynet sampleapp:v1
+= docker network create ls
+= docker run -d --name cont4 --network learndevops/sampleapp:v1
 
+#  
 
 
 
