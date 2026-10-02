@@ -212,7 +212,19 @@ b7739a0af79a   none      null      local
 = docker run -d -name cont4 sampleapp:v1
 
 once created try getting the ip address and start pinging/communicating..
-= docker exec cont1 
+= docker exec cont1 hostname -i
+= docker exec cont2 hostname -i
+= docker exec cont3 hostname -i
+= docker exec cont4 hostname -i
+
+ping 1 and 2 and the 3&4 and later from 1 to cont 3 
+= docker exec cont1 ping cont 2                          docker exec cont3 ping cont4
+= docker exec cont1 ping 192.18.0.3                      = results --------------------------
+ results .................
+
+= docker exec cont1 ping cont 3 === no response..
+
+#
 
 
 
