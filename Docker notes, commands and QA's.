@@ -197,8 +197,9 @@ b7739a0af79a   none      null      local
 = ksdljfdlglkagagat.
 # docker network ls
 = docker inspect mynet                   ---- to check if the subnet and gate is displayed
+
 = NETWORK ID     NAME      DRIVER    SCOPE
-  c842bc13deb3   bridge    bridge    local
+  c842bc13deb3   bridge    bridge    local 
   a00e55be8efe   host      host      local
   d5bee49bb013   mynet     bridge    local
   b7739a0af79a   none      null      local
@@ -238,7 +239,16 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 
 # sudo iptables -L - docker related information.
 
-# 
+# NETWORK ID     NAME      DRIVER    SCOPE
+  c842bc13deb3   bridge    bridge    local 
+  a00e55be8efe   host      host      local
+  d5bee49bb013   mynet     bridge    local
+  b7739a0af79a   none      null      local
+
+## Now check -------------------- None network-----------
+
+  NETWORK ID     NAME      DRIVER    SCOPE
+  b7739a0af79a   none      null      local
 
 
 
