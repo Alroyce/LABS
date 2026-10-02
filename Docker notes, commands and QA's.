@@ -224,7 +224,8 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 
 = docker exec cont1 ping cont 3 === no response..
 
-#
+# can we connect the connect the cont1 to default and custom network ?
+ yes
 
 
 
@@ -376,6 +377,9 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 
 # why do we build custom network seperately ?
 = To provide secure communication.
+
+# can we connect the connect the cont1 to default and custom network ?
+ yes, by using connect and then we can ping default and custom network.
 
 # 
 
