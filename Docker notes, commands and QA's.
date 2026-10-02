@@ -374,7 +374,12 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
   The host machine
   The internet
 
-#  
+# why do we build custom network seperately ?
+= To provide secure communication.
+
+# 
+
+
 =========================================================================================================================================================
 
   101  java -v
