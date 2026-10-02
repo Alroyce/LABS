@@ -152,6 +152,16 @@ so create a volume
 a00e55be8efe   host      host      local
 b7739a0af79a   none      null      local
 
+** Every container is independent and isolated because it has gone its own value.
+** Docker gives you a default bridge where every container can communicate with each other.
+** Any container joing the network can communicate with each other.
+
+** docker0 bridge - 127.0.0.1
+** ethernet 172.17.0.2 - 
+** by default - 172.17.0.0/16
+        ----  172.17.0.1
+** 
+
 ** docker ps 
 = docker run -d --name cont1 sampleapp:v1
 = docker run -d --name cont2 sampleapp:v1
@@ -174,7 +184,9 @@ b7739a0af79a   none      null      local
 
 # docker exec cont1 ipconfig
 = 
-# docker 
+
+# 
+= 
 
 
 
