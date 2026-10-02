@@ -152,22 +152,38 @@ so create a volume
 a00e55be8efe   host      host      local
 b7739a0af79a   none      null      local
 
-** Every container is independent and isolated because it has gone its own value.
-** Docker gives you a default bridge where every container can communicate with each other.
-** Any container joing the network can communicate with each other.
+# ** Every container is independent and isolated because it has gone its own value.
+  ** Docker gives you a default bridge where every container can communicate with each other.
+  ** Any container joing the network can communicate with each other.
 
-** docker0 bridge - 127.0.0.1
-** ethernet 172.17.0.2 - 
-** by default - 172.17.0.0/16
-        ----  172.17.0.1
-** Loopback value or localhost - 127.0.0.1
+*info * docker0 bridge - 127.0.0.1   
+      ** ethernet 172.17.0.2 - 
+      ** by default - 172.17.0.0/16
+              ----  172.17.0.1
+      ** Loopback value or localhost - 127.0.0.1
 
 = NETWORK ID     NAME      DRIVER    SCOPE
   06838cbdbd51   bridge    bridge    local
   a00e55be8efe   host      host      local
   b7739a0af79a   none      null      local
-= 
+= docker run -d --name cont1 sampleapp:v1         - create the cont  and assign the name.
+= docker run -d --name cont2 sampleapp:v2         - create the cont1 with name.
 
+# check for ip and communication.
+= docker exec cont1 ifconfig  -- 172.17.0.2 -- command to get the ipaddress
+= docker exec cont2 ifconfig  -- 172.17.0.3 -- command to get the ipaddress
+           OR
+= docker exec cont1 hostname -i --172.17.0.2 -- command to get the ipaddress
+= docker exec cont2 hostname -2 -- 172.17.0.3 -- command to get the ipaddress
+        
+==  both the commands give the same result
+ so you can ping the containers
+= docker exec cont1 ping 172.17.0.3  
+= docker exec cont2 ping 172.17.0.3
+
+= the container IP are accessible within the host.
+
+# can we create a new bridge or 
 
 ** docker ps 
 = docker run -d --name cont1 sampleapp:v1
