@@ -163,7 +163,11 @@ b7739a0af79a   none      null      local
 = docker exec cont1 ping 172.17.0.3
   = ping .............                       = so container can communicate insode the container.. 
 
-#
+# we can create a custom bridge 
+# docker newtwok create --name mynet --subnet 192.18.0.0/16 --gateway 192.18.0.1
+= ksdljfdlglkagagat
+# docker network ls
+= 
 
 
 
