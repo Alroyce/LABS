@@ -163,7 +163,7 @@ b7739a0af79a   none      null      local
 = docker exec cont1 ping 172.17.0.3
   = ping .............                       = so container can communicate insode the container.. 
 
-# 
+#
 
 
 
