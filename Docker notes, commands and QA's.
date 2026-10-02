@@ -172,7 +172,9 @@ b7739a0af79a   none      null      local
 = docker network create ls
 = docker run -d --name cont4 --network learndevops/sampleapp:v1
 
-#  
+# docker exec cont1 ipconfig
+= 
+# docker 
 
 
 
