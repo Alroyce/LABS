@@ -278,6 +278,9 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 = docker exec cont5 hostname -i
 = docker exec cont5 ping cont1,2,3,4,5
 
+####  continer -----> docker0/bridge-----> etho----> switch router----> internet ---------- this is for default/ custom network
+####  container --------------> etho----------->  switch router----> internet ---------- this is for host network.
+
 # 
 
 
