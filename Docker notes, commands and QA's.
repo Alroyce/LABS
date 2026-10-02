@@ -272,6 +272,12 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
   NETWORK ID     NAME      DRIVER    SCOPE
   a00e55be8efe   host      host      local
 ----------------------------------------------------------
+# we can directly connect the cont to host network directly and get all the capabilities.
+
+= docker run -d --name cont5 --network host sampleapp:v1
+= docker exec cont5 hostname -i
+= docker exec cont5 ping cont1,2,3,4,5
+
 # 
 
 
