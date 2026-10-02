@@ -436,8 +436,10 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 # can we connect the connect the cont1 to default and custom network ?
  yes, by using connect and then we can ping default and custom network.
 
-# 
+# how does the container in the default and custom netwok communicate ?
+= they cannot communicate until you connect the container to the custom network.. 
 
+# 
 
 =========================================================================================================================================================
 
