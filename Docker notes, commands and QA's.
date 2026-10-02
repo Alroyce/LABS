@@ -263,7 +263,16 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 = docker run -d --network none sampleapp:v1
 
 # usecase :-
-= 
+= To work offline
+= dont not want to connect to any custome or default
+= want to install a external network provider so keep it none and then connect to some custom network.
+
+## Now check -------------------- Host network-----------
+
+  NETWORK ID     NAME      DRIVER    SCOPE
+  a00e55be8efe   host      host      local
+----------------------------------------------------------
+# 
 
 
 
