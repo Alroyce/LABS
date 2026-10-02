@@ -257,7 +257,13 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 
   NETWORK ID     NAME      DRIVER    SCOPE
   b7739a0af79a   none      null      local
+----------------------------------------------------------
 
+# joint the container to the none network.. 
+= docker run -d --network none sampleapp:v1
+
+# usecase :-
+= 
 
 
 
