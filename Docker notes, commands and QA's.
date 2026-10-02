@@ -236,6 +236,8 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
   docker exec cont ping 192.18.0.2
   docker exec cont1 ping 192.18.0.
 
+# sudo iptables -L - docker related information.
+
 # 
 
 
