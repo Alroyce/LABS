@@ -281,6 +281,8 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 ####  continer -----> docker0/bridge-----> etho----> switch router----> internet ---------- this is for default/ custom network
 ####  container --------------> etho----------->  switch router----> internet ---------- this is for host network.
 
+--------------------------------Docker compose-------------------------------------------------------------------------------
+
 # 
 
 
