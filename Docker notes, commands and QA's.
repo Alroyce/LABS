@@ -291,8 +291,33 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 = is a script which we can run multiple conatiners from multiple images.
 = we write docker compose file using YAML language.
 
-# 
+# services : list of commands executed once.
 
+# compose file : 
+  services:
+    myapp:
+    image: sampleapp:v1
+    deploy:
+      replicas:4
+    ports:
+      - 80
+    volumes:
+      myappvol: /usr/logs/nginx
+    network:
+      myappnet:
+
+    mdbapp:
+      image:sampledbimage:v1
+      deploy:
+        replicas: 2
+        ports:
+          -27901
+# To execute compose file
+= docker compose --file compose.yaml up --scale myapp -d
+
+= docker compose --file compose.yaml up --scale mydb -d
+
+# 
 
 
 
