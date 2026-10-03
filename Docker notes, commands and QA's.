@@ -320,6 +320,10 @@ services:
 = docker compose --file compose.yaml up --scale mydb -d      - to start a docker compose.
 = docker compose --file compose.yaml down                    -  to bring down or to stop the running containers.
 
+# with docker compose can we run containers on multiple VM's ?
+= No.
+
+# 
 --------------------------- docker swarm ----------------------------------------------------------------------------
 # 
 
