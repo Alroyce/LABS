@@ -283,6 +283,14 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 
 --------------------------------Docker compose-------------------------------------------------------------------------------
 
+# what is docker compose tool ?
+= docker compose is used to run multiple containers of a single image.
+= multiple conatiner from multiple images with a single container.
+
+# what is docker compose file ?
+= is a script which we can run multiple conatiners from multiple images.
+= we write docker compose file using YAML language.
+
 # 
 
 
@@ -440,6 +448,14 @@ drwx--x--- 2 root root  4096 Sep 30 15:12 mounts
 
 # how does the container in the default and custom netwok communicate ?
 = they cannot communicate until you connect the container to the custom network.. 
+
+# what is docker compose tool ?
+= docker compose is used to run multiple containers of a single image.
+= multiple conatiner from multiple images with a single container.
+
+# what is docker compose file ?
+= is a script which we can run multiple conatiners from multiple images.
+= we write docker compose file using YAML language.
 
 # 
 
