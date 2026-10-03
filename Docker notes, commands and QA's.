@@ -323,7 +323,6 @@ services:
 # with docker compose can we run containers on multiple VM's ?
 = No.
 **Use Case** so the docker compose tool is not right tool for production.
-
 # the dynamic nature of the container is not allowed handled by compose tool as the port no keeps changing and cannot be handled.
 
 --------------------------- docker swarm ----------------------------------------------------------------------------
