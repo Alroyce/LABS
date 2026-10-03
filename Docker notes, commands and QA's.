@@ -293,14 +293,15 @@ ping 1 and 2 and the 3&4 and later from 1 to cont 3
 
 # services : list of commands executed once.
 
-# compose file : 
-  services:
-    myapp:
-    image: sampleapp:v1
+# compose file :
+services:
+  sampleapp-v1:
+    image: lerndevops/myapp01:sampleapp-v1
     deploy:
-      replicas:4
+      replicas: 2
     ports:
       - 80
+-----------------
     volumes:
       myappvol: /usr/logs/nginx
     network:
