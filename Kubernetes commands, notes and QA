@@ -1,4 +1,12 @@
 -------------------------------------------Notes------------------------------------------------------------------
+# Container Orchestration
+= In order to deploy the cont across the vms/servers.
+= Manage the dynamic nature of the container.
+= provide various benefits such as :
+    scaling up and down of vm's
+    Desired state / AUto Healing
+    request route to cont with dynamic nature.
+
 # 
 
 -------------------------------------------Q & A------------------------------------------------------------------
