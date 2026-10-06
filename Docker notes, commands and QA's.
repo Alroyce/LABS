@@ -326,8 +326,14 @@ services:
 # the dynamic nature of the container is not allowed handled by compose tool as the port no keeps changing and cannot be handled.
 
 --------------------------- docker swarm ----------------------------------------------------------------------------
-# 
+# Docker swam cluster
+= master and worker
 
+= docker node ls
+= docker sevice create
+= docker service ls
+
+= 
 
 
 
