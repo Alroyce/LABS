@@ -8,8 +8,19 @@
     request route to cont with dynamic nature.
 
 # Kubernetes - it is just a container orchestration tool.
-= 
+
+# Can kubernetes build and run containers on its own 
+= No.
+
+# ** Kubernetes software depends on one of the containerization software. ex : docker, podman, crio.
+
+# ** 
 
 -------------------------------------------Q & A------------------------------------------------------------------
+
+# Can kubernetes build and run containers on its own 
+= No.
+
+# 
 
 -------------------------------------------Commands---------------------------------------------------------------
