@@ -333,6 +333,7 @@ services:
 = docker sevice create
 = docker service ls
 
+# docker swarm init      -- initialize the current docker host.
 = 
 
 
