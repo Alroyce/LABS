@@ -15,8 +15,14 @@
 # ** Kubernetes software depends on one of the containerization software. ex : docker, podman, crio.
 
 # ** 
+# kubeadm (install on both master and worker )   -- is a tool the first pepared the master and the joins the worker mode.
+# kubelet (install on both master and worker )   -- it is a agent process that runs on every node of kubecluster.
 
--------------------------------------------Q & A------------------------------------------------------------------
+# kubectl (install only master )                 -- it is a client tool, that helps us to create/manage/deploy and delete containers in kube cluster.
+
+# 
+
+------------------------------------------Q & A------------------------------------------------------------------
 
 # Can kubernetes build and run containers on its own 
 = No.
