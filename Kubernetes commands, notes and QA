@@ -29,9 +29,13 @@
 # 3 vm required.
 # docker -v              -- check the docker version
 # hostnamectl            -- check the details of the VM.
+
+# In kubernetes who is going to create containers ?
+= docker v
+
+# Install 
+
 # 
-
-
 
 
 
