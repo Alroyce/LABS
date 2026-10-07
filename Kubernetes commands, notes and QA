@@ -17,6 +17,7 @@
 # ** 
 # kubeadm (install on both master and worker )   -- is a tool the first pepared the master and the joins the worker mode.
 # kubelet (install on both master and worker )   -- it is a agent process that runs on every node of kubecluster.
+                                                    the agent process starts when we run the kubeadm init master/kubeadm join on worker.
 
 # kubectl (install only master )                 -- it is a client tool, that helps us to create/manage/deploy and delete containers in kube cluster.
 
