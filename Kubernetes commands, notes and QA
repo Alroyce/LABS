@@ -26,6 +26,15 @@
 # ** kube doesnot have the networking sol to communicate with the vms, as a solution we need to install it as part of cluster setup.
 # ** ex : fainnel, canal, weave, calio, kube outer.
 # ** 
+# 3 vm required.
+# docker -v              -- check the docker version
+# hostnamectl            -- check the details of the VM.
+# 
+
+
+
+
+
 
 ------------------------------------------Q & A------------------------------------------------------------------
 
