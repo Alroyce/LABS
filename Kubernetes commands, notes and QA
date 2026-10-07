@@ -20,6 +20,8 @@
 
 # kubectl (install only master )                 -- it is a client tool, that helps us to create/manage/deploy and delete containers in kube cluster.
 
+# kubeadm init                                   -- start the agent process of kubeadm init master/worker.
+
 # 
 
 ------------------------------------------Q & A------------------------------------------------------------------
