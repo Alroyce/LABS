@@ -23,7 +23,9 @@
 
 # kubeadm init                                   -- start the agent process of kubeadm init master/worker.
 
-# 
+# ** kube doesnot have the networking sol to communicate with the vms, as a solution we need to install it as part of cluster setup.
+# ** ex : fainnel, canal, weave, calio, kube outer.
+# ** 
 
 ------------------------------------------Q & A------------------------------------------------------------------
 
