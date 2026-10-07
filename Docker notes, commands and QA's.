@@ -329,13 +329,13 @@ services:
 # Docker swam cluster
 = master and worker
 
-= docker node ls
+= docker node ls                                     -- current node - manager status.
 = docker sevice create
 = docker service ls
 
-# docker swarm init      -- initialize the current docker host.
-= 
-
+# docker swarm init                                    -- initialize the current docker host.
+# docker swarm join --token <TOKEN> <MANAGER-IP>:2377  -- to add/join as the worker node.
+# 
 
 
 
