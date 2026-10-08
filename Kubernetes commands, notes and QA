@@ -36,6 +36,8 @@
 # Install 
 
 # create 2-3 vms, 1 as master and 2 as worker node.
+= hostnamectl                                  -- tell you the about the configuration
+
 = 
 
 # 
