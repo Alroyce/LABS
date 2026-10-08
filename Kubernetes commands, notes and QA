@@ -38,9 +38,12 @@
 # create 2-3 vms, 1 as master and 2 as worker node.
 = hostnamectl                                  -- tell you the about the configuration
 
-= 
+= In realy world                                --use 2 cpu and 4 gb ram
 
-# 
+# kubeadm token create --print-join-command      -- command to execute to Master Node to get join token.
+#
+
+
 
 
 
