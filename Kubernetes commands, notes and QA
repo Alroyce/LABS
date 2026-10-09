@@ -1,5 +1,5 @@
 -------------------------------------------Notes------------------------------------------------------------------
-# Container Orchestration
+# Container Orchestration.
 = In order to deploy the cont across the vms/servers.
 = Manage the dynamic nature of the container.
 = provide various benefits such as :
@@ -27,7 +27,7 @@
 # ** ex : fainnel, canal, weave, calio, kube outer.
 # ** 
 # 3 vm required.
-# docker -v              -- check the docker version
+# docker -v              -- check the docker version.
 # hostnamectl            -- check the details of the VM.
 
 # In kubernetes who is going to create containers ?
