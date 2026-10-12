@@ -50,6 +50,12 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 # kubeadm token create --print-join-command      -- command to execute to Master Node to get join token
 # kubectl get nodes                              -- to check whether the node is ready and check the list of nodes.
+= 
+
+NAME              STATUS   ROLES           AGE    VERSION
+ip-172-31-9-132   Ready    control-plane   3d6h   v1.32.13
+worker            Ready    <none>          19m    v1.32.13
+
 # 
 
 
