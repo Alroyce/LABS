@@ -77,6 +77,8 @@ worker            Ready    <none>          19m    v1.32.13
 
 kubeadm -- when you start the kubeadm its going to take care of all these process that helps you containers going forward.
 
+# systemctl status kubelet   -- The node Agent is checking for the running condition on the worker node.
+
 # 
 
 
