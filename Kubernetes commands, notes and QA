@@ -44,6 +44,8 @@
 # sudo hostnamectl set-hostname master           -- change the name to master, ex : ubuntu@master:~
 # sudo hostnamectl set-hostname worker           -- Change the name to worker , ex: ubuntu@woker:~
 
+# 
+
 
 
 
