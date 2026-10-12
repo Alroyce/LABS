@@ -40,14 +40,17 @@
 
 = In realy world                                --use 2 cpu and 4 gb ram
 
-# kubeadm token create --print-join-command      -- command to execute to Master Node to get join token.
+.
 # sudo hostnamectl set-hostname master           -- change the name to master, ex : ubuntu@master:~
 # sudo hostnamectl set-hostname worker           -- Change the name to worker , ex: ubuntu@woker:~
 
+# modprobe br_netfilter
+echo 1 > /proc/sys/net/bridge/bidge-nf-call-iptables     -- loads the linux kernel for the required kubernetes networking.
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+# kubeadm token create --print-join-command      -- command to execute to Master Node to get join token
+# kubectl get nodes                              -- to check whether the node is ready and check the list of nodes.
 # 
-
-
-
 
 
 
