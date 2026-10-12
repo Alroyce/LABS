@@ -75,6 +75,8 @@ worker            Ready    <none>          19m    v1.32.13
               = container network solutions (calico)
               = kube proxy.
 
+kubeadm -- when you start the kubeadm its going to take care of all these process.
+
 # 
 
 
