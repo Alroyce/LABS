@@ -41,7 +41,10 @@
 = In realy world                                --use 2 cpu and 4 gb ram
 
 # kubeadm token create --print-join-command      -- command to execute to Master Node to get join token.
-# 
+# sudo hostnamectl set-hostname master           -- change the name to master, ex : ubuntu@master:~
+# sudo hostnamectl set-hostname worker           -- Change the name to worker , ex: ubuntu@woker:~
+
+
 
 
 
