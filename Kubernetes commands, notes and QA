@@ -65,10 +65,15 @@ worker            Ready    <none>          19m    v1.32.13
                = Controller Manager
                = Scheduler
 
-# Worker node = kublet - agent   --- its the agent of kubernetes.
+              = kublet - agent   --- its the agent of kubernetes.  -- these are all the worker node components...
               = container runtime
               = container network solutions (calico)
               = kube proxy
+
+# Worker node = kublet - agent   --- its the agent of kubernetes.
+              = container runtime
+              = container network solutions (calico)
+              = kube proxy.
 
 # 
 
