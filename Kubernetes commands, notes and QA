@@ -57,8 +57,9 @@ ip-172-31-9-132   Ready    control-plane   3d6h   v1.32.13
 worker            Ready    <none>          19m    v1.32.13
 
 -----------------------------------Deployment of containers in kubernetes --------------------------------------
-# kubectl get pod -o wide --namespaces    -- list all the kubernetes pods
-# 
+# kubectl get pod -o wide --all-namespaces    -- list all the kubernetes pods
+
+#  
 
 
 
