@@ -77,7 +77,11 @@ worker            Ready    <none>          19m    v1.32.13
 
 kubeadm -- when you start the kubeadm its going to take care of all these process that helps you containers going forward.
 
+API server is going to connect to kublet agent - 
+
 # systemctl status kubelet   -- The node Agent is checking for the running condition on the worker node.
+
+# ps -ef| grep apiserver    -- kube-apiserver manager process - talks to the other vm's - like jenkins master.
 
 # 
 
@@ -90,6 +94,7 @@ kubeadm -- when you start the kubeadm its going to take care of all these proces
 # Can kubernetes build and run containers on its own 
 = No.
 
-# 
+# how to deploy a container in kuberneted cluster ? or any image like nginx ?
+= 
 
 -------------------------------------------Commands---------------------------------------------------------------
