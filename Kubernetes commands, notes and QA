@@ -83,9 +83,22 @@ API server is going to connect to kublet agent -
 
 # ps -ef| grep apiserver    -- kube-apiserver manager process - talks to the other vm's - like jenkins master.
 
+# Kubernetes PODS - 
+- single pod == single instance of an application running kube cluster
+- pod can create and manage container in it.
+- pod get an ip address & is shared by all cont inside the pod.
+- pod is not a vm
+- pod is a container - isolated solution.
+- application code + dependies.
+
+- pod is outer layer of the container
+- why is pod if we have containers ?
+= to handle the dynamic nature of the continers like ports, ip address - to manage in a better way.
+= in pods container wont have the IP ADDRESS, its is given to pod.
+- pods have multiple containers , but only in a speciic use cases we use the multiple containers in pods, if else its 1 pod = 1 container.
+= 1 pod = 1 container.
+
 # 
-
-
 
 
 
