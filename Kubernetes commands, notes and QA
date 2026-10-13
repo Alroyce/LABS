@@ -153,8 +153,11 @@ teamc             Active   36s
 # kubectl get all                                                     -- to check the type of resource
 # kubectl delete pod myname1                                          -- to delete the pod name myname1 
 # kubectl delete pod myname1 --namespace teama                        -- to delete the nyname1 pod from namespace teama
-# 
 
+# so the namespace doesnt define the ip address.
+# only the cluster administrator can see all the namespaces
+
+#
 
 
 
