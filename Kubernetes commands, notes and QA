@@ -132,7 +132,32 @@ $$$$------------ Namespaces --------------$$$$
 - within a namespace we cannot have duplicate namespace.
 - namespace allows you to restrict the access to the user who can access that.
 
+# kubectl create namespace teama               -- create a new namespace teama
+# kubectl create namespace teamb               -- create a new namespace teamb
+# kubectl get namespace                        -- list of namespaces
+= 
+NAME              STATUS   AGE
+default           Active   4d4h
+kube-node-lease   Active   4d4h
+kube-public       Active   4d4h
+kube-system       Active   4d4h
+teama             Active   7s
+teamb             Active   4s
+teamc             Active   36s
+
+# to get a particular namespace we should mention while creating, extracting and deleting 
+# kubectl run myapp --image=tomcat --namespace teama                  --creating the myapp pod in the namespace1
+# kubectl run myapp1 --image=tomcat --namespace teamb                 -- creating the myapp pod in the namespace2
+
+# kubectl run myapp --image=tomcat --namespace teama                  -- pod cannot be created as the myapp aleady exist in the namespace1
+# kubectl get all                                                     -- to check the type of resource
+# kubectl delete pod myname1                                          -- to delete the pod name myname1 
+# kubectl delete pod myname1 --namespace teama                        -- to delete the nyname1 pod from namespace teama
 # 
+
+
+
+
 
 
 ------------------------------------------Q & A------------------------------------------------------------------
