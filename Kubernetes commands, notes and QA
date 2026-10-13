@@ -98,6 +98,29 @@ API server is going to connect to kublet agent -
 - pods have multiple containers , but only in a speciic use cases we use the multiple containers in pods, if else its 1 pod = 1 container.
 = 1 pod = 1 container.
 
+# kubectl get node             -- dispplays all the nodes
+# kubectl get node -o wide     -- display all the nodes with details
+# kubectl get pods             -- displays all the pods created.
+# kubectl run myapp --image=nginx  -- create a cont-pod using a nginx image
+# kubectl get pod              -- 
+=
+NAME     READY   STATUS      RESTARTS   AGE
+myapp    0/1     Completed   0          122m
+myapp1   0/1     Error       0          114m
+myapp3   1/1     Running     0          7m17s
+
+# kubectl delete pod myapp1                -- delete the pods
+# kubectl logs myapp                       -- check the logs
+# kubectl exec -it myapp1 --/bin/bash      -- used to login into container using the bash
+# kubectl describe pod myapp1              --used to check the details of the pod.
+
+###### these all above commands show the pod life cycle#####
+
+# group of pods is called node.
+# nodes are part of cluster.
+
+$$ node is like computer/laptop and with that you run the application like POD.$$
+
 # 
 
 
