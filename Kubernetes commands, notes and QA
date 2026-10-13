@@ -121,8 +121,18 @@ myapp3   1/1     Running     0          7m17s
 
 $$ node is like computer/laptop and with that you run the application like POD.$$
 
-# 
+$$$$------------ Namespaces --------------$$$$
 
+# Kuberneted Namespaces 
+- provides isoltaion to the resouces we create in kubernetes cluster
+- what is resource ?
+= Anything that we create in the kubernetes is called a resource ex: pod.
+- every resource that we create under the kuberneted will go under the namespace.
+- we can create/delete/get/descibe a resource in kubernetes, if we do not mention the namespace it will go under the "default" namespace.
+- within a namespace we cannot have duplicate namespace.
+- namespace allows you to restrict the access to the user who can access that.
+
+# 
 
 
 ------------------------------------------Q & A------------------------------------------------------------------
