@@ -157,7 +157,10 @@ teamc             Active   36s
 # so the namespace doesnt define the ip address.
 # only the cluster administrator can see all the namespaces
 
-#
+# namespace allows you to restrict the access to the users.
+# as a cluseter admin we can set rules to who can create/delete cluster administrator.
+
+# 
 
 
 
