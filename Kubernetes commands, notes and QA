@@ -108,6 +108,18 @@ API server is going to connect to kublet agent -
 = No.
 
 # how to deploy a container in kuberneted cluster ? or any image like nginx ?
-= 
+= using pods.
+
+# pod is outer layer of the container
+# why is pod if we have containers ?
+= to handle the dynamic nature of the continers like ports, ip address - to manage in a better way.
+
+
+
+
+
+
+
+
 
 -------------------------------------------Commands---------------------------------------------------------------
