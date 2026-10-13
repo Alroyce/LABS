@@ -160,8 +160,11 @@ teamc             Active   36s
 # namespace allows you to restrict the access to the users.
 # as a cluseter admin we can set rules to who can create/delete cluster administrator.
 
-# 
+# we can create roles and assign a specific role to the user.
+# You cannot move the namespace from 1 to another, you just have to delete and create new.
 
+----------------------------------------- 
+# 
 
 
 
