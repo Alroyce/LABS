@@ -210,8 +210,8 @@ spec:
 = kubectl apply --filename multi.yaml --namespace=teamb     -- command to exexute the multi.yaml file
 
 
-# kubectl get pods               -- shows the created pods
-# kubectl get node -o wide       -- shows the created pods with all details 
+# kubectl get pods               -- shows the created pods.
+# kubectl get node -o wide       -- shows the created pods with all details.
 
 # kubectl delete pod pod.yaml
 
