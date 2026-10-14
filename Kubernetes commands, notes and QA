@@ -188,7 +188,28 @@ spec:
     image: nginx
 
 = kubectl apply --filename pod.yaml --namespace=teama -- commad to execute the yaml file
- 
+
+# multi.yaml
+=
+kind: pod
+apiVersion: v1     # kubectl api-resources  -- to get the api-version for different containers..
+metadata:
+ name: multiapp
+ namespace: teama
+ label: # mandatoy
+   app: newapp
+   env: dev
+   roles: webapp
+spec: 
+ containers:
+  - name: cont1
+    image: tomcat:10
+  - name: cont2
+    image: nginx
+
+= kubectl apply --filename multi.yaml --namespace=teamb     -- command to exexute the multi.yaml file
+
+
 # kubectl get pods               -- shows the created pods
 # kubectl get node -o wide       -- shows the created pods with all details 
 
