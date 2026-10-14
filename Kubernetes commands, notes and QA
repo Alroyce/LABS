@@ -187,9 +187,20 @@ spec:
   - name: cont2
     image: nginx
 
-= kubectl apply --filename pod.yaml --namespace=teama 
+= kubectl apply --filename pod.yaml --namespace=teama -- commad to execute the yaml file
+ 
+# kubectl get pods               -- shows the created pods
+# kubectl get node -o wide       -- shows the created pods with all details 
+
+# kubectl delete pod pod.yaml
 
 # 
+
+
+
+
+
+
 
 
 ------------------------------------------Q & A------------------------------------------------------------------
