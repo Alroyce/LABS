@@ -164,9 +164,32 @@ teamc             Active   36s
 # You cannot move the namespace from 1 to another, you just have to delete and create new.
 
 ----------------------------------------- 
+# To Manifest file is used to create/run file run container like create resource.
+
+# Manifest file will be in the yaml file.
+# Manifest file is case-sensitive.
+
+# pod.yaml
+=
+kind: pod
+apiVersion: v1
+metadata:
+ name: myapp
+ namespace: teama
+ label: # mandatoy
+   app: newapp
+   env: dev
+   roles: webapp
+spec: 
+ containers:
+  - name: cont1
+    image: tomcat:10
+  - name: cont2
+    image: nginx
+
+= kubectl apply --filename pod.yaml --namespace=teama 
+
 # 
-
-
 
 
 ------------------------------------------Q & A------------------------------------------------------------------
