@@ -214,8 +214,9 @@ spec:
 # kubectl get node -o wide       -- shows the created pods with all details.
 
 # kubectl delete pod pod.yaml
+-------------------------------------------------------------------------------------------------------------------------------
 
-# 
+#  
 
 
 
