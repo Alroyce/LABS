@@ -121,7 +121,7 @@ myapp3   1/1     Running     0          7m17s
 
 $$ node is like computer/laptop and with that you run the application like POD.$$
 
-$$$$------------ Namespaces --------------$$$$
+$$$$------------ Namespaces --------------$$$$----------------------------------------------------------------------------
 
 # Kuberneted Namespaces 
 - provides isoltaion to the resouces we create in kubernetes cluster
@@ -163,7 +163,7 @@ teamc             Active   36s
 # we can create roles and assign a specific role to the user.
 # You cannot move the namespace from 1 to another, you just have to delete and create new.
 
------------------------------------------ 
+---------------------------------------------------------------------------------------------------------------------------------
 # To Manifest file is used to create/run file run container like create resource.
 
 # Manifest file will be in the yaml file.
@@ -235,7 +235,6 @@ spec:
 # kubectl delete pod pod.yaml
 
 -------------------------------------------------------------------------------------------------------------------------------
-
 #  
 
 
@@ -245,7 +244,7 @@ spec:
 
 
 
-------------------------------------------Q & A------------------------------------------------------------------
+------------------------------------------Q & A-------------------------------------------------------------------------------
 
 # Can kubernetes build and run containers on its own 
 = No.
