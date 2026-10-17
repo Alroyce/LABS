@@ -209,11 +209,31 @@ spec:
 
 = kubectl apply --filename multi.yaml --namespace=teamb     -- command to exexute the multi.yaml file
 
+# 
+kind: Pod
+apiVersion: v1
+metadata:
+ name: myapp8
+ namespace: teama
+ labels:
+   app: newapp
+   env: dev
+   roles : webapp
+spec:
+ containers:
+  - name: cont1
+    image: nginx
+  - name: cont2
+    image: tomcat
+
+= kubectl apply --filename multi2.yaml --namespace=teamb     -- command to exexute the multi2.yaml file
+
 
 # kubectl get pods               -- shows the created pods.
 # kubectl get node -o wide       -- shows the created pods with all details.
 
 # kubectl delete pod pod.yaml
+
 -------------------------------------------------------------------------------------------------------------------------------
 
 #  
