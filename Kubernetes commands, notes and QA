@@ -243,8 +243,7 @@ spec:
 # difference is deployment and pod manifest file is - deployment file containes the number of replicas
 # in spec:
       replicas: 4 -- no of pods
-      
-      template: 
+      template:     
       metadata: 
       spec: 
        containers:
