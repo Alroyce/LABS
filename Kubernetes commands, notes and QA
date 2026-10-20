@@ -209,12 +209,12 @@ spec:
 
 = kubectl apply --filename multi.yaml --namespace=teamb     -- command to exexute the multi.yaml file
 
-# 
+# -------------------the is manifest file.
 kind: Pod
 apiVersion: v1
 metadata:
- name: myapp8
- namespace: teama
+ name: myapp8                 
+ namespace: teama           
  labels:
    app: newapp
    env: dev
@@ -235,9 +235,23 @@ spec:
 # kubectl delete pod pod.yaml
 
 -------------------------------------------------------------------------------------------------------------------------------
-#  Deployment controller
-= 
+#  Deployment controller 
 
+# the purpose of deployment is to run multiple pods.
+
+# deployment manifest file
+# difference is deployment and pod manifest file is - deployment file containes the number of replicas
+# in spec:
+      replicas: 4 -- no of pods
+      
+      template: 
+      metadata: 
+      spec: 
+       containers:
+        - name: cont1
+          image: nginx
+        - name: cont2
+          image: lerndevops/sampleapp:v1
 
 
 
