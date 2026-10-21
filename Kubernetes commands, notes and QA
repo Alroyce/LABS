@@ -347,9 +347,9 @@ spec:
 = Not possible to get the port forwarding to all the nodes/pods -
 = so use the internal load balance using the services
 
-# services are 
+# services are  
 = cluster IP 
-= NodePort
+= NodePort 
 
 #  
 
