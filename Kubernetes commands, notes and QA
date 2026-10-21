@@ -316,11 +316,12 @@ spec:
 # The Purpose of deployment is to un multiple pods.
 # The Group of pods = Multiple pods.
 # Also an advantange of replicas
-# kubectl scale deployment myapp --replicas=8.
+# kubectl scale deployment myapp --replicas=8       -- to scale the pods directly. scale up
+# kubectl scale deployment myapp --replicas=2       -- to sacel the pods down. scale down
 # auto scaling is also possible.
 # 
 
-
+# 
 
 
 ------------------------
