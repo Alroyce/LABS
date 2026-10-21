@@ -312,8 +312,14 @@ spec:
 = kubectl get deployment -o wide     -- to check if any deploymets being made.
 = kubectl get pods 
 = kubectl get deployment -o wide --show-labels          -- to match the label name in the selector.
-= 
+
+#** The Purpose of deployment is to un multiple pods.
+#
+
+
+
 ------------------------
+
 # 
 
 
