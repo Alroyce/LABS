@@ -330,7 +330,8 @@ spec:
                             app.py
                             + dependies
                             + os libraries
-                            + along with the port number.
+                            + along with the port number 
+                            + labels : pyapp
 
 # 
 
