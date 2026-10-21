@@ -351,22 +351,56 @@ spec:
 = cluster IP 
 = NodePort 
 
-#  
+# myapp-svc.yaml
+kind: Service  
+apiVersion: v1       -- kubectl api-resouces - to check in command promt
+metadata:
+ name: pyapp
+ namespace: default
+ labels: not mandatoy
+spec: 
+ type: clusterIP            - if any service is not mentioned then by default it will be clusterIP.
+ selector:
+  app: myapp                -- labels to check the pods belonging to this cluster
+  env: dev                  -- not mandatoy
+  roles: webapp             -- not mandatoy
+ ports: 
+  - name: myapp              -- name --
+    targetport: 3000          -- show the port no of container /pod
+    port: 80                  -- shows the port of the load balancer / cluster ip
 
+= kubectl apply myapp-svc.yaml
+= kubectl get pods -o wide 
 
+# kubectl get pods -o wide --show-labels       -- shows all the pods belonging to this labels
+# kubectl descibe service myapp-svc            -- its going to show the service including the end points  
 
-# 
----------------------------------------------------------------------------------------------------------------
-# 
+ubuntu@master:~$ kubectl get services -o wide
+NAME         TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)   AGE     SELECTOR
+kubernetes   ClusterIP   10.96.0.1      <none>        443/TCP   12d     <none>
+pyapp        ClusterIP   10.98.73.210   <none>        80/TCP    3m35s   app=pyapp
 
+= pyapp  -- this shows the name we should use in thedescribe command
 
+Name:                     pyapp
+Namespace:                default
+Labels:                   <none>
+Annotations:              <none>
+Selector:                 app=pyapp
+Type:                     ClusterIP
+IP Family Policy:         SingleStack
+IP Families:              IPv4
+IP:                       10.98.73.210
+IPs:                      10.98.73.210
+Port:                     cont-port1  80/TCP
+TargetPort:               3000/TCP
+Endpoints:
+Session Affinity:         None
+Internal Traffic Policy:  Cluster
+Events:                   <none>
 
-
-
-
-
-
-
+# the end points show the ip of the cont - you can ping seperately
+# the IP shows the ip of the load balancer, from which we can route the traffic to diferent pods/container
 
 
 
