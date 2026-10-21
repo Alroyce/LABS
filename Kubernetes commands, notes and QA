@@ -315,7 +315,7 @@ spec:
 
 # The Purpose of deployment is to un multiple pods.
 # The Group of pods = Multiple pods.
-# Also an advantange of replicas
+# Also an advantange of replicas.
 # kubectl scale deployment myapp --replicas=8       -- to scale the pods directly. scale up
 # kubectl scale deployment myapp --replicas=2       -- to sacel the pods down. scale down
 # auto scaling is also possible.
@@ -333,8 +333,12 @@ spec:
                             + along with the port number 
                             + labels : pyapp
 
-# 
+# replicas = 5 , pods 1 in master, 2 in worker, 2 in worker.
 
+# kubectl delete pods --all
+# kubectl delete deployment myapp                  -- to delete a deployment
+# kubectl scale deployment myapp --replicas=0      -- to stop the deployment.
+# 
 
 
 
