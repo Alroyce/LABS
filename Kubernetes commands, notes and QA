@@ -320,7 +320,7 @@ spec:
 # kubectl scale deployment myapp --replicas=2       -- to sacel the pods down. scale down
 # auto scaling is also possible.
 
-#-----------------Desired state Management----------------
+#-----------------Desired state Management---------------------------------------------------------------------
 # scale up to a level even if the pods are less and even i less than create it to the desied state level.
 
 
@@ -332,9 +332,7 @@ spec:
 # Conatiner -  - Inside the pod, we can have multiple pods.
 
 # 
-
-------------------------
-
+---------------------------------------------------------------------------------------------------------------
 # 
 
 
