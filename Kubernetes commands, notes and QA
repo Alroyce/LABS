@@ -336,10 +336,22 @@ spec:
 # replicas = 5 , pods 1 in master, 2 in worker, 2 in worker.
 
 # kubectl delete pods --all
-# kubectl delete deployment myapp                  -- to delete a deployment
+# kubectl delete deployment myapp                  -- to delete a deployment.
 # kubectl scale deployment myapp --replicas=0      -- to stop the deployment.
 # 
 
+##-------------------Kubernetes Services------------------------------------------------------------------
+  kuberneted services -- allows to access the app running in a single/group of pods
+
+ how to acces the traffic to the different pods inside the cluster -
+= Not possible to get the port forwarding to all the nodes/pods -
+= so use the internal load balance using the services
+
+# services are 
+= cluster IP 
+= NodePort
+
+#  
 
 
 
