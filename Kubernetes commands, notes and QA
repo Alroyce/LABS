@@ -322,14 +322,13 @@ spec:
 
 #-----------------Desired state Management---------------------------------------------------------------------
 # scale up to a level even if the pods are less and even i less than create it to the desied state level.
-
-
-
-
 # Kube cluster - master+ worker+ etc... totally kube cluster.
 # Node -       - master is seperate node + worker is seperate node + another worker is seperate node.
 # Pod -        - Inside the master or inside the worker node.
 # Conatiner -  - Inside the pod, we can have multiple pods.
+
+
+
 
 # 
 ---------------------------------------------------------------------------------------------------------------
