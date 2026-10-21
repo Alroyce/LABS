@@ -109,6 +109,7 @@ myapp    0/1     Completed   0          122m
 myapp1   0/1     Error       0          114m
 myapp3   1/1     Running     0          7m17s
 
+
 # kubectl delete pod myapp1                -- delete the pods
 # kubectl logs myapp                       -- check the logs
 # kubectl exec -it myapp1 --/bin/bash      -- used to login into container using the bash
@@ -280,6 +281,30 @@ spec:
    - name: cont2
      image: tomcat
 
+# ex-2
+
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+ name: myapp
+ namespace: default
+ labels:
+spec:
+ replicas: 4
+ selector:
+  matchLabels:
+   app: myapp
+ template:
+   metadata:
+    name:
+    namespace:
+    labels:
+     app: myapp
+   spec:
+    containers:
+     - name: cont1
+       image: nginx
+# 
 
 
 
