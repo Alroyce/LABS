@@ -254,7 +254,8 @@ spec:
           image: lerndevops/sampleapp:v1
 
 #-----------------------------------------
-# kind: deployment
+
+kind: deployment
 apiVersion: apps/v1
 metadata: 
  name: pyapp
@@ -307,9 +308,10 @@ spec:
 
 
 = kubectl apply -f deployment.yaml
-= kubectl get deployment 
-= kubectl get deployment -o wide 
-= kubectl get pods
+= kubectl get deployment             --  
+= kubectl get deployment -o wide     -- to check if any deploymets being made.
+= kubectl get pods 
+= kubectl get deployment -o wide --show-labels          -- to match the label name in the selector.
 = 
 ------------------------
 # 
