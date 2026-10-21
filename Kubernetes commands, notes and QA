@@ -323,9 +323,17 @@ spec:
 #-----------------Desired state Management---------------------------------------------------------------------
 # scale up to a level even if the pods are less and even i less than create it to the desied state level.
 # Kube cluster - master+ worker+ etc... totally kube cluster.
-# Node -       - master is seperate node + worker is seperate node + another worker is seperate node.
+# Node -       - master is seperate node + worker is seperate node + another worker is seperate node.  - ( Installed - Docker+kubeadm+kubelet+kubectl )
 # Pod -        - Inside the master or inside the worker node.
-# Conatiner -  - Inside the pod, we can have multiple pods.
+# Conatiner -  - Inside the pod, we can have multiple pods. 
+               -- Inside the cont we might have 
+                            app.py
+                            + dependies
+                            + os libraries
+                            + along with the port number.
+
+# 
+
 
 
 
