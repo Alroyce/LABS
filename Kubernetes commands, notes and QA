@@ -1,4 +1,4 @@
--------------------------------------------Notes------------------------------------------------------------------
+    -------------------------------------------Notes------------------------------------------------------------------
 # Container Orchestration.
 = In order to deploy the cont across the vms/servers.
 = Manage the dynamic nature of the container.
@@ -84,7 +84,7 @@ API server is going to connect to kublet agent -
 # ps -ef| grep apiserver    -- kube-apiserver manager process - talks to the other vm's - like jenkins master.
 
 # Kubernetes PODS - 
-- single pod == single instance of an application running kube cluster
+- single pod == single instance of an application running kube clus     ter
 - pod can create and manage container in it.
 - pod get an ip address & is shared by all cont inside the pod.
 - pod is not a vm
