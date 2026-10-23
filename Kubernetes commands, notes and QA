@@ -313,7 +313,7 @@ spec:
 = kubectl get pods 
 = kubectl get deployment -o wide --show-labels          -- to match the label name in the selector.
 
-# The Purpose of deployment is to un multiple pods.
+# The Purpose of deployment is to run multiple pods.
 # The Group of pods = Multiple pods.
 # Also an advantange of replicas.
 # kubectl scale deployment myapp --replicas=8       -- to scale the pods directly. scale up
@@ -352,18 +352,19 @@ spec:
 = NodePort 
 
 # myapp-svc.yaml
-kind: Service  
-apiVersion: v1       -- kubectl api-resouces - to check in command promt
-metadata:
+
+pyapp-svc.yaml 
+
+kind: Service
+apiVersion: v1  -- kubectl api-resouces - to check in command promt
+metadata: 
  name: pyapp
  namespace: default
- labels: not mandatoy
+ labels: NA
 spec: 
- type: clusterIP            - if any service is not mentioned then by default it will be clusterIP.
+ type: clusterIP   - if any service is not mentioned then by default it will be clusterIP.
  selector:
-  app: myapp                -- labels to check the pods belonging to this cluster
-  env: dev                  -- not mandatoy
-  roles: webapp             -- not mandatoy
+  app: pyapp
  ports: 
   - name: myapp              -- name --
     targetport: 3000          -- show the port no of container /pod
