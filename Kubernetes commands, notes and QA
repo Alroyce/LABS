@@ -403,6 +403,27 @@ Events:                   <none>
 # the end points show the ip of the cont - you can ping seperately
 # the IP shows the ip of the load balancer, from which we can route the traffic to diferent pods/container
 
+Nodeport -
+
+# If you want to access the application from the browser then using the Nodeport to connect to the clusterIP.
+# You can use the ip (master/worker nodes:port) no in the browser to access the different pods.
+
+Ex :
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: pyapp
+  namespace: default
+spec: 
+ type: NodePort -- kube will geneate the nodeport/hostport on every node/vm in the cluster & it also maps the nodeport to clusterip: port
+ selector: 
+  app: pyapp
+ ports
+  - name: newapp
+    Nodeports: 3000
+    ports: 80
+
 
 
 
