@@ -433,12 +433,13 @@ spec:
 # External load balancer  -- Used to access or connect to the external routr request to the either master/woker nodes ip
 # 
 # user -> dns -> ELB IP -> Node port-> cluster ip -> pod ip ->
-
-# Load Balancer is always taken care by the Network admin.
+# Load Balancer is always taken care by the Network admin. 
 # 
-----------------------------------------------------------------------------------------------------------------------------
-# MicroServices 
-= 
+----------------------------------------------------  MicroServices  ------------------------------------------------------------------------
+A routing traffic from outside the kubernetes to all these inividual sevices - called azure ingress
+
+# How to access the application ouside using the single URL ?
+# 
 
 
 
