@@ -423,8 +423,18 @@ spec:
   - name: newapp
     Nodeports: 3000
     ports: 80
-----------------------------------------------------------------------------------------------------------------------------
 
+# using the nodeport ip and port we can access the application
+# Can we share the nodePot to the customer ?
+= No, the Facebook or any company name give ip address o name - like using domain name - which will map to the ip address
+
+# first nodeport ip - the cluster ip- then node- the pod- then cont - 
+# We cannot give the nodeport IP, or any woker ip to the domain name so we need external load balancer.
+# External load balancer  -- Used to access or connect to the external routr request to the either master/woker nodes ip
+# 
+----------------------------------------------------------------------------------------------------------------------------
+# MicroServices 
+= 
 
 
 
