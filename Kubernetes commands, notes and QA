@@ -434,6 +434,7 @@ spec:
 # 
 # user -> dns -> ELB IP -> Node port-> cluster ip -> pod ip ->
 
+# Load Balancer is always taken care by the Network admin.
 # 
 ----------------------------------------------------------------------------------------------------------------------------
 # MicroServices 
