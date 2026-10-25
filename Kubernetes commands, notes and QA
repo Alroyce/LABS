@@ -438,6 +438,20 @@ spec:
 ----------------------------------------------------  MicroServices  ------------------------------------------------------------------------
 A routing traffic from outside the kubernetes to all these inividual sevices - called azure ingress
 
+Bank App :
+- login
+- debit card
+- credit card
+- loan
+- dmat account
+- FD/RD
+
+But in micro services - we have seperate images or pods for each of the above
+
+- login.war -- image -- pods -- deployment
+- debit.war -- image -- pods -- deployment
+- credit.war -- image -- pods -- deployment
+
 # How to access the application ouside using the single URL ?
 # 
 
