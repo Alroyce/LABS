@@ -432,6 +432,9 @@ spec:
 # We cannot give the nodeport IP, or any woker ip to the domain name so we need external load balancer.
 # External load balancer  -- Used to access or connect to the external routr request to the either master/woker nodes ip
 # 
+# user -> dns -> ELB IP -> Node port-> cluster ip -> pod ip ->
+
+# 
 ----------------------------------------------------------------------------------------------------------------------------
 # MicroServices 
 = 
