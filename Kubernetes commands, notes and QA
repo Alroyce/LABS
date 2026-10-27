@@ -461,11 +461,12 @@ But in micro services - we have seperate images or pods for each of the above
 # To make the application highly available we will run more than 1 pod and multiple pods
 # But we cannot access the application from outside cluster .
 # So instead of opening an individual application we start adding one more routing layer called Ingress Controller.
-# Load balancer taht can forward the traffic to various application in the cluster 
-# Runs inside the kubernates cluster as pod.
-# 
 
 
+# Ingress Controller ----
+= Load balancer taht can forward the traffic to various application in the cluster 
+= Runs inside the kubernates cluster as pod.
+= 
 
 
 
