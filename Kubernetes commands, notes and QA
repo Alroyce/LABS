@@ -10,7 +10,7 @@
 # Kubernetes - it is just a container orchestration tool.
 
 # Can kubernetes build and run containers on its own 
-= No.
+= No. 
 
 # ** Kubernetes software depends on one of the containerization software. ex : docker, podman, crio.
 
