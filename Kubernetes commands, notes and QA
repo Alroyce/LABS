@@ -453,6 +453,12 @@ But in micro services - we have seperate images or pods for each of the above
 - credit.war -- image -- pods -- deployment
 
 # How to access the application ouside using the single URL ?
+= access the multiple application using a single URL and having managed within the kubernates cluster called as ingress.
+
+# multilpe application code
+# multiple application services
+
+# To make the application highly available we will run more than 1 pod and multiple pods
 # 
 
 
