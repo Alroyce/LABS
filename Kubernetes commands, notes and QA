@@ -502,7 +502,63 @@ ingress-nginx-controller             NodePort    10.96.166.29   <none>        80
 ingress-nginx-controller-admission   ClusterIP   10.96.173.49   <none>        443/TCP           
 
 # browser -NodePort:port - 10.96.166.29:32079 
-# 
+# Reason ford doing this is - insteading of exploring each individual port here, we can have the entry point into the cluster.
+# all traffic gone be accepted from this traffic.
+# move the incoming traffic to a single ip basically.
+
+# Ingress Resource-----------------
+# is a regular kubernetes manifest yaml file
+# in which we write the routing rules where to forward traffic to pods
+
+# kubectl get ingressclass
+NAME    CONTROLLER             PARAMETERS   AGE
+nginx   k8s.io/ingress-nginx   <none>       24m
+
+# we should update rules in the pod
+
+# kubectl apply -f https://raw.githubusercontent.com/lerndevops/kubernetes/master/6-networking/ingress/app-ingress-rules.yaml
+= apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: apps-ingress-rule
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+  - http:
+      paths:
+        - path: /                      -- if only / then route to this pod
+          pathType: Prefix
+          backend:
+            service:
+              name: nginx-custom-default-backend
+              port:
+                number: 80
+        - path: /unapp
+          pathType: Prefix
+          backend:
+            service:
+              name: unapp-svc
+              port:
+                number: 80
+        - path: /pyapp
+          pathType: Prefix
+          backend:
+            service:
+              name: pyapp-svc
+              port:
+                number: 80
+        - path: /petclinic
+          pathType: Prefix
+          backend:
+            service:
+              name: petclinic-svc
+              port:
+                number: 80
+
+#  
+
 
 
 # Ingress helps in deploying and accessing the multiple applications via single use and having managed witihn the kubernetes cluster called ingres cluster.
