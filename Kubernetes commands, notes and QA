@@ -535,7 +535,7 @@ spec:
               name: nginx-custom-default-backend
               port:
                 number: 80
-        - path: /unapp
+        - path: /unapp                 -- if we type this it wil execute the below app.
           pathType: Prefix
           backend:
             service:
