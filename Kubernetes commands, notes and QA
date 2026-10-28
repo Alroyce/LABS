@@ -557,8 +557,8 @@ spec:
               port:
                 number: 80
 
-#  
-
+# kubectl get pods -o wide -n ingress-nginx
+= 
 
 
 # Ingress helps in deploying and accessing the multiple applications via single use and having managed witihn the kubernetes cluster called ingres cluster.
