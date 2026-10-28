@@ -462,14 +462,16 @@ But in micro services - we have seperate images or pods for each of the above
 # But we cannot access the application from outside cluster .
 # So instead of opening an individual application we start adding one more routing layer called Ingress Controller.
 
-
 # Ingress Controller ----
-= Load balancer taht can forward the traffic to various application in the cluster 
+= Load balancer that can forward the traffic to various application in the cluster 
 = Runs inside the kubernates cluster as pod.
-= 
+
+# Ingress helps in deploying and accessing the multiple applications via single use and having managed witihn the kubernetes cluster called ingres cluster.
+# How to reach the multiple pods within the cluster ?
+= using the cluster ip
+# we do this because in order to handle the dyaminc nature of the kube
 
 # 
-
 
 
 
