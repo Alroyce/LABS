@@ -466,10 +466,53 @@ But in micro services - we have seperate images or pods for each of the above
 = Load balancer that can forward the traffic to various application in the cluster 
 = Runs inside the kubernates cluster as pod.
 
+# different typs of load balancer ?
+= nginx ingress contoller - run inside the kubernetes cluster
+= proxy ingress controller - run inside the kubernetes cluster
+= ALB (amazon - application load balancer) - doesnt un inside the load balancer. 
+
+# kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/baremetal/deploy.yaml
+= namespace/ingress-nginx created.
+
+# kubectl get pods --namespace ingress-nginx
+= 
+NAME                                        READY   STATUS      RESTARTS   AGE
+ingress-nginx-admission-create-5htsv        0/1     Completed   0          100s
+ingress-nginx-admission-patch-khdq9         0/1     Completed   0          100s
+ingress-nginx-controller-6dc9db7d75-vlpjd   1/1     Running     0          100s
+ 
+# kubectl get namespace
+NAME              STATUS   AGE
+default           Active   19d
+ingress-nginx     Active   4m16s
+kube-node-lease   Active   19d
+kube-public       Active   19d
+kube-system       Active   19d
+ta                Active   7d20h
+
+# kubectl get pods --namespace ingress-nginx
+NAME                                        READY   STATUS      RESTARTS   AGE
+ingress-nginx-admission-create-5htsv        0/1     Completed   0          4m55s
+ingress-nginx-admission-patch-khdq9         0/1     Completed   0          4m55s
+ingress-nginx-controller-6dc9db7d75-vlpjd   1/1     Running     0          4m55s
+
+# kubectl get service --namespace ingress-nginx
+NAME                                 TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)                      AGE
+ingress-nginx-controller             NodePort    10.96.166.29   <none>        80:32079/TCP,443:30151/TCP   8m33s
+ingress-nginx-controller-admission   ClusterIP   10.96.173.49   <none>        443/TCP           
+
+# browser -NodePort:port - 10.96.166.29:32079 
+# 
+
+
 # Ingress helps in deploying and accessing the multiple applications via single use and having managed witihn the kubernetes cluster called ingres cluster.
 # How to reach the multiple pods within the cluster ?
 = using the cluster ip
 # we do this because in order to handle the dyaminc nature of the kube
+
+# deploy a nodeport?
+= kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/baremetal/deploy.yaml
+= the above will get all the 4 different applications pods installed.
 
 # 
 
