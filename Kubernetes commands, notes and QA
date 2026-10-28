@@ -342,7 +342,7 @@ spec:
 
 ##-------------------Kubernetes Services------------------------------------------------------------------
   kuberneted services -- allows to access the app running in a single/group of pods
-
+ 
  how to acces the traffic to the different pods inside the cluster -
 = Not possible to get the port forwarding to all the nodes/pods -
 = so use the internal load balance using the services
@@ -370,7 +370,7 @@ spec:
     targetport: 3000          -- show the port no of container /pod
     port: 80                  -- shows the port of the load balancer / cluster ip
 
-= kubectl apply myapp-svc.yaml
+= kubectl apply -f myapp-svc.yaml
 = kubectl get pods -o wide 
 
 # kubectl get pods -o wide --show-labels       -- shows all the pods belonging to this labels
@@ -381,7 +381,7 @@ NAME         TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)   AGE     SELECTOR
 kubernetes   ClusterIP   10.96.0.1      <none>        443/TCP   12d     <none>
 pyapp        ClusterIP   10.98.73.210   <none>        80/TCP    3m35s   app=pyapp
 
-= pyapp  -- this shows the name we should use in thedescribe command
+= pyapp  -- this shows the name we should use in the describe command.
 
 Name:                     pyapp
 Namespace:                default
@@ -468,7 +468,7 @@ But in micro services - we have seperate images or pods for each of the above
 = Runs inside the kubernates cluster as pod.
 = 
 
-
+# 
 
 
 
