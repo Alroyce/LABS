@@ -52,16 +52,18 @@ Scenario: Your Jenkins pipeline fails immediately after a developer pushes new c
 = 
 Check the Jenkins build logs for error messages.
 Validate whether the correct branch and repository URL are configured.
-Ensure there are no syntax errors in build scripts (Jenkinsfile).
+Ensure there are no syntax errors in build scripts (Jenkinsfile). -- also catch blocks if they are not handled in unit testing.
 Rebuild the job manually to confirm if the error is consistent.
-If it’s an environment issue, verify workspace permissions and dependencies.
+If it’s an environment issue, verify workspace permissions and dependencies 
+                     - make sure you have the necessary read, write, and execute access and confirm that required packages and libraries are installed and compatible.
+
 Implement automated unit testing to prevent such issues in the future.
 Tools Involved: Jenkins, Git, Maven, SonarQube
 
 2. Slow Build Times in CI Pipeline
 Scenario: Your Jenkins build pipeline takes 30 minutes longer than usual. How will you improve performance?
 = 
-Enable parallel builds in Jenkins.
+Enable parallel builds in Jenkins. 
 Use incremental builds instead of rebuilding everything.
 Cache dependencies using Docker layers or artifact repositories.
 Move heavy tasks to dedicated build agents.
