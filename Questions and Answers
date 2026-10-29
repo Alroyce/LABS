@@ -44,3 +44,192 @@ AWS
 28. Difference between plan, apply, destroy?
 29. What are modules?
 30. What is drift & how do you fix it?
+
+Top 20 DevOps Scenario-Based Interview Questions and Answers (2026 Edition)
+
+1. CI/CD Pipeline Failure After Code Commit
+Scenario: Your Jenkins pipeline fails immediately after a developer pushes new code. How do you troubleshoot?
+= 
+Check the Jenkins build logs for error messages.
+Validate whether the correct branch and repository URL are configured.
+Ensure there are no syntax errors in build scripts (Jenkinsfile).
+Rebuild the job manually to confirm if the error is consistent.
+If it’s an environment issue, verify workspace permissions and dependencies.
+Implement automated unit testing to prevent such issues in the future.
+Tools Involved: Jenkins, Git, Maven, SonarQube
+
+2. Slow Build Times in CI Pipeline
+Scenario: Your Jenkins build pipeline takes 30 minutes longer than usual. How will you improve performance?
+= 
+Enable parallel builds in Jenkins.
+Use incremental builds instead of rebuilding everything.
+Cache dependencies using Docker layers or artifact repositories.
+Move heavy tasks to dedicated build agents.
+Optimize test scripts to avoid redundant testing.
+Outcome: Faster build cycle, reduced infrastructure costs, and improved CI/CD performance.
+
+3. Deployment Fails Due to Environment Differences
+Scenario: The code works in staging but fails in production. What’s your approach?
+=
+Compare environment variables between staging and production.
+Check for version mismatches in libraries, frameworks, or OS.
+Use Infrastructure as Code (Terraform, Ansible) to standardize setups.
+Implement Docker containers for environment consistency.
+Result: Eliminates the “it works on my machine” problem.
+
+4. Docker Container Keeps Restarting
+
+Scenario: After deployment, your Docker container restarts repeatedly. What do you do?
+=
+Run docker logs <container_id> to identify the root cause.
+Check for missing environment variables or failed services inside the container.
+Validate Dockerfile configurations (ENTRYPOINT, CMD).
+Inspect resource limits (memory/CPU) defined in Docker Compose or Kubernetes.
+Update the image and redeploy once resolved.
+
+5. Kubernetes Pod in CrashLoopBackOff State
+
+Scenario: A pod in your Kubernetes cluster is stuck in CrashLoopBackOff. What steps do you take?
+= 
+Run kubectl describe pod <pod_name> to get event details.
+Use kubectl logs to check application errors.
+Confirm container image, resource limits, and config maps.
+Check liveness and readiness probes.
+If a misconfiguration exists, apply a corrected YAML manifest and redeploy.
+Tools Used: Kubernetes, Docker, Helm
+
+6. CI/CD Rollback Scenario
+
+Scenario: A recent deployment caused issues in production. How do you perform a safe rollback?
+= 
+Maintain versioned builds or images using Git tags or Docker versions.
+Automate rollback through Jenkins or GitLab CI pipelines.
+Deploy the previous stable version to production.
+Implement blue-green or canary deployment to minimize downtime.
+
+7. Git Merge Conflict Between Two Developers
+
+Scenario: Two developers push conflicting code changes to the same branch. How do you resolve it?
+= 
+Identify conflicting files using git status.
+Merge branches manually using git merge.
+Resolve conflicts locally and commit merged changes.
+Use pull requests (PRs) and code reviews to prevent future issues.
+Tip: Establish a branching strategy like GitFlow.
+
+8. Jenkins Build Trigger Not Working
+Scenario: Jenkins doesn’t trigger a build automatically after a Git push.
+= 
+Check webhook configurations in GitHub/GitLab.
+Ensure Jenkins is accessible from the repository server.
+Verify Jenkins plugin compatibility (Git plugin).
+Manually trigger and inspect webhook logs for 200 OK status.
+
+9. Application Downtime During Deployment
+
+Scenario: The production app goes down for several minutes during each deployment.
+= 
+Implement rolling deployments to deploy one instance at a time.
+Use blue-green deployment for zero downtime.
+Load-balance traffic using NGINX or AWS ELB.
+Test deployments on staging before promoting to production.
+
+10. Terraform Apply Fails Midway
+
+Scenario: Your Terraform script fails while creating AWS resources.
+= 
+Run Terraform plan to preview changes before applying.
+Check for typos in resource definitions.
+Resolve dependency errors in modules.
+Use terraform refresh and terraform state list to validate current states.
+Reapply with proper configurations.
+
+11. Monitoring Alerts Not Triggering
+
+Scenario: CPU usage crosses 90%, but no alerts are generated.
+= 
+Verify alerting rules in Prometheus or CloudWatch.
+Check threshold configurations and notification channels.
+Ensure the alert manager is properly integrated with email/SMS.
+Test alerts manually using simulated metrics.
+
+12. Build Artifacts Not Uploaded to Repository
+
+Scenario: Your CI pipeline completes successfully, but the artifacts are missing in the repository.
+= 
+Check artifact storage path and credentials.
+Verify the correct repository URL in the Jenkinsfile or the build script.
+Ensure artifact upload plugin (like Nexus or Artifactory) is configured correctly.
+
+13. Application Logs Not Appearing in ELK Dashboard
+
+Scenario: Logs are missing from the Kibana dashboard.
+= 
+Validate Logstash input configurations.
+Check Elasticsearch index permissions.
+Ensure application log format matches Logstash parsing rules.
+Restart Logstash and re-ingest data.
+
+14. AWS EC2 Instance Becomes Unresponsive
+
+Scenario: A production EC2 instance stops responding to SSH connections.
+= 
+Verify instance status checks in the AWS console.
+Check security group inbound rules.
+Review system logs via AWS Systems Manager or console.
+If required, detach the volume, mount it on another instance, and recover data.
+
+15. Jenkins Node Goes Offline
+Scenario: One of your Jenkins slave nodes suddenly goes offline.
+= 
+Check network connectivity between the master and the agent.
+Ensure Jenkins agent service is running.
+Reconnect or reconfigure node credentials.
+Monitor agent logs for timeout errors.
+
+16. Docker Image Size Too Large
+Scenario: The Docker image size exceeds expected limits.
+= 
+Use a smaller base image (e.g., Alpine Linux).
+Clean up cache and temp files using multi-stage builds.
+Run docker image prune to remove unused layers.
+
+17. Failed Code Deployment in AWS ECS
+Scenario: ECS service deployment fails after a new task definition.
+=
+Review ECS task logs and CloudWatch metrics.
+Check IAM permissions for ECS and ECR.
+Ensure the correct container image version is referenced.
+
+18. Jenkins Credential Leakage
+Scenario: Sensitive credentials accidentally printed in Jenkins logs.
+= 
+Mask sensitive credentials in Jenkins using the Credentials Plugin.
+Rotate keys immediately.
+Update Jenkins pipeline scripts to use secure variables.
+
+19. Kubernetes Scaling Issue
+Scenario: Auto-scaling is not triggering even when CPU utilization increases.
+= 
+Verify Horizontal Pod Autoscaler (HPA) configuration.
+Ensure resource requests/limits are defined in deployments.
+Check the metrics server setup and permissions.
+
+20. Cloud Cost Optimization Scenario
+
+Scenario: Your monthly cloud bill has increased unexpectedly. What steps will you take?
+= 
+Identify cost-heavy services using AWS Cost Explorer.
+Remove unused EC2 instances, EBS volumes, or S3 buckets.
+Implement auto-scaling and instance scheduling.
+Use spot instances for non-critical workloads.
+Additional DevOps Real-Time Scenarios for Practice
+
+21.
+
+
+Automating database backups with Jenkins and AWS S3.
+Managing multi-region deployments on Kubernetes.
+Implementing blue-green deployments using Terraform.
+Handling zero-downtime upgrades in CI/CD pipelines.
+Setting up centralized logging for multi-cloud environments.
