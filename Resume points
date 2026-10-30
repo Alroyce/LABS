@@ -1,3 +1,5 @@
+the devops handbook
+
 resume points. 
 The blue green deployment canary deployment. 
 Kubernetes let it be there.
@@ -30,6 +32,7 @@ Use Case for Read  and byheart it ?
 include costing in the company, the cloud cost ?
 Problem and solved it ?
 
+
 what is the devops principle ?
 write a terraform scipt to create a s3 bucker or ec2 instance ?
 The pincipals = 3 ?
@@ -38,6 +41,11 @@ if we have a 3 tier application how do you deploy in azure cloud ? what all we u
 Git branching strategy, Release strategy - how do you manage the release ? how the main and the truck has to be protected ?
 if we have a feature how you gonna check out and merge it to main ?
 if a distributed or mono repository how do you manage that ? 
+shift-left security in ci/cd pipeline
+how to find the vulnabilities in ci pipelines
+how u gone setup the unit testing and intergrating pipeline
+sonarqube 
+
 
 
 
