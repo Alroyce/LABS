@@ -79,7 +79,7 @@ Use Infrastructure as Code (Terraform, Ansible) to standardize setups.
 Implement Docker containers for environment consistency.
 Result: Eliminates the “it works on my machine” problem.
 
-4. Docker Container Keeps Restarting
+4. Docker Container Keeps Restarting.
 
 Scenario: After deployment, your Docker container restarts repeatedly. What do you do?
 =
@@ -203,34 +203,33 @@ Review ECS task logs and CloudWatch metrics.
 Check IAM permissions for ECS and ECR.
 Ensure the correct container image version is referenced.
 
-18. Jenkins Credential Leakage
-Scenario: Sensitive credentials accidentally printed in Jenkins logs.
+18. Jenkins Credential Leakage.
+Scenario: Sensitive credentials accidentally printed in Jenkins logs. 
 = 
-Mask sensitive credentials in Jenkins using the Credentials Plugin.
+Mask sensitive credentials in Jenkins using the Credentials Plugin. 
 Rotate keys immediately.
 Update Jenkins pipeline scripts to use secure variables.
 
-19. Kubernetes Scaling Issue
+19. Kubernetes Scaling Issue.
 Scenario: Auto-scaling is not triggering even when CPU utilization increases.
 = 
-Verify Horizontal Pod Autoscaler (HPA) configuration.
-Ensure resource requests/limits are defined in deployments.
+Verify Horizontal Pod Autoscaler (HPA) configuration. 
+Ensure resource requests/limits are defined in deployments. - Defined minimun and maximun replicas - 2 to 10.
 Check the metrics server setup and permissions.
 
-20. Cloud Cost Optimization Scenario
-
-Scenario: Your monthly cloud bill has increased unexpectedly. What steps will you take?
+20. Cloud Cost Optimization Scenario.
+Scenario: Your monthly cloud bill has increased unexpectedly. What steps will you take..?
 = 
 Identify cost-heavy services using AWS Cost Explorer.
 Remove unused EC2 instances, EBS volumes, or S3 buckets.
 Implement auto-scaling and instance scheduling.
 Use spot instances for non-critical workloads.
-Additional DevOps Real-Time Scenarios for Practice
 
-21.
+Additional DevOps Real-Time Scenarios for Practice.
 
-
+21. 
 Automating database backups with Jenkins and AWS S3.
+=
 Managing multi-region deployments on Kubernetes.
 Implementing blue-green deployments using Terraform.
 Handling zero-downtime upgrades in CI/CD pipelines.
