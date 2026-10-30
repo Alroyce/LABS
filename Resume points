@@ -25,10 +25,19 @@ Project description - containerization -
 2 companies 2 project each - include all the keywords. 
 Primaly talk about containerization.
 
-blue-green deployment, canary based deployments - talk for 2-3 minutes in case if questioned.
-Use Case for Read  and byheart it.
-include costing in the company, the cloud cost
-Problem and solved it.
+blue-green deployment, canary based deployments - talk for 2-3 minutes in case if questioned ?
+Use Case for Read  and byheart it ?
+include costing in the company, the cloud cost ?
+Problem and solved it ?
+
+what is the devops principle ?
+write a terraform scipt to create a s3 bucker or ec2 instance ?
+The pincipals ?
+How a CICD has to be setup ?
+
+
+
+
 
 
 
