@@ -2,17 +2,33 @@ resume points.
 The blue green deployment canary deployment. 
 Kubernetes let it be there.
 Use cases on terraform. 
-Cicd artifact. 
+CICD artifact. 
 Docker docker compose. 
-Company wise 2 Project wise - all the keywords. 
-CD 
-Infracture as a code - very important. 
+Company wise 2 Project wise - all the keywords - 
+CD - 
+Infracture as a code - very important - 
 
 DevOps principles - 
 Git branching strategy, Release strategy - 
 CI/CD - Shift left security, Shift left security, SonarQube, Build and publish the artefact. How to deploy Docker containers, how to test and validation. 
 Infrastructure - Terraform (Important) -  
-Docker - Docker Compose - Docker File.  
+Docker - Docker Compose - Docker File - 
 Obversability -  
 Azure Cloud -  
+
+Argo CD 
+
+kubernetes let it be there towards the end.
+
+Project description - containerization - 
+
+2 companies 2 project each - include all the keywords. 
+Primaly talk about containerization.
+
+blue-green deployment, canary based deployments - talk for 2-3 minutes in case if questioned.
+Use Case for Read  and byheart it.
+include costing in the company, the cloud cost
+Problem and solved it.
+
+
 
