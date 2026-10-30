@@ -18,9 +18,7 @@ Docker - Docker Compose - Docker File.
 Obversability -  
 Azure Cloud -  
 
-Argo CD 
-
-kubernetes let it be there towards the end.
+Argo CD
 
 Project description - containerization - 
 
@@ -32,6 +30,7 @@ Use Case for Read  and byheart it ?
 include costing in the company, the cloud cost ?
 Problem and solved it ?
 
+CI part ---------------------------
 
 what is the devops principle ?
 write a terraform scipt to create a s3 bucker or ec2 instance ?
@@ -43,8 +42,66 @@ if we have a feature how you gonna check out and merge it to main ?
 if a distributed or mono repository how do you manage that ? 
 shift-left security in ci/cd pipeline
 how to find the vulnabilities in ci pipelines
-how u gone setup the unit testing and intergrating pipeline
-sonarqube 
+primarily how u gone setup the unit testing and intergrating pipeline.
+sonarqube - how u find the vulnabilities and what problem does it solve and how you build and publish the artifact
+for artifactory we have used artifactory.
+
+Deployment ------------------------
+terraform is important-
+use case - 
+terraform interview question and answers - asked everywhere - 
+docker question and answers 
+what problem docker will solve, 
+what is virtualization, what containers are solving, 
+
+Observability ------------------------------imp-----
+
+observability how logs are managed, how alerts are managed, how phases are managed
+Splunk Observability Cloud, Datadog
+how you gone push the logs, how do you create dashboards, how you gone manage alerts if something fails.
+
+azure cloud - how to setup vnet, how to set the application on an instance, 
+aws - route 53, 
+
+how to deploy a 3 tier application
+let say there is a UI, backend and database - how will you deploy on cloud. understand this architecture.
+
+blue-green deployment, canary based deployments - talk for 2-3 minutes in case if questioned ?
+Use Case for Read  and byheart it ?
+include costing in the company, the cloud cost ?
+
+kubernetes let it be there towards the end.
+docker container
+how to deploy the docker container through the pipeline & bot throught the helm chart.
+helm chart
+gitops and argoCD works
+deploy application on argoCD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
