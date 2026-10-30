@@ -6,4 +6,13 @@ Cicd artifact
 Docker docker compose
 Company wise 2 Project wise - all the keywords.
 CD
+Infracture as a code - very important.
+
+1. DevOps principles
+2. Git branching strategy, Release strategy
+3. CI/CD - Shift left security, Shift left security, SonarQube, Build and publish the artefact. How to deploy Docker containers, how to test and validation.
+4. Infrastructure - Terraform (Important)
+5. Docker 
+6. Obversability
+7. Azure Cloud -
 
