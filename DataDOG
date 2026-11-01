@@ -1,3 +1,26 @@
-Its a tool which is used in production and also 
+-----------------------------------------------------DATADOG ------------------------------------------
+# A Cloud-based obervability platform that helps team understand what happening in production.
+# Datadog helps organizations monitor their applications, servers, databases, cloud infrastructure, and networks from one platform.
+# used to manage logs, metrics, traces and Events.
+
+# Traditional Method
+= Focuses on server health (CPU, Memory , disk) and simple alerts.
+
+# Datalog obervability - Connects Infrastructure, users into one unifield view.
+
+# Its a tool which is used in production and also 
 # Collects data from the system - visualise the data - Understands whats happening.
 # Metrics Logs traces Events.
+# 
+-----------------Obesrvability-----------------------------------------------------------------
+Metrices                           Logs                          Traces
+-----------------------------------------------------------------------------------------------
+Infra Monitoring               Log monitoring                    APM monitoring
+                                                                 Synthetic Monitoring
+                                                                 RUM monitoring
+-----------------------------------------------------------------------------------------------
+windows                             App Logs                         Traffic
+Linux                               Network Logs                     API ENdpoint
+Apache                              System Logs                      Browser
+DB
+-----------------------------------------------------------------------------------------------
