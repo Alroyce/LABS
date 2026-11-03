@@ -29,7 +29,13 @@ Collecting ---> Storing --> Analysing --> DASHBOARD --> Report --> Alerts
 DATADOG infra agent = Metrices + Agent
 DATADOG APM Agent   = Traces
 -----------------------------------------------------------------------------------------------
-
+# DASHBOARDS & MONITOR --> DASHBOARD -- REPORTS -- ALERTS
+# INFRASTRUCTURE - Infra Monitoring
+# DIGITAL EXPERIENCE - RUM -- Real User Monitoring or Browser Monitoring
+# APM -- apm -- traces monitoring
+# Erors -- Logs -- Traces -- can explorer logs, metrices and traces 
+   -- Errors -- From APM what ever it is coming.
+# 
 
 
 
