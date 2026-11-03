@@ -35,6 +35,9 @@ DATADOG APM Agent   = Traces
 # APM -- apm -- traces monitoring
 # Erors -- Logs -- Traces -- can explorer logs, metrices and traces 
    -- Errors -- From APM what ever it is coming.
+# systemctl status datadog-agent
+# cd/etc/datadog-agent/   - to get the configuration file
+# datadog.yaml            -- this is the configuration file
 # 
 
 
