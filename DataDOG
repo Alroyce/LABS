@@ -17,7 +17,7 @@ Metrices                           Logs                          Traces
 -----------------------------------------------------------------------------------------------
 Infra Monitoring               Log monitoring                    APM monitoring
                                                                  Synthetic Monitoring
-                                                                 RUM monitoring
+                                                                 RUM monitoring  --> Real User Monitoring
 -----------------------------------------------------------------------------------------------
 windows                             App Logs                         Traffic
 Linux                               Network Logs                     API ENdpoint
@@ -26,6 +26,11 @@ DB
 -----------------------------------------------------------------------------------------------
 Collecting ---> Storing --> Analysing --> DASHBOARD --> Report --> Alerts
 -----------------------------------------------------------------------------------------------
+DATADOG infra agent = Metrices + Agent
+DATADOG APM Agent   = Traces
+-----------------------------------------------------------------------------------------------
+
+
 
 
 
