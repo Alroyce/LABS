@@ -1,1 +1,10 @@
-# 
+# If an interviewer asks, "Why do we use S3 in DevOps?", you can answer:
+
+We use AWS S3 in DevOps mainly for storing build artifacts, application backups, logs, and Terraform state files. 
+We also integrate S3 with Jenkins CI/CD pipelines to store and retrieve application artifacts during deployment. 
+It provides scalable, durable, and highly available object storage."
+
+My suggestion: Learn one practical project: create an S3 bucket, upload a Java JAR file from Jenkins, and download it on an EC2 instance.
+This will help you understand how S3 is used in real-world DevOps projects.
+
+
