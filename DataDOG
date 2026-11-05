@@ -32,12 +32,12 @@ DATADOG APM Agent   = Traces
 # DASHBOARDS & MONITOR --> DASHBOARD -- REPORTS -- ALERTS
 # INFRASTRUCTURE - Infra Monitoring
 # DIGITAL EXPERIENCE - RUM -- Real User Monitoring or Browser Monitoring
-# APM -- apm -- traces monitoring
-# Erors -- Logs -- Traces -- can explorer logs, metrices and traces 
+# APM -- apm -- traces monitoring - All the traffic will be monitored.
+# Erors -- Logs -- Traces -- can explorer logs, metrices and traces.
    -- Errors -- From APM what ever it is coming.
-# systemctl status datadog-agent
-# cd/etc/datadog-agent/   - to get the configuration file
-# datadog.yaml            -- this is the configuration file
+# systemctl status datadog-agent.
+# cd/etc/datadog-agent/   - to get the configuration file.
+# datadog.yaml            -- this is the configuration file.
 # 
 
 
