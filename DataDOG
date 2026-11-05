@@ -42,7 +42,10 @@ DATADOG APM Agent   = Traces
 # The process of Infra Agent----
 = Go to DATADOG -- Search for agents -- Integrations -- Fleet Automation -- Install Agents -- HOST BASED -- linux -- 
 -- Application Performance Monitoring -- Real User Monitoring -- API KEY -- USE API KEY -- Copy code -- (paste in the vm) -- Gets Starts to Install in the VM --
--- 
+
+# Install the inux Envionment - then inside the linux Envionment - install the java and tomat and access throught it.
+
+# 
 
 
 
