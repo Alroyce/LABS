@@ -38,7 +38,25 @@ DATADOG APM Agent   = Traces
 # systemctl status datadog-agent.
 # cd/etc/datadog-agent/   - to get the configuration file.
 # datadog.yaml            -- this is the configuration file.
-# 
+
+# The process of Infra Agent----
+= Go to DATADOG -- Search for agents -- Integrations -- Fleet Automation -- Install Agents -- HOST BASED -- linux -- 
+-- Apllication Performance Monitoring -- Real User Monitoring -- API KEY -- USE API KEY -- Copy code -- (paste in the vm) -- Gets Starts to Install --
+-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
