@@ -41,7 +41,7 @@ DATADOG APM Agent   = Traces
 
 # The process of Infra Agent----
 = Go to DATADOG -- Search for agents -- Integrations -- Fleet Automation -- Install Agents -- HOST BASED -- linux -- 
--- Apllication Performance Monitoring -- Real User Monitoring -- API KEY -- USE API KEY -- Copy code -- (paste in the vm) -- Gets Starts to Install --
+-- Application Performance Monitoring -- Real User Monitoring -- API KEY -- USE API KEY -- Copy code -- (paste in the vm) -- Gets Starts to Install in the VM --
 -- 
 
 
