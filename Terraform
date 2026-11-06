@@ -51,6 +51,13 @@ $ all the above are cloud specific but is not cloud specific.
 = Ansible = Configures the infrastructure.
 
 # 
+
+
+
+
+
+
+
 ---------------------------------------------Tasks----------------------------------------------------------------
 # My suggestion for your next hands-on exercise: Build a complete Terraform project that creates: ?
 VPC
