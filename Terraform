@@ -23,4 +23,14 @@ $ all the above are cloud specific but is not cloud specific.
 
 # Terraform can use any cloud like, aws, azure, GCP, IBM, ALIBABA cloud, etc...
 
-# 
+-------------------------------------------Q & A ----------------------------------------------------------------------
+# can we use ansible/puppet/chef as IAC to create infrastructure as Code ?
+= Yes, but ansible primary role is for configuration management.
+= Ansible is very good at doing thing after logging into the server, like 
+= Like giving you credentials, logs in , it will take care of the installation, making the changes inside the server.
+= Configuration management main goal is to implement changes on the servers which are already running, configuration mgt tools are famous for that.
+= ansible primary role is to do changes on the server that are already available.
+= ansible primary tool is configuration management
+= ansible secondary tool is infrastructure score.
+
+
