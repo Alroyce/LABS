@@ -1,1 +1,26 @@
+--------------------------------------------Terraform-----------------------------------------------------------
+# Terraform is infrastructure as code -
+# Infracture 
+= Base infra is a datacentre where all the H/w is kept
+= we use h/w to create servers.
+# How to create the sever (Infra) ?
+= we can purchase hardware and build sever.
+= or we can use cloud service like ( aws ) portal / UI to create the server.
 
+# Infra can be created using the automation scripts ?
+= if we create the infrastructure using the script/ code we call it as infrastructure as code.
+
+# Tools for implementating IAC ?
+= AWS    -- Cloud formation.
+= Azure  -- we have Azure Resource Manager.
+= GCP    -- Deployment Manager
+
+$ all the above are cloud specific but is not cloud specific.
+
+# Terraform is a infrastructure as a code tool which is developed by hashicorp is not cloud specific and we can use it using any cloud.
+
+# Terraform is called cloud agnostic.
+
+# Terraform can use any cloud like, aws, azure, GCP, IBM, ALIBABA cloud, etc...
+
+# 
