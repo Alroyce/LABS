@@ -33,4 +33,10 @@ $ all the above are cloud specific but is not cloud specific.
 = ansible primary tool is configuration management
 = ansible secondary tool is infrastructure score.
 
+# Ansible and Terraform are both Infrastructure as Code (IaC) tools, but they solve different problems.
+= The simplest way to understand them is:
+= Terraform = Builds the infrastructure.
+= Ansible = Configures the infrastructure.
+
+# 
 
