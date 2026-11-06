@@ -23,6 +23,18 @@ $ all the above are cloud specific but is not cloud specific.
 
 # Terraform can use any cloud like, aws, azure, GCP, IBM, ALIBABA cloud, etc...
 
+# terraform init            -- Initalize terraform.
+# terraform fmt             -- Format terraform files.
+# terraform validate        -- Validate configuration.
+# terraform plan            -- Preview infrastructure changes.
+# terraform apply           -- Executes -- creates the changes like EC2 instances.
+# terraform output          -- Display the details of the output.
+# terrafom destroy          -- Deletes the output.
+# 
+
+
+
+
 -------------------------------------------Q & A ----------------------------------------------------------------------
 # can we use ansible/puppet/chef as IAC to create infrastructure as Code ?
 = Yes, but ansible primary role is for configuration management.
@@ -39,4 +51,15 @@ $ all the above are cloud specific but is not cloud specific.
 = Ansible = Configures the infrastructure.
 
 # 
+---------------------------------------------Tasks----------------------------------------------------------------
+# My suggestion for your next hands-on exercise: Build a complete Terraform project that creates: ?
+VPC
+Public subnet
+Internet Gateway
+Route table
+Security group (SSH and HTTP)
+EC2 instance ?
+
+= Need to do it.
+
 
