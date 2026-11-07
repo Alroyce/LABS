@@ -10,12 +10,12 @@
 # Infra can be created using the automation scripts ?
 = if we create the infrastructure using the script/ code we call it as infrastructure as code.
 
-# Tools for implementating IAC ?
+# Tools for implementating IAC ?.
 = AWS    -- Cloud formation.
 = Azure  -- we have Azure Resource Manager.
-= GCP    -- Deployment Manager
+= GCP    -- Deployment Manager.
 
-$ all the above are cloud specific but is not cloud specific.
+$ all the above are cloud specific but terraform is not cloud specific.
 
 # Terraform is a infrastructure as a code tool which is developed by hashicorp is not cloud specific and we can use it using any cloud.
 
@@ -30,7 +30,7 @@ $ all the above are cloud specific but is not cloud specific.
 # terraform apply           -- Executes -- creates the changes like EC2 instances.
 # terraform output          -- Display the details of the output.
 # terrafom destroy          -- Deletes the output.
-# 
+
 
 
 
