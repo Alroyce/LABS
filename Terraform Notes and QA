@@ -31,9 +31,36 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # terraform output          -- Display the details of the output.
 # terrafom destroy          -- Deletes the output.
 
-# create a IAM user - In iAM user - give all the permission - EC2, S3, Full access, VPC
-# 
+# create a IAM user - In iAM user - give all the permission - EC2, S3, Full access, Adminstrator Access, VPC.
 
+# ---------------------------------------------------Terraform Scipts-----------------------------------------
+# HCL/TCL - Hashicorp corporation language / Terraform configuration language.
+# Terraform scripts ---
+# Should end with .tf extension
+# File Name can be anything
+# Terraform terminalogy
+# Provides -- is the cloud provider name (like AWS, AZURE, GCP, IBM )
+# Resources -- anything we create on the cloud we create is called a resource. ( ec2, s3, s3key)
+# Two Imp things inside a terraform scripts ----
+
+# Are always key = value pair.
+# Ex: name = naresh
+
+# Blocks (like dictionary )
+
+blocktype " "resource we want to create" "purpose" {
+
+}
+resources ec2 "dev"
+ami = ami 
+instant_type = t2.micro
+key_name = "ipat"
+}
+
+# different block type 
+  provider / variable / output
+
+# 
 
 
 
