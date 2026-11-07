@@ -31,6 +31,7 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # terraform output          -- Display the details of the output.
 # terrafom destroy          -- Deletes the output.
 
+# create a IAM user - In iAM user - give all the permission - EC2, S3, Full access, VPC
 # 
 
 
