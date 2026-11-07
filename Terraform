@@ -31,7 +31,7 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # terraform output          -- Display the details of the output.
 # terrafom destroy          -- Deletes the output.
 
-
+# 
 
 
 
