@@ -39,9 +39,6 @@ $ all the above are cloud specific but terraform is not cloud specific.
 
 
 
-
-
-
 -------------------------------------------Q & A ----------------------------------------------------------------------
 # can we use ansible/puppet/chef as IAC to create infrastructure as Code ?
 = Yes, but ansible primary role is for configuration management.
