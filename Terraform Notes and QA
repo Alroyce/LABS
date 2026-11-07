@@ -96,7 +96,8 @@ security_group = "launch-wizard-3"
 # la -al                 -- all the plugins will be saved.
 # Terraform init         -- used to download the requied plugin
 # Terraform plan          -- used for Dry Run.
-# Terraform apply         -- execute and apply the changes.\
+# Terraform apply         -- execute and apply the changes.
+
 # 
 
 
@@ -132,9 +133,16 @@ security_group = "launch-wizard-3"
 = Terraform = Builds the infrastructure.
 = Ansible = Configures the infrastructure.
 
+# what is terafom workflow ?
+= Terraform workflow is a starting from 
+terraform init 
+terraform plan 
+terraform apply 
+terraform output 
+terraform destroy 
+all these include the terraform workflow.
+
 # 
-
-
 
 
 
