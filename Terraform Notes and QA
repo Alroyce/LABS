@@ -92,9 +92,9 @@ security_group = "launch-wizard-3"
 # ......tf               -- the terraform will read all the .tf files in the current directory.
 
 # we can write all the terraform script in a single file.
-# la -al                 -- All the terraform folder will be downloaded in the .terraform folder.
+# All the terraform folder will be downloaded in the .terraform folder.
+# la -al                 -- all the plugins will be saved.
 # 
-
 
 
 
