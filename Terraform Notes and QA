@@ -34,6 +34,7 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # create a IAM user - In iAM user - give all the permission - EC2, S3, Full access, Adminstrator Access, VPC.
 
 # ---------------------------------------------------Terraform Scipts-----------------------------------------
+
 # HCL/TCL - Hashicorp corporation language / Terraform configuration language.
 # Terraform scripts ---
 # Should end with .tf extension
@@ -48,8 +49,8 @@ $ all the above are cloud specific but terraform is not cloud specific.
 
 # Blocks (like dictionary ) - is a section that defines something.
 # Blocks can be of different types like:- Provider Block, Variable Block, Output Block and Resource Block.
-# 
 
+# 
 blocktype " "resource we want to create" "purpose" {
 
 }
@@ -87,6 +88,8 @@ security_group = "launch-wizard-3"
 
 # Plugin is a something that exposes or enhances your basic software.
 # So when we write the provider plugin it will download the same plugin, like aws- aws plugin, gcp - google plugin, azue - azure plugin.
+
+# ......tf   --- the terraform will read all the .tf files in the current directory.
 
 # 
 
