@@ -46,7 +46,9 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # Are always key = value pair.
 # Ex: name = naresh
 
-# Blocks (like dictionary )
+# Blocks (like dictionary ) - is a section that defines something.
+# Blocks can be of different types like:- Provider Block, Variable Block, Output Block and Resource Block.
+# 
 
 blocktype " "resource we want to create" "purpose" {
 
