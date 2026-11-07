@@ -94,6 +94,9 @@ security_group = "launch-wizard-3"
 # we can write all the terraform script in a single file.
 # All the terraform folder will be downloaded in the .terraform folder.
 # la -al                 -- all the plugins will be saved.
+# Terraform init         -- used to download the requied plugin
+# Terraform plan          -- used for Dry Run.
+# Terraform apply         -- execute and apply the changes.\
 # 
 
 
