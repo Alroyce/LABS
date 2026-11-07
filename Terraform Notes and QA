@@ -62,7 +62,45 @@ key_name = "ipat"
 # different block type 
   provider / variable / output
 
+# create a folder and create a provider.tf file.
+
+# provider.tf
+= provider "aws" {
+  access_key = "skfkajkjdf"
+  secret_key = "hjgjhsdjfhjdajhd"
+  region = "us-west-2"
+}
+
+# create resource.tf file like :-
+# ec2.tf
+= resource "aws_instance" "web-server" 
+{
+ami = "ami-0c24c764e44ed98f2"
+tags = {
+  Name = "terra_user"
+}
+instance_type = "t3.micro"
+count = 2
+key_name = "key"
+security_group = "launch-wizard-3"
+}
+
+# Plugin is a something that exposes or enhances your basic software.
+
 # 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
