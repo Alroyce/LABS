@@ -197,9 +197,7 @@ security_groups = ["default"]
 = Yes, it supports hypervisor vm and also private clouds.
 
 # Terraform has terraform state file.
-
 # Terrafom captures all the information from the resources and save the info in the terraform state file.
-
 # 
 
 
