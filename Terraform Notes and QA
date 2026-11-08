@@ -124,10 +124,11 @@ Tags = {
 } 
 }
 
-# Creata a Security Groups bucket using the Terrafom ?
+# Creata a Security Groups bucket using the Terraform ?
 = resource "aws_security_group" "secgrp" {
-
-
+  
+  ingress 
+  
 }  
 
 # 
