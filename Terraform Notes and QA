@@ -1,3 +1,5 @@
+
+
 --------------------------------------------Terraform-----------------------------------------------------------
 # Terraform is infrastructure as code -
 # Infracture 
@@ -65,12 +67,15 @@ key_name = "ipat"
 
 # create a folder and create a provider.tf file.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 # provider.tf
 = provider "aws" {
   access_key = "skfkajkjdf"
   secret_key = "hjgjhsdjfhjdajhd"
   region = "us-west-2"
 }
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 # create resource.tf file like :-
 # ec2.tf
@@ -85,6 +90,8 @@ key_name = "key"
 security_group = "launch-wizard-3"
 }
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Plugin is a something that exposes or enhances your basic software.
 # So when we write the provider plugin it will download the same plugin, like aws- aws plugin, gcp - google plugin, azue - azure plugin.
 
@@ -98,7 +105,9 @@ security_group = "launch-wizard-3"
 # Terraform apply         -- execute and apply the changes.
 
 # Terraform Registry -- AWS -- Documentation -- Check for Argument Reference.
-      
+
+------------------------------------------------------------------------------------------------------------------------------------------------      
+
 #  ec2.tf                                   -- Assign the Tags.
 = resource "aws_instance" "web-server" 
 {
@@ -114,6 +123,8 @@ key_name = "key"
 security_group = "launch-wizard-3"
 }
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Creata a s3 bucket using the Terrafom ?
 = 
 resource "aws_s3_bucket" "s333" {              -- To create a s3 bucket.
@@ -124,14 +135,35 @@ Tags = {
 } 
 }
 
-# Creata a Security Groups bucket using the Terraform ?
-= resource "aws_security_group" "secgrp" {
-  
-  ingress 
-  
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Creata a Security Groups bucket using the Terraform ? 
+= 
+resource "aws_security_group" "secgrp" 
+{
+  name = "web-server-sg"                           
+  description = "security group for web server"    
+  vpc_id = "vpc-0dc511ba21c88da6d"              -- vpc available in the security groups
+
+ingress {                              -- inbound rules
+ description = "SSH access"
+ from_port = 22
+ to_port = 22
+ protocol = "tcp"
+ cidr_blocks = ["0.0.0.0/0"]
+}
+ egress {                              -- outbound rules
+  description = "HTTPS access"
+  from_port = 443
+  to_port = 443
+  protocol = "tcp"
+  cidr_blocks = ["0.0.0.0/0"]
+}
+}
 }  
 
-# 
+------------------------------------------------------------------------------------------------------------------------------------------------
+#  
 
 
 
