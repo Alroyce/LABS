@@ -114,7 +114,17 @@ key_name = "key"
 security_group = "launch-wizard-3"
 }
 
-# 
+# Creata a s3 bucket using the Terrafom,
+= 
+resource "aws_s3_bucket" "s333" {              -- To create a s3 bucket.
+bucket = "hkkjhzkjhdkjbskj"                    -- provide a name which is not already given.
+Tags = {
+  Name = "buckets33"
+  env  = "dev"
+} }
+
+#  
+
 
 
 
