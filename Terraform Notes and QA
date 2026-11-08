@@ -74,8 +74,7 @@ key_name = "ipat"
 
 # create resource.tf file like :-
 # ec2.tf
-= resource "aws_instance" "web-server" 
-{
+= resource "aws_instance" "web-server" {  -- resource -keyword, aws_instance -- provider keyword, web-server -- purpose what you want to do.
 ami = "ami-0c24c764e44ed98f2"
 tags = {
   Name = "terra_user"
@@ -98,7 +97,7 @@ security_group = "launch-wizard-3"
 # Terraform plan          -- used for Dry Run.
 # Terraform apply         -- execute and apply the changes.
 
-# Terraform Registry - Check for Argument Reference.
+# Terraform Registry -- AWS -- Documentation -- Check for Argument Reference.
 # 
 
 
