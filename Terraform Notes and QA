@@ -98,9 +98,23 @@ security_group = "launch-wizard-3"
 # Terraform apply         -- execute and apply the changes.
 
 # Terraform Registry -- AWS -- Documentation -- Check for Argument Reference.
+      
+#  ec2.tf                                   -- Assign the Tags.
+= resource "aws_instance" "web-server" 
+{
+ami = "ami-0c24c764e44ed98f2"
+tags = {
+  Name = "terra_user"
+  env = "dev"                            -- Tags 
+  a = "b"                                -- Tags
+}
+instance_type = "t3.micro"
+count = 2
+key_name = "key"
+security_group = "launch-wizard-3"
+}
+
 # 
-
-
 
 
 
