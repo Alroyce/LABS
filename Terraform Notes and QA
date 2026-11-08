@@ -193,12 +193,10 @@ security_groups = ["default"]
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Does Terrafom support hypervisor vm ?
+= Yes, it supports hypervisor vm and also private clouds.
+
 # 
-
-
-
-
-}
 
 
 
