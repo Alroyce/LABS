@@ -163,7 +163,8 @@ ingress {                              -- inbound rules
 }  
 
 --------------------------------------------------------------------- 2 diff program ---------------------------------------------------------------------------
-# how to write the create 2 ec2 instance usng the 2 instance_type ?
+
+# how to write the create 2 ec2 instance using the 2 instance_type ?
 = Yes, we can by writing the program twice.
 =
 resource "aws_instance" "web_server_t2" {
@@ -191,6 +192,7 @@ count = 2
 security_groups = ["default"]
 }
 }
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Does Terrafom support hypervisor vm ?
@@ -199,8 +201,8 @@ security_groups = ["default"]
 # Terraform has terraform state file.
 # Terrafom captures all the information from the resources and save the info in the terraform state file.
 
-# 
-
+# Terraform state file -- 
+= 
 
 
 
