@@ -235,8 +235,9 @@ aws_security_group.secgrp        -  this is the created security group
                 "0.0.0.0/0",
 ----------------------------------------------------------------------------------------------------------------
 
-# 
+# Regarding the terraform state file, it will only import the data to the terraform state file.
 
+# 
 
 
 
