@@ -201,7 +201,10 @@ security_groups = ["default"]
 # Terraform has terraform state file.
 # Terrafom captures all the information from the resources and save the info in the terraform state file.
 
-# Terraform state file -- 
+# Terraform state file -- how do you backup it ?
+= Move the file to the tf state file..
+
+# 
 = 
 
 
