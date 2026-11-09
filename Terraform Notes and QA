@@ -205,7 +205,36 @@ security_groups = ["default"]
 = Move the file to the tf state file..
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-# Terraform state list  -- show all the running terrform resources, like s3 buckets, security group.
+# Terraform state list                                              -- -- show all the running terrform resources, like s3 buckets, security group.
+= aws_s3_bucket.s333[1]          -- this is the created s3 bucket
+aws_security_group.secgrp        -  this is the created security group
+
+# Terrafom state show aws_security_group.secgrp                      -- -- shows all the details of the created secuity group
+
+=     arn                    = "arn:aws:ec2:ap-south-2:812960096848:security-group/sg-0b8e5541520e999b9"
+    description            = "security group for web server"
+    egress                 = [
+        {
+            cidr_blocks      = [
+                "0.0.0.0/0",
+            ]
+            description      = "HTTPS access"
+            from_port        = 443
+            ipv6_cidr_blocks = []
+            prefix_list_ids  = []
+            protocol         = "tcp"
+            security_groups  = []
+            self             = false
+            to_port          = 443
+        },
+    ]
+    id                     = "sg-0b8e5541520e999b9"
+    ingress                = [
+        {
+            cidr_blocks      = [
+                "0.0.0.0/0",
+----------------------------------------------------------------------------------------------------------------
+
 # 
 
 
