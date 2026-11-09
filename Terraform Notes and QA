@@ -198,6 +198,7 @@ security_groups = ["default"]
 
 # Terraform has terraform state file.
 # Terrafom captures all the information from the resources and save the info in the terraform state file.
+
 # 
 
 
