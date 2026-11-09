@@ -203,9 +203,10 @@ security_groups = ["default"]
 
 # Terraform state file -- how do you backup it ?
 = Move the file to the tf state file..
+---------------------------------------------------------------------------------------------------------------------------------------
 
+# Terraform state list  -- show all the running terrform resources, like s3 buckets, security group.
 # 
-= 
 
 
 
