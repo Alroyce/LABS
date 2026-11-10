@@ -110,6 +110,12 @@ security_group = "launch-wizard-3"
 # Terraform destroy      -- reads all the local terraform.tf state files in the current directory where terraform command we run and deletes all the resources.
 # Terraform Registry     -- AWS -- Documentation -- Check for Argument Reference.
 # Terraform state list   -- Display all the created resources in list format.
+= aws_s3_bucket.s333[1]
+  aws_security_group.secgrp 
+
+# Terrafom destroy -target "aws_s3_bucket.s333[1]"        -- to delete only one resource from the list
+# Terrafom destroy -target "aws_security_group.secgrp"    -- to delete only one resource.
+
 # 
 
 -----------------Single Instance with Tags-------------------------------------------------------------------------------------------------------------------------------      
