@@ -35,6 +35,34 @@ $ all the above are cloud specific but terraform is not cloud specific.
 
 # create a IAM user - In iAM user - give all the permission - EC2, S3, Full access, Adminstrator Access, VPC.
 
+
+# Plugin is a something that exposes or enhances your basic software.
+# So when we write the provider plugin it will download the same plugin, like aws- aws plugin, gcp - google plugin, azue - azure plugin.
+
+# ......tf               -- the terraform will read all the .tf files in the current directory.
+
+# we can write all the terraform script in a single file.
+
+# All the terraform folder will be downloaded in the .terraform folder.
+
+# la -al                 -- all the plugins will be saved.
+# Terraform init         -- used to download the requied plugin to local teeraform server and then terraform uses these plugins to connect/login & create resources on cloud environments.
+# Terraform plan         -- used for Dry Run and reads all the terraform scripts in local serve inside the directory where terraform command is executed.
+# Terraform apply        -- execute and apply the changes where terraform reads all the scripts in local server inside the directory where terraform command is executed.
+                             created the resources on cloud and once the resources are created.
+                             terraform creates a file called terraoform.tf state file on local server about all the resources it created with apply.
+# Terraform destroy      -- reads all the local terraform.tf state files in the current directory where terraform command we run and deletes all the resources.
+# Terraform Registry     -- AWS -- Documentation -- Check for Argument Reference.
+# Terraform state list   -- Display all the created resources in list format.
+= aws_s3_bucket.s333[1]
+  aws_security_group.secgrp 
+
+# Terrafom destroy -target "aws_s3_bucket.s333[1]"        -- to delete only one resource from the list
+# Terrafom destroy -target "aws_security_group.secgrp"    -- to delete only one resource.
+# terraform destroy -target "aws_s3_bucket.s333[1]" -target "aws_security_group.secgrp"  -- to delete multiple targets in one command
+#
+
+
 # ---------------------------------------------------Terraform Scipts-----------------------------------------
 
 # HCL/TCL - Hashicorp corporation language / Terraform configuration language.
@@ -91,32 +119,6 @@ security_group = "launch-wizard-3"
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-
-# Plugin is a something that exposes or enhances your basic software.
-# So when we write the provider plugin it will download the same plugin, like aws- aws plugin, gcp - google plugin, azue - azure plugin.
-
-# ......tf               -- the terraform will read all the .tf files in the current directory.
-
-# we can write all the terraform script in a single file.
-
-# All the terraform folder will be downloaded in the .terraform folder.
-
-# la -al                 -- all the plugins will be saved.
-# Terraform init         -- used to download the requied plugin to local teeraform server and then terraform uses these plugins to connect/login & create resources on cloud environments.
-# Terraform plan         -- used for Dry Run and reads all the terraform scripts in local serve inside the directory where terraform command is executed.
-# Terraform apply        -- execute and apply the changes where terraform reads all the scripts in local server inside the directory where terraform command is executed.
-                             created the resources on cloud and once the resources are created.
-                             terraform creates a file called terraoform.tf state file on local server about all the resources it created with apply.
-# Terraform destroy      -- reads all the local terraform.tf state files in the current directory where terraform command we run and deletes all the resources.
-# Terraform Registry     -- AWS -- Documentation -- Check for Argument Reference.
-# Terraform state list   -- Display all the created resources in list format.
-= aws_s3_bucket.s333[1]
-  aws_security_group.secgrp 
-
-# Terrafom destroy -target "aws_s3_bucket.s333[1]"        -- to delete only one resource from the list
-# Terrafom destroy -target "aws_security_group.secgrp"    -- to delete only one resource.
-
-# 
 
 -----------------Single Instance with Tags-------------------------------------------------------------------------------------------------------------------------------      
 
