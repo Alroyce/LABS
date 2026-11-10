@@ -109,6 +109,8 @@ security_group = "launch-wizard-3"
                              terraform creates a file called terraoform.tf state file on local server about all the resources it created with apply.
 # Terraform destroy      -- reads all the local terraform.tf state files in the current directory where terraform command we run and deletes all the resources.
 # Terraform Registry     -- AWS -- Documentation -- Check for Argument Reference.
+# Terraform state list   -- Display all the created resources in list format.
+# 
 
 -----------------Single Instance with Tags-------------------------------------------------------------------------------------------------------------------------------      
 
