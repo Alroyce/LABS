@@ -64,6 +64,7 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # terraform import [ type of resource ].[name of the source] [instance id (already created vm)]
 # terraform import aws_instance.imptest i-0c5b38016f58b6742                                        -- Command to import the running vm            
 
+# EOF                    -- End of file.
 # 
 
 
