@@ -60,10 +60,14 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # Terrafom destroy -target "aws_s3_bucket.s333[1]"        -- to delete only one resource from the list
 # Terrafom destroy -target "aws_security_group.secgrp"    -- to delete only one resource.
 # terraform destroy -target "aws_s3_bucket.s333[1]" -target "aws_security_group.secgrp"  -- to delete multiple targets in one command
-#
+                                  
+# terraform import [ type of resource ].[name of the source] [instance id (already created vm)]
+# terraform import aws_instance.imptest i-0c5b38016f58b6742                                        -- Command to import the running vm            
+
+# 
 
 
-# ---------------------------------------------------Terraform Scipts-----------------------------------------
+# -----------------------------------------------------------------Terraform Scipts-----------------------------------------------------------------------------------
 
 # HCL/TCL - Hashicorp corporation language / Terraform configuration language.
 # Terraform scripts ---
@@ -117,8 +121,6 @@ count = 2
 key_name = "key"
 security_group = "launch-wizard-3"
 }
-
-------------------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------Single Instance with Tags-------------------------------------------------------------------------------------------------------------------------------      
 
