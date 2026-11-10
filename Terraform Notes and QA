@@ -103,10 +103,12 @@ security_group = "launch-wizard-3"
 
 # la -al                 -- all the plugins will be saved.
 # Terraform init         -- used to download the requied plugin to local teeraform server and then terraform uses these plugins to connect/login & create resources on cloud environments.
-# Terraform plan          -- used for Dry Run and reads all the terraform scripts in local serve inside the directory where terraform command is executed.
-# Terraform apply         -- execute and apply the changes where terraform reads all the scripts in local server inside the directory where terraform command is executed.
-# Terraform destroy       -- reads all the local terraform.tf state files in the current directory where terraform command we run and deletes all the resources.
-# Terraform Registry -- AWS -- Documentation -- Check for Argument Reference.
+# Terraform plan         -- used for Dry Run and reads all the terraform scripts in local serve inside the directory where terraform command is executed.
+# Terraform apply        -- execute and apply the changes where terraform reads all the scripts in local server inside the directory where terraform command is executed.
+                             created the resources on cloud and once the resources are created.
+                             terraform creates a file called terraoform.tf state file on local server about all the resources it created with apply.
+# Terraform destroy      -- reads all the local terraform.tf state files in the current directory where terraform command we run and deletes all the resources.
+# Terraform Registry     -- AWS -- Documentation -- Check for Argument Reference.
 
 -----------------Single Instance with Tags-------------------------------------------------------------------------------------------------------------------------------      
 
