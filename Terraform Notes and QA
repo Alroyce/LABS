@@ -258,6 +258,7 @@ when the resource is created, information is captured and strored in the terrafo
 
 
 
+
 -------------------------------------------Q & A ----------------------------------------------------------------------
 
 # can we use ansible/puppet/chef as IAC to create infrastructure as Code ?
