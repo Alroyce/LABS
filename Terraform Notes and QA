@@ -208,7 +208,6 @@ count = 2
 security_groups = ["default"]
 }
 }
-
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Does Terrafom support hypervisor vm ?
@@ -219,7 +218,8 @@ security_groups = ["default"]
 
 # Terraform state file -- how do you backup it ?
 = Move the file to the tf state file..
----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 # Terraform state list                                              -- -- show all the running terrform resources, like s3 buckets, security group.
 = aws_s3_bucket.s333[1]          -- this is the created s3 bucket
@@ -249,7 +249,7 @@ aws_security_group.secgrp        -  this is the created security group
         {
             cidr_blocks      = [
                 "0.0.0.0/0",
-----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Regarding the terraform state file, 
 when the resource is created, information is captured and strored in the terraform state file.
