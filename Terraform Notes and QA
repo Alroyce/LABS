@@ -246,12 +246,44 @@ aws_security_group.secgrp        -  this is the created security group
             cidr_blocks      = [
 
                 "0.0.0.0/0",
+-----------------------------------------------terraform instance and loging into the server-----------------------------------------------------------
+ubuntu@ip-172-31-11-254:~$ cat insta.tf
+resource "aws_instance" "test" {
+  ami           = "ami-0c24c764e44ed98f2"
+  instance_type = "t3.micro"
+  key_name = "key"
+  security_groups = ["launch-wizard-3"]
+
+  connection {
+      type     = "ssh"
+      user     = "ubuntu"
+      host     = self.public_ip
+      private_key = file("./test.pem")
+  }
+  provisioner "file" {
+      source      = "/root/myterraproject/setup-user.sh"
+      destination = "/tmp/setup-user.sh"
+  }
+  provisioner "remote-exec" {
+      inline = [
+        "chmod +x /tmp/setup-user.sh",
+        "sudo /tmp/setup-user.sh",
+      ]
+  }
+}
+---------------------------------------------------------
+
+
+
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 # Regarding the terraform state file ?
 when the resource is created, information is captured and strored in the terraform state file.
 
 # Inline -- terraform keyword used to give a series of commands.
 # 
+
 
 
 
