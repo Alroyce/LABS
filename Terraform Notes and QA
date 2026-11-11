@@ -64,7 +64,7 @@ $ all the above are cloud specific but terraform is not cloud specific.
 # terraform import [ type of resource ].[name of the source] [instance id (already created vm)]
 # terraform import aws_instance.imptest i-0c5b38016f58b6742                                        -- Command to import the running vm            
 
-# EOF                    -- End of file.
+# EOF  -- End of file.
 # 
 
 
@@ -151,7 +151,6 @@ Tags = {
   env  = "dev"
 } 
 }
-
 ---------------Security Group---------------------------------------------------------------------------------------------------------------------------------
 
 # Creata a Security Groups using the Terraform ? 
@@ -178,7 +177,6 @@ ingress {                              -- inbound rules
 }
 }
 }  
-
 --------------------------------------------------------------------- 2 diff program ---------------------------------------------------------------------------
 
 # how to write the create 2 ec2 instance using the 2 instance_type ?
@@ -220,8 +218,6 @@ security_groups = ["default"]
 # Terraform state file -- how do you backup it ?
 = Move the file to the tf state file..
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 # Terraform state list                                              -- -- show all the running terrform resources, like s3 buckets, security group.
 = aws_s3_bucket.s333[1]          -- this is the created s3 bucket
 aws_security_group.secgrp        -  this is the created security group
@@ -251,7 +247,6 @@ aws_security_group.secgrp        -  this is the created security group
             cidr_blocks      = [
                 "0.0.0.0/0",
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Regarding the terraform state file, 
 when the resource is created, information is captured and strored in the terraform state file.
 
