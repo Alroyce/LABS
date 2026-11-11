@@ -282,11 +282,15 @@ resource "aws_instance" "test" {
 when the resource is created, information is captured and strored in the terraform state file.
 
 # Inline -- terraform keyword used to give a series of commands.
+
+Terraform Provisioners :-
+The 3 built-in types of Terraform provisioners are:
+
+• local-exec  : Runs scripts or commands locally on the machine executing Terraform (where the CLI is running).
+• remote-exec : Runs scripts or commands remotely on a target resource/virtual machine (typically via SSH or WinRM).
+• file        : Copies files or directories from your local machine to the newly created remote resource.
+
 # 
-
-
-
-
 
 
 
