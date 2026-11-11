@@ -1,6 +1,5 @@
-
-
 --------------------------------------------Terraform-----------------------------------------------------------
+
 # Terraform is infrastructure as code -
 # Infracture 
 = Base infra is a datacentre where all the H/w is kept
@@ -247,7 +246,7 @@ aws_security_group.secgrp        -  this is the created security group
             cidr_blocks      = [
                 "0.0.0.0/0",
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-# Regarding the terraform state file, 
+# Regarding the terraform state file ?
 when the resource is created, information is captured and strored in the terraform state file.
 
 # 
