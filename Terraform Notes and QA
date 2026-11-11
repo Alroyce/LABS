@@ -250,6 +250,7 @@ aws_security_group.secgrp        -  this is the created security group
 # Regarding the terraform state file ?
 when the resource is created, information is captured and strored in the terraform state file.
 
+# Inline -- terraform keyword used to give a series of commands.
 # 
 
 
