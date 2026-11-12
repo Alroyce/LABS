@@ -7,6 +7,10 @@ It provides scalable, durable, and highly available object storage."
 My suggestion: Learn one practical project: create an S3 bucket, upload a Java JAR file from Jenkins, and download it on an EC2 instance.
 This will help you understand how S3 is used in real-world DevOps projects.
 
+AWS -- VPC -- INTERNET GATEWAY -- SUBNET (select vpc) -- [ Public and Private subnet ] -- ROUTE TABLE ( Route Table ) 
+    -- Edit Route Tables ( Internet Gateway ) -- edit subnet associations.  
+
+
 
 
 
