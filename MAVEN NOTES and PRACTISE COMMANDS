@@ -108,7 +108,7 @@ Stage 4 - Code Coverage
 
 desc: Executes the Maven verify phase to validate the build, run configured tests, and generate code coverage reports to measure test coverage.
 Build Steps --> Execute shell : /opt/maven/bin/mvn verify
-Post-build Actions --> Publish JUnit test results – Display unit-test results in Jenkins.
+Post-build Actions --> 
 
 Re Configure the Job - and add 
 POST BUILD ACTIONS : Record JaCoCo coverage report.
