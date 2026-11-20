@@ -22,7 +22,15 @@ Command Promt ->
 = it will load the task manager tab.
 = Check for sonarqube --> SonarQube --> Click on the green button.
 = http://localhost:9000  -- Inside the browser.
---------------------------------------------------------------------------------------------------------------------------------------------
 
-= 
-= 
+
+-----------------------------------Integrate Jenkins in sonarqube---------------------------------------------------------------------------------------------------------
+open sonarqube --> create a project -> select Manually
+# Project display name & Proect key == webapp & webapp
+# Locally -- Provide a token --> Enter the token name-- (sonar-taken) -- generate
+# Copy and save the token 
+
+# In Jenkins --> download the sonarQube scanner token -- and restart the jenkins
+# Login to SonarQUbe --> create a project --> admin, admin --> Analysis Method --> Locally --> Generate Token --> Token Name --> sqp_5f9d7f71018dd7dd2b1ba01588e26fc8a182c832
+# Go To Jenkins --> (Enter the Token in system) --> Manage Jenkins --> security -- Credentials --> Add credentials --> Enter the crentials -->
+# 
