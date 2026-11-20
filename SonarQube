@@ -17,8 +17,10 @@ Command Promt ->
 
 = (In Command promt) -->
 = cd C:\Sonarqube\sonarqube-26.11.0.134175\sonarqube-26.11.0.134175\bin\windows-x86-64
-=  services.msc.
-=  .\SonarService.bat install.
+=  services.msc
+=  .\SonarService.bat install
 = it will load the task manager tab.
 = Check for sonarqube --> SonarQube --> Click on the green button.
+= http://localhost:9000  -- Inside the browser.
+= 
 = 
