@@ -13,8 +13,10 @@ Command Promt ->
 = In the browser -> (http://localhost:9000)
 = UN & PW -> admin, admin, and change the PW = Newlife@5589
 = CTRL + C - Sonarqube in command promt will be stopped.
-= the again load the sonarqube
+= the again load the sonarqube.
+= (In Command promt) -->
+= cd C:\Sonarqube\sonarqube-26.11.0.134175\sonarqube-26.11.0.134175\bin\windows-x86-64
 = (In Command promt) services.msc
-= it will load the task manager tab 
+= it will load the task manager tab
 = Check for sonarqube --> SonarQube --> Click on the green button.
 = 
