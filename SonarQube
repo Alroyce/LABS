@@ -1,2 +1,17 @@
 -----------------------------------------------SonarQube-----------------------------------------------------------
+----------------Installing----------------------
 
+Download the sonarqube from the sonar cloud
+Install the jdk and set the Environment_Variable 
+Command Promt ->
+= cd (Enter the url where the Sonarqube is downloaded and give the path in the command promt)
+= cd C:\Sonarqube\sonarqube-26.11.0.134175\sonarqube-26.11.0.134175\bin\windows-x86-64
+= dir
+= StartSonar.bat
+= Sonar qube will start
+= and once it starts -> It will starts 
+= In the browser -> (http://localhost:9000)
+= UN & PW -> admin, admin, and change the PW = Newlife@5589
+= CTRL + C - Sonarqube in command promt will be stopped.
+= the again load the sonarqube
+= 
