@@ -23,7 +23,7 @@ Command Promt ->
 = http://localhost:9000  -- Inside the browser.
 
 
------------------------------------Integrate Jenkins in sonarqube---------------------------------------------------------------------------------------------------------
+-----------------------------------Integrate Jenkins in sonarqube--------------------------------------------------------------------------
 open sonarqube --> create a project -> select Manually
 # Project display name & Proect key == webapp & webapp
 # Locally -- Provide a token --> Enter the token name-- (sonar-taken) -- generate
@@ -34,9 +34,14 @@ open sonarqube --> create a project -> select Manually
 # Go To Jenkins --> (Enter the Token in system) --> Manage Jenkins --> security --> Credentials --> Add credentials --> Enter the crentials -->
 # Go To Jenkins  --> Manage Jenkins --> SonarQube servers --> Environment Variables --> Enter the Name (Sever-Sonar) -- Server URL -- Server authentication token (Give the token name) --> Save
 # Go To Jenkins  --> Manage Jenkins --> Tools --> SonarQube Scanner installations --> Give a Name --> Save.
+-----------------------------------------------Pipeline-------------------------------------------------------------------------------------
+
+# jenkins --> new freestyle project --> enter the git repo --> Main branch --> Prepare sonrqube environment --> Sonarqube authentication --> Build steps --> 
+# Invoke top-level-Maven targets --> save and run the build
+# Build success --> console output --> Analysis Successful (Click on the link) --> open in new tab --> 
+# in the new tab we can see the reliability of the code.
+# Why is the issue --> then result will be displayed.
 # 
-
-
 
 
 
