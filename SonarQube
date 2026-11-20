@@ -15,4 +15,6 @@ Command Promt ->
 = CTRL + C - Sonarqube in command promt will be stopped.
 = the again load the sonarqube
 = (In Command promt) services.msc
+= it will load the task manager tab 
+= Check for sonarqube --> SonarQube --> Click on the green button.
 = 
