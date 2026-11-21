@@ -1,5 +1,5 @@
 
-===========================================================================================================================================
+============================================================================================================================================================================
 
 # docker -v                  = to check the docker installed version.
   docker pull                = pull the docker command from the docker hub.
@@ -99,9 +99,9 @@ when we have container and when we delete contasiner
 ** = "ResolvConfPath": "/var/lib/docker/containers/d17dd4b750145384eb47ba6417d5b92ddc268f1cf7d74beaa9aa6ba085381abb/resolv.conf",
 container full id = d17dd4b750145384eb47ba6417d5b92ddc268f1cf7d74beaa9aa6ba085381abb
 
-  474  cd /var/lib/docker/containers
-  475  sudo cd /var/lib/docker/containers
-  476  sudo su -
+474  cd /var/lib/docker/containers
+475  sudo cd /var/lib/docker/containers
+476  sudo su -
   325  ls
   326  cat ac127099a92d239c39460b05f32596470e0a2c19e8c4b1129858109903ad1635
   327  cd ac127099a92d239c39460b05f32596470e0a2c19e8c4b1129858109903ad1635
